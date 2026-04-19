@@ -1,0 +1,10 @@
+{
+  "contract_id": "runtime_measurement_anchor_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "RUNTIME_MEASUREMENT_ANCHOR_MISMATCH_ACCEPTED",
+    "MEASUREMENT_ANCHOR_RESEED_ACCEPTED"
+  ],
+  "parked_gate_exit": 2821
+}

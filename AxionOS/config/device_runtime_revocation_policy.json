@@ -1,0 +1,10 @@
+{
+  "contract_id": "device_runtime_revocation_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEVICE_RUNTIME_REVOCATION_BYPASS_ACCEPTED",
+    "DEVICE_RUNTIME_REVOKED_CERT_ACCEPTED"
+  ],
+  "parked_gate_exit": 3041
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "thunderbolt_dma_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "THUNDERBOLT_DMA_POLICY_BYPASS_ACCEPTED",
+    "THUNDERBOLT_TRUST_LEVEL_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3061
+}

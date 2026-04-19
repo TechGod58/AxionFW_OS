@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "devices panel schema",
+  "type": "object",
+  "required": ["status","devices","failures"],
+  "properties": {
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "devices": {"type":"array","items":{"type":"object"}},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

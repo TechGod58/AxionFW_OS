@@ -1,0 +1,5 @@
+{
+  "name": "vm_kernel_cmdline_lock_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

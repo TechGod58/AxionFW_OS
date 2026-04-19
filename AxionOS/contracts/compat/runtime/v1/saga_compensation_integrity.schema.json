@@ -1,0 +1,1 @@
+﻿{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"saga compensation integrity schema","type":"object","required":["status","saga_compensation","failures"],"properties":{"status":{"type":"string","enum":["PASS","FAIL"]},"saga_compensation":{"type":"object"},"failures":{"type":"array","items":{"type":"object"}}}}

@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "state_sync_backup_restore_state",
+  "version": "1.0",
+  "kind": "state_sync_hook",
+  "scope": "backup_restore_mutation_precommit",
+  "reconciliation": {
+    "engine": "state_sync",
+    "pre_commit": true,
+    "conflict_policy": "reject"
+  },
+  "failure_code": "STATE_SYNC_BACKUP_RESTORE_MUTATION_REJECTED"
+}

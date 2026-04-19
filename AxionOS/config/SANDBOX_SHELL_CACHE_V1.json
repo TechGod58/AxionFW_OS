@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "policyId": "AXION_SANDBOX_SHELL_CACHE_V1",
+  "enabled": true,
+  "build_after_first_run": true,
+  "reuse_on_next_launch": true,
+  "shells": {
+    "pad": {
+      "app_id": "pad",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T18:38:30.232033+00:00",
+      "reuse_ready": true
+    },
+    "legacy_winapp": {
+      "app_id": "legacy_winapp",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "prepared_utc": "2026-04-18T18:38:30.232033+00:00",
+      "reuse_ready": true
+    },
+    "legacy_linux_app": {
+      "app_id": "legacy_linux_app",
+      "family": "linux",
+      "profile": "linux_2_6",
+      "execution_model": "sandbox_linux_compat",
+      "prepared_utc": "2026-04-18T18:38:30.232033+00:00",
+      "reuse_ready": true
+    },
+    "calculator": {
+      "app_id": "calculator",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-03-25T23:50:59.730233+00:00",
+      "reuse_ready": true
+    },
+    "video_recorder": {
+      "app_id": "video_recorder",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-03-26T00:18:17.194249+00:00",
+      "reuse_ready": true
+    },
+    "clock": {
+      "app_id": "clock",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-16T22:56:26.105950+00:00",
+      "reuse_ready": true
+    },
+    "capture": {
+      "app_id": "capture",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-16T22:56:26.368083+00:00",
+      "reuse_ready": true
+    },
+    "legacy_linux_installer": {
+      "app_id": "legacy_linux_installer",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "prepared_utc": "2026-04-17T10:55:55.257085+00:00",
+      "reuse_ready": true
+    },
+    "legacy_windows_installer": {
+      "app_id": "legacy_windows_installer",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "prepared_utc": "2026-04-17T10:56:13.958505+00:00",
+      "reuse_ready": true
+    },
+    "external_installer": {
+      "app_id": "external_installer",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "prepared_utc": "2026-04-17T11:12:43.208263+00:00",
+      "reuse_ready": true
+    },
+    "projection_ready_app": {
+      "app_id": "projection_ready_app",
+      "family": "linux",
+      "profile": "linux_2_6",
+      "execution_model": "sandbox_linux_compat",
+      "prepared_utc": "2026-04-17T11:25:46.793369+00:00",
+      "reuse_ready": true,
+      "projection_id": "projection_ready_app:linux:linux_2_6",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\projection_ready_app",
+      "projection_profile": "linux_2_6",
+      "projection_family": "linux"
+    },
+    "projection_reconnect_app": {
+      "app_id": "projection_reconnect_app",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "prepared_utc": "2026-04-17T11:42:15.891174+00:00",
+      "reuse_ready": true,
+      "projection_id": "projection_reconnect_app:linux:linux_current",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\projection_reconnect_app",
+      "projection_profile": "linux_current",
+      "projection_family": "linux"
+    },
+    "projection_session_smoke_app": {
+      "app_id": "projection_session_smoke_app",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "prepared_utc": "2026-04-17T11:43:11.334035+00:00",
+      "reuse_ready": true,
+      "projection_id": "projection_session_smoke_app:linux:linux_current",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\projection_session_smoke_app",
+      "projection_profile": "linux_current",
+      "projection_family": "linux"
+    },
+    "command_prompt": {
+      "app_id": "command_prompt",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T17:51:42.390520+00:00",
+      "reuse_ready": true
+    },
+    "powershell": {
+      "app_id": "powershell",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T17:51:51.787514+00:00",
+      "reuse_ready": true
+    },
+    "run": {
+      "app_id": "run",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T17:52:00.867222+00:00",
+      "reuse_ready": true
+    },
+    "access_center": {
+      "app_id": "access_center",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:27.233137+00:00",
+      "reuse_ready": true
+    },
+    "arcade": {
+      "app_id": "arcade",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:30.316882+00:00",
+      "reuse_ready": true
+    },
+    "browser_manager": {
+      "app_id": "browser_manager",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:33.360153+00:00",
+      "reuse_ready": true
+    },
+    "creative_studio": {
+      "app_id": "creative_studio",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:36.364395+00:00",
+      "reuse_ready": true
+    },
+    "gallery": {
+      "app_id": "gallery",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:39.425069+00:00",
+      "reuse_ready": true
+    },
+    "notes": {
+      "app_id": "notes",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:42.405043+00:00",
+      "reuse_ready": true
+    },
+    "pdf_studio": {
+      "app_id": "pdf_studio",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:45.385164+00:00",
+      "reuse_ready": true
+    },
+    "pdf_view": {
+      "app_id": "pdf_view",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:48.384586+00:00",
+      "reuse_ready": true
+    },
+    "prompt": {
+      "app_id": "prompt",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:51.410392+00:00",
+      "reuse_ready": true
+    },
+    "sheets": {
+      "app_id": "sheets",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:54.386729+00:00",
+      "reuse_ready": true
+    },
+    "shell": {
+      "app_id": "shell",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:18:57.395519+00:00",
+      "reuse_ready": true
+    },
+    "utilities": {
+      "app_id": "utilities",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:19:00.409448+00:00",
+      "reuse_ready": true
+    },
+    "video_studio": {
+      "app_id": "video_studio",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:19:03.431506+00:00",
+      "reuse_ready": true
+    },
+    "write": {
+      "app_id": "write",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-17T21:19:06.430798+00:00",
+      "reuse_ready": true
+    },
+    "brave_browser": {
+      "app_id": "brave_browser",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T12:51:06.337815+00:00",
+      "reuse_ready": true
+    },
+    "runtime_image_lookup_app": {
+      "app_id": "runtime_image_lookup_app",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "prepared_utc": "2026-04-18T13:12:53.120389+00:00",
+      "reuse_ready": true,
+      "projection_id": "runtime_image_lookup_app:linux:linux_current",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\runtime_image_lookup_app",
+      "projection_profile": "linux_current",
+      "projection_family": "linux"
+    },
+    "video_player": {
+      "app_id": "video_player",
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded",
+      "prepared_utc": "2026-04-18T14:54:08.543839+00:00",
+      "reuse_ready": true
+    },
+    "photo_viewer": {
+      "app_id": "photo_viewer",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T14:54:12.148320+00:00",
+      "reuse_ready": true
+    },
+    "photo_editing": {
+      "app_id": "photo_editing",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T14:54:15.223538+00:00",
+      "reuse_ready": true
+    },
+    "codex": {
+      "app_id": "codex",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T14:54:21.456549+00:00",
+      "reuse_ready": true
+    },
+    "camera": {
+      "app_id": "camera",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T14:54:47.391474+00:00",
+      "reuse_ready": true
+    },
+    "audio_recorder": {
+      "app_id": "audio_recorder",
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded",
+      "prepared_utc": "2026-04-18T14:54:50.480216+00:00",
+      "reuse_ready": true
+    },
+    "file_explorer": {
+      "app_id": "file_explorer",
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded",
+      "prepared_utc": "2026-04-18T15:19:41.859881+00:00",
+      "reuse_ready": true
+    },
+    "services": {
+      "app_id": "services",
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded",
+      "prepared_utc": "2026-04-18T15:20:01.111932+00:00",
+      "reuse_ready": true
+    },
+    "task_manager": {
+      "app_id": "task_manager",
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded",
+      "prepared_utc": "2026-04-18T15:20:10.399704+00:00",
+      "reuse_ready": true
+    },
+    "slides": {
+      "app_id": "slides",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T17:15:58.568647+00:00",
+      "reuse_ready": true
+    },
+    "mail": {
+      "app_id": "mail",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T17:16:01.738596+00:00",
+      "reuse_ready": true
+    },
+    "database": {
+      "app_id": "database",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T17:16:04.929475+00:00",
+      "reuse_ready": true
+    },
+    "publisher": {
+      "app_id": "publisher",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T17:16:08.082580+00:00",
+      "reuse_ready": true
+    },
+    "vector_studio": {
+      "app_id": "vector_studio",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T17:16:14.408587+00:00",
+      "reuse_ready": true
+    },
+    "notepad_plus_plus": {
+      "app_id": "notepad_plus_plus",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "prepared_utc": "2026-04-18T17:16:20.756391+00:00",
+      "reuse_ready": true
+    }
+  }
+}

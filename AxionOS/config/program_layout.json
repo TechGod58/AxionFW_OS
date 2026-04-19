@@ -1,0 +1,41 @@
+{
+  "version": "1.1",
+  "program_layout": {
+    "program_files": {
+      "name": "Program Files",
+      "path": "Program Files",
+      "arch": "x64",
+      "purpose": "Primary installed application payloads"
+    },
+    "program_files_x86": {
+      "name": "Program Files (86)",
+      "path": "Program Files (86)",
+      "arch": "x86",
+      "purpose": "32-bit compatibility application payloads"
+    },
+    "program_modules": {
+      "name": "Program Modules",
+      "path": "Program Modules",
+      "arch": "shared",
+      "purpose": "Copy-in-place module intake for one-click add-to-OS app onboarding",
+      "install_mode": "copy_in_place",
+      "activation_mode": "one_click_add_to_os"
+    },
+    "sandbox_projections": {
+      "name": "Sandbox Projections",
+      "path": "Sandbox Projections",
+      "arch": "shared",
+      "purpose": "Stable install-time sandbox projection catalog and runtime environment overlays",
+      "install_mode": "projection_pin",
+      "activation_mode": "launch_projection"
+    }
+  },
+  "policy": {
+    "separate_roots_required": true,
+    "module_signing_required": true,
+    "cross_root_write_blocked": true,
+    "audit_on_install": true,
+    "program_modules_copy_in_place": true,
+    "program_modules_one_click_add": true
+  }
+}

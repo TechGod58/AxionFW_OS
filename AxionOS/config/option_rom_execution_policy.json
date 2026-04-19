@@ -1,0 +1,10 @@
+{
+  "contract_id": "option_rom_execution_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "OPTION_ROM_ALLOWLIST_BYPASS_ACCEPTED",
+    "OPTION_ROM_UNSIGNED_LOAD_ACCEPTED"
+  ],
+  "parked_gate_exit": 2791
+}

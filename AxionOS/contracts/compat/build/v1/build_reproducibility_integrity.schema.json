@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "build reproducibility integrity schema",
+  "type": "object",
+  "required": ["status", "reproducibility", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "reproducibility": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

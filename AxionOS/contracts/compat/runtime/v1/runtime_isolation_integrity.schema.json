@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "runtime isolation integrity schema",
+  "type": "object",
+  "required": ["status", "isolation", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "isolation": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

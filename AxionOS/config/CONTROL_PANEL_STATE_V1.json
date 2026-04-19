@@ -1,0 +1,961 @@
+{
+  "version": 2,
+  "title": "ControlPanel",
+  "style": "windows7_all_items",
+  "defaultViewMode": "small_icons",
+  "viewModes": [
+    "category",
+    "small_icons",
+    "large_icons"
+  ],
+  "iconThemeId": "axion_shell_fluent_classic_v1",
+  "categories": [
+    {
+      "name": "System and Security",
+      "icon": "security",
+      "items": [
+        "Action Center",
+        "Backup and Restore (Windows 7)",
+        "Credential Manager",
+        "Disk Cleanup",
+        "File History",
+        "Power Options",
+        "Recovery",
+        "Remote Desktop",
+        "Security and Maintenance",
+        "Services",
+        "Storage Spaces",
+        "System",
+        "Windows Defender Firewall",
+        "Computer Management",
+        "Advanced System",
+        "Task Scheduler",
+        "Event Viewer",
+        "Disk Management",
+        "System Configuration",
+        "Repair Portal",
+        "Hardware Diagnostics",
+        "Smart Driver Fabric",
+        "Smart Driver Builder"
+      ]
+    },
+    {
+      "name": "Network and Internet",
+      "icon": "network",
+      "items": [
+        "Connections",
+        "Internet Options",
+        "Network and Internet",
+        "Network and Sharing Center",
+        "Phone and Modem",
+        "RemoteApp and Desktop Connections"
+      ]
+    },
+    {
+      "name": "Hardware and Sound",
+      "icon": "devices",
+      "items": [
+        "Audio and Video Codecs",
+        "AutoPlay",
+        "Bluetooth & Devices",
+        "Color Management",
+        "Device Manager",
+        "Devices and Printers",
+        "Keyboard",
+        "Mouse",
+        "Sound",
+        "Video Player",
+        "Print Management"
+      ]
+    },
+    {
+      "name": "Programs",
+      "icon": "programs",
+      "items": [
+        "Default Programs",
+        "Programs and Features",
+        "Program Files",
+        "Program Files (86)",
+        "Program Modules",
+        "User's Tools",
+        "Default Apps and File Types"
+      ]
+    },
+    {
+      "name": "User Accounts",
+      "icon": "accounts",
+      "items": [
+        "Accounts",
+        "Accessibilities",
+        "Credential Manager",
+        "Mail",
+        "Permissions",
+        "User Accounts",
+        "User Account Creation"
+      ]
+    },
+    {
+      "name": "Appearance and Personalization",
+      "icon": "personalization",
+      "items": [
+        "File Explorer Options",
+        "Fonts",
+        "Personalization",
+        "Taskbar and Navigation",
+        "Work Folders"
+      ]
+    },
+    {
+      "name": "Clock and Region",
+      "icon": "system",
+      "items": [
+        "Date and Time",
+        "Region"
+      ]
+    },
+    {
+      "name": "Ease of Access",
+      "icon": "tools",
+      "items": [
+        "Ease of Access Center"
+      ]
+    },
+    {
+      "name": "Windows Tools and Media",
+      "icon": "tools",
+      "items": [
+        "Apps",
+        "Audio Recorder",
+        "Calendar",
+        "Camera",
+        "ControlPanel",
+        "Disk Cleanup",
+        "Notepad",
+        "Photo Editing",
+        "Photo Viewer",
+        "Privacy & Security",
+        "Registry Editor",
+        "Services",
+        "Settings",
+        "Statistics",
+        "System",
+        "Time & Language",
+        "Update & Recovery",
+        "Video Recorder",
+        "Windows Tools",
+        "Computer Management",
+        "Advanced System",
+        "Resource Monitor",
+        "Windows Memory Diagnostic",
+        "Run",
+        "Pre-Boot Secure Sign-In",
+        "Repair Portal",
+        "Hardware Diagnostics",
+        "Smart Driver Fabric",
+        "Smart Driver Builder"
+      ]
+    }
+  ],
+  "allItems": [
+    {
+      "id": "action_center",
+      "label": "Action Center",
+      "category": "System and Security",
+      "icon": "security",
+      "route": "/privacy-security",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-action_center-1.0.0"
+    },
+    {
+      "id": "backup_restore",
+      "label": "Backup and Restore (Windows 7)",
+      "category": "System and Security",
+      "icon": "security",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-backup_restore-1.0.0"
+    },
+    {
+      "id": "color_management",
+      "label": "Color Management",
+      "category": "Hardware and Sound",
+      "icon": "personalization",
+      "route": "/personalization",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-color_management-1.0.0"
+    },
+    {
+      "id": "credential_manager",
+      "label": "Credential Manager",
+      "category": "User Accounts",
+      "icon": "security",
+      "route": "/accounts",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-credential_manager-1.0.0"
+    },
+    {
+      "id": "date_time",
+      "label": "Date and Time",
+      "category": "Clock and Region",
+      "icon": "system",
+      "route": "/time-language",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-date_time-1.0.0"
+    },
+    {
+      "id": "default_programs",
+      "label": "Default Programs",
+      "category": "Programs",
+      "icon": "programs",
+      "route": "/apps",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-default_programs-1.0.0"
+    },
+    {
+      "id": "device_manager",
+      "label": "Device Manager",
+      "category": "Hardware and Sound",
+      "icon": "devices",
+      "route": "/bluetooth-devices",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-device_manager-1.0.0"
+    },
+    {
+      "id": "devices_printers",
+      "label": "Devices and Printers",
+      "category": "Hardware and Sound",
+      "icon": "devices",
+      "route": "/bluetooth-devices",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-devices_printers-1.0.0"
+    },
+    {
+      "id": "ease_access_center",
+      "label": "Ease of Access Center",
+      "category": "Ease of Access",
+      "icon": "tools",
+      "route": "/accessibility",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-ease_access_center-1.0.0"
+    },
+    {
+      "id": "file_explorer_options",
+      "label": "File Explorer Options",
+      "category": "Appearance and Personalization",
+      "icon": "folder",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-file_explorer_options-1.0.0"
+    },
+    {
+      "id": "file_history",
+      "label": "File History",
+      "category": "System and Security",
+      "icon": "folder",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-file_history-1.0.0"
+    },
+    {
+      "id": "fonts",
+      "label": "Fonts",
+      "category": "Appearance and Personalization",
+      "icon": "personalization",
+      "route": "/personalization",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-fonts-1.0.0"
+    },
+    {
+      "id": "internet_options",
+      "label": "Internet Options",
+      "category": "Network and Internet",
+      "icon": "network",
+      "route": "/network-internet",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-internet_options-1.0.0"
+    },
+    {
+      "id": "keyboard",
+      "label": "Keyboard",
+      "category": "Hardware and Sound",
+      "icon": "devices",
+      "route": "/bluetooth-devices",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-keyboard-1.0.0"
+    },
+    {
+      "id": "mail",
+      "label": "Mail",
+      "category": "User Accounts",
+      "icon": "accounts",
+      "route": "/accounts",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-mail-1.0.0"
+    },
+    {
+      "id": "mouse",
+      "label": "Mouse",
+      "category": "Hardware and Sound",
+      "icon": "devices",
+      "route": "/bluetooth-devices",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-mouse-1.0.0"
+    },
+    {
+      "id": "network_sharing_center",
+      "label": "Network and Sharing Center",
+      "category": "Network and Internet",
+      "icon": "network",
+      "route": "/network-internet",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-network_sharing_center-1.0.0"
+    },
+    {
+      "id": "phone_modem",
+      "label": "Phone and Modem",
+      "category": "Network and Internet",
+      "icon": "network",
+      "route": "/network-internet",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-phone_modem-1.0.0"
+    },
+    {
+      "id": "power_options",
+      "label": "Power Options",
+      "category": "System and Security",
+      "icon": "system",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-power_options-1.0.0"
+    },
+    {
+      "id": "programs_features",
+      "label": "Programs and Features",
+      "category": "Programs",
+      "icon": "programs",
+      "route": "/apps",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-programs_features-1.0.0"
+    },
+    {
+      "id": "recovery",
+      "label": "Recovery",
+      "category": "System and Security",
+      "icon": "security",
+      "route": "/updates",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-recovery-1.0.0"
+    },
+    {
+      "id": "region",
+      "label": "Region",
+      "category": "Clock and Region",
+      "icon": "system",
+      "route": "/time-language",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-region-1.0.0"
+    },
+    {
+      "id": "remoteapp_desktop",
+      "label": "RemoteApp and Desktop Connections",
+      "category": "Network and Internet",
+      "icon": "network",
+      "route": "/network-internet",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-remoteapp_desktop-1.0.0"
+    },
+    {
+      "id": "security_maintenance",
+      "label": "Security and Maintenance",
+      "category": "System and Security",
+      "icon": "security",
+      "route": "/privacy-security",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-security_maintenance-1.0.0"
+    },
+    {
+      "id": "sound",
+      "label": "Sound",
+      "category": "Hardware and Sound",
+      "icon": "audio",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-sound-1.0.0"
+    },
+    {
+      "id": "storage_spaces",
+      "label": "Storage Spaces",
+      "category": "System and Security",
+      "icon": "folder",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-storage_spaces-1.0.0"
+    },
+    {
+      "id": "system",
+      "label": "System",
+      "category": "System and Security",
+      "icon": "system",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-system-1.0.0"
+    },
+    {
+      "id": "taskbar_navigation",
+      "label": "Taskbar and Navigation",
+      "category": "Appearance and Personalization",
+      "icon": "personalization",
+      "route": "/personalization",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-taskbar_navigation-1.0.0"
+    },
+    {
+      "id": "user_accounts",
+      "label": "User Accounts",
+      "category": "User Accounts",
+      "icon": "accounts",
+      "route": "/accounts",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-user_accounts-1.0.0"
+    },
+    {
+      "id": "windows_firewall",
+      "label": "Windows Defender Firewall",
+      "category": "System and Security",
+      "icon": "security",
+      "route": "/privacy-security",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-windows_firewall-1.0.0"
+    },
+    {
+      "id": "windows_tools",
+      "label": "Windows Tools",
+      "category": "Windows Tools and Media",
+      "icon": "tools",
+      "route": "/windows-tools",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-windows_tools-1.0.0"
+    },
+    {
+      "id": "bluetooth_devices",
+      "label": "Bluetooth & Devices",
+      "category": "Hardware and Sound",
+      "icon": "devices",
+      "route": "/bluetooth-devices",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-bluetooth_devices-1.0.0"
+    },
+    {
+      "id": "network_internet",
+      "label": "Network and Internet",
+      "category": "Network and Internet",
+      "icon": "network",
+      "route": "/network-internet",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-network_internet-1.0.0"
+    },
+    {
+      "id": "personalization",
+      "label": "Personalization",
+      "category": "Appearance and Personalization",
+      "icon": "personalization",
+      "route": "/personalization",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-personalization-1.0.0"
+    },
+    {
+      "id": "apps",
+      "label": "Apps",
+      "category": "Windows Tools and Media",
+      "icon": "programs",
+      "route": "/apps",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-apps-1.0.0"
+    },
+    {
+      "id": "accounts",
+      "label": "Accounts",
+      "category": "User Accounts",
+      "icon": "accounts",
+      "route": "/accounts",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-accounts-1.0.0"
+    },
+    {
+      "id": "time_language",
+      "label": "Time & Language",
+      "category": "Windows Tools and Media",
+      "icon": "system",
+      "route": "/time-language",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-time_language-1.0.0"
+    },
+    {
+      "id": "privacy_security",
+      "label": "Privacy & Security",
+      "category": "Windows Tools and Media",
+      "icon": "security",
+      "route": "/privacy-security",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-privacy_security-1.0.0"
+    },
+    {
+      "id": "update_recovery",
+      "label": "Update & Recovery",
+      "category": "Windows Tools and Media",
+      "icon": "security",
+      "route": "/updates",
+      "source": "windows11",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-update_recovery-1.0.0"
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "category": "System and Security",
+      "icon": "tools",
+      "route": "/services",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-services-1.0.0"
+    },
+    {
+      "id": "permissions",
+      "label": "Permissions",
+      "category": "User Accounts",
+      "icon": "security",
+      "route": "/accounts",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-permissions-1.0.0"
+    },
+    {
+      "id": "program_files",
+      "label": "Program Files",
+      "category": "Programs",
+      "icon": "programs",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-program_files-1.0.0"
+    },
+    {
+      "id": "program_files_86",
+      "label": "Program Files (86)",
+      "category": "Programs",
+      "icon": "programs",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-program_files_86-1.0.0"
+    },
+    {
+      "id": "program_modules",
+      "label": "Program Modules",
+      "category": "Programs",
+      "icon": "programs",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-program_modules-1.0.0"
+    },
+    {
+      "id": "statistics",
+      "label": "Statistics",
+      "category": "Windows Tools and Media",
+      "icon": "tools",
+      "route": "/system",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-statistics-1.0.0"
+    },
+    {
+      "id": "remote_desktop",
+      "label": "Remote Desktop",
+      "category": "System and Security",
+      "icon": "network",
+      "route": "/network-internet",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-remote_desktop-1.0.0"
+    },
+    {
+      "id": "registry_editor",
+      "label": "Registry Editor",
+      "category": "Windows Tools and Media",
+      "icon": "tools",
+      "route": "/users-tools",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-registry_editor-1.0.0"
+    },
+    {
+      "id": "disk_cleanup",
+      "label": "Disk Cleanup",
+      "category": "Windows Tools and Media",
+      "icon": "tools",
+      "route": "/users-tools",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-disk_cleanup-1.0.0"
+    },
+    {
+      "id": "accessibilities",
+      "label": "Accessibilities",
+      "category": "User Accounts",
+      "icon": "tools",
+      "route": "/accessibility",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-accessibilities-1.0.0"
+    },
+    {
+      "id": "users_tools",
+      "label": "User's Tools",
+      "category": "Programs",
+      "icon": "tools",
+      "route": "/users-tools",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-users_tools-1.0.0"
+    },
+    {
+      "id": "control_panel",
+      "label": "ControlPanel",
+      "category": "Windows Tools and Media",
+      "icon": "control_panel",
+      "route": "/control-panel",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-control_panel-1.0.0"
+    },
+    {
+      "id": "audio_video_codecs",
+      "label": "Audio and Video Codecs",
+      "category": "Hardware and Sound",
+      "icon": "audio",
+      "route": "/users-tools",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-audio_video_codecs-1.0.0"
+    },
+    {
+      "id": "video_player",
+      "label": "Video Player",
+      "category": "Hardware and Sound",
+      "icon": "video",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-video_player-1.0.0"
+    },
+    {
+      "id": "audio_recorder",
+      "label": "Audio Recorder",
+      "category": "Windows Tools and Media",
+      "icon": "recorder",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-audio_recorder-1.0.0"
+    },
+    {
+      "id": "video_recorder",
+      "label": "Video Recorder",
+      "category": "Windows Tools and Media",
+      "icon": "video",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-video_recorder-1.0.0"
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "category": "Windows Tools and Media",
+      "icon": "system",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-calendar-1.0.0"
+    },
+    {
+      "id": "camera",
+      "label": "Camera",
+      "category": "Windows Tools and Media",
+      "icon": "video",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-camera-1.0.0"
+    },
+    {
+      "id": "notepad",
+      "label": "Notepad",
+      "category": "Windows Tools and Media",
+      "icon": "properties",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-notepad-1.0.0"
+    },
+    {
+      "id": "photo_editing",
+      "label": "Photo Editing",
+      "category": "Windows Tools and Media",
+      "icon": "personalization",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-photo_editing-1.0.0"
+    },
+    {
+      "id": "photo_viewer",
+      "label": "Photo Viewer",
+      "category": "Windows Tools and Media",
+      "icon": "personalization",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-photo_viewer-1.0.0"
+    },
+    {
+      "id": "autoplay",
+      "label": "AutoPlay",
+      "category": "Hardware and Sound",
+      "icon": "devices",
+      "route": "/bluetooth-devices",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-autoplay-1.0.0"
+    },
+    {
+      "id": "connections",
+      "label": "Connections",
+      "category": "Network and Internet",
+      "icon": "network",
+      "route": "/network-internet",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-connections-1.0.0"
+    },
+    {
+      "id": "work_folders",
+      "label": "Work Folders",
+      "category": "Appearance and Personalization",
+      "icon": "folder",
+      "route": "/apps",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-work_folders-1.0.0"
+    },
+    {
+      "id": "computer_management",
+      "label": "Computer Management",
+      "category": "System and Security",
+      "icon": "tools",
+      "route": "/computer-management",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-computer_management-1.0.0"
+    },
+    {
+      "id": "advanced_system",
+      "label": "Advanced System",
+      "category": "System and Security",
+      "icon": "system",
+      "route": "/advanced",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-advanced_system-1.0.0"
+    },
+    {
+      "id": "task_scheduler",
+      "label": "Task Scheduler",
+      "category": "System and Security",
+      "icon": "tools",
+      "route": "/computer-management",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-task_scheduler-1.0.0"
+    },
+    {
+      "id": "event_viewer",
+      "label": "Event Viewer",
+      "category": "System and Security",
+      "icon": "tools",
+      "route": "/computer-management",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-event_viewer-1.0.0"
+    },
+    {
+      "id": "disk_management",
+      "label": "Disk Management",
+      "category": "System and Security",
+      "icon": "folder",
+      "route": "/computer-management",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-disk_management-1.0.0"
+    },
+    {
+      "id": "system_configuration",
+      "label": "System Configuration",
+      "category": "System and Security",
+      "icon": "tools",
+      "route": "/advanced",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-system_configuration-1.0.0"
+    },
+    {
+      "id": "print_management",
+      "label": "Print Management",
+      "category": "Hardware and Sound",
+      "icon": "devices",
+      "route": "/bluetooth-devices",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-print_management-1.0.0"
+    },
+    {
+      "id": "resource_monitor",
+      "label": "Resource Monitor",
+      "category": "Windows Tools and Media",
+      "icon": "tools",
+      "route": "/system",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-resource_monitor-1.0.0"
+    },
+    {
+      "id": "windows_memory_diagnostic",
+      "label": "Windows Memory Diagnostic",
+      "category": "Windows Tools and Media",
+      "icon": "tools",
+      "route": "/advanced",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-windows_memory_diagnostic-1.0.0"
+    },
+    {
+      "id": "run",
+      "label": "Run",
+      "category": "Windows Tools and Media",
+      "icon": "tools",
+      "route": "/apps",
+      "source": "windows7",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-run-1.0.0"
+    },
+    {
+      "id": "preboot_auth",
+      "label": "Pre-Boot Secure Sign-In",
+      "category": "Windows Tools and Media",
+      "icon": "security",
+      "route": "/preboot-auth",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-preboot_auth-1.0.0"
+    },
+    {
+      "id": "repair_portal",
+      "label": "Repair Portal",
+      "category": "System and Security",
+      "icon": "tools",
+      "route": "/repair",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-repair_portal-1.0.0"
+    },
+    {
+      "id": "hardware_diagnostics",
+      "label": "Hardware Diagnostics",
+      "category": "System and Security",
+      "icon": "tools",
+      "route": "/hardware-diagnostics",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-hardware_diagnostics-1.0.0"
+    },
+    {
+      "id": "default_apps_file_types",
+      "label": "Default Apps and File Types",
+      "category": "Programs",
+      "icon": "programs",
+      "route": "/apps",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-default_apps_file_types-1.0.0"
+    },
+    {
+      "id": "user_account_creation",
+      "label": "User Account Creation",
+      "category": "User Accounts",
+      "icon": "accounts",
+      "route": "/account-creation",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-user_account_creation-1.0.0"
+    },
+    {
+      "id": "smart_driver_fabric",
+      "label": "Smart Driver Fabric",
+      "category": "System and Security",
+      "icon": "devices",
+      "route": "/system",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-smart-driver-fabric-1.0.0"
+    },
+    {
+      "id": "smart_driver_builder",
+      "label": "Smart Driver Builder",
+      "category": "System and Security",
+      "icon": "devices",
+      "route": "/system",
+      "source": "axion",
+      "supportsProperties": true,
+      "implementation_version": "axion-cp-smart-driver-builder-1.0.0"
+    }
+  ]
+}

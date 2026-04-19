@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "state_sync_permissions_state",
+  "version": "1.0",
+  "kind": "state_sync_hook",
+  "scope": "permissions_mutation_precommit",
+  "reconciliation": {
+    "engine": "state_sync",
+    "pre_commit": true,
+    "conflict_policy": "reject"
+  },
+  "failure_code": "STATE_SYNC_PERMISSIONS_MUTATION_REJECTED"
+}

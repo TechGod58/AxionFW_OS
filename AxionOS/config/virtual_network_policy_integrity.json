@@ -1,0 +1,5 @@
+{
+  "name": "virtual_network_policy_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

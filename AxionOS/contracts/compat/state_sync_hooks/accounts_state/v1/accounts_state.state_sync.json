@@ -1,0 +1,8 @@
+﻿{
+  "contract_id": "state_sync_accounts_state",
+  "version": "1.0",
+  "kind": "state_sync_hook",
+  "scope": "accounts_mutation_precommit",
+  "reconciliation": {"engine": "state_sync", "pre_commit": true, "conflict_policy": "reject"},
+  "failure_code": "STATE_SYNC_ACCOUNTS_MUTATION_REJECTED"
+}

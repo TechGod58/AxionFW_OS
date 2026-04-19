@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "data lineage integrity schema",
+  "type": "object",
+  "required": ["status", "data_lineage", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "data_lineage": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

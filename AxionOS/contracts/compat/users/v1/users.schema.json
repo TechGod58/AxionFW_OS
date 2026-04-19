@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "users schema",
+  "type": "object",
+  "required": ["users"],
+  "properties": {
+    "users": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["user_id","display_name","created_utc"],
+        "properties": {
+          "user_id": {"type":"string","minLength":1},
+          "display_name": {"type":"string","minLength":1},
+          "created_utc": {"type":"string"}
+        }
+      }
+    }
+  }
+}

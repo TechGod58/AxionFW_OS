@@ -1,0 +1,10 @@
+{
+  "contract_id": "interconnect_firmware_consistency_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "INTERCONNECT_FW_VERSION_MISMATCH_ACCEPTED",
+    "INTERCONNECT_FW_CHAIN_BYPASS_ACCEPTED"
+  ],
+  "parked_gate_exit": 3221
+}

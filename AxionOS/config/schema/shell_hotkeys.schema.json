@@ -1,0 +1,32 @@
+﻿{
+  "": "https://json-schema.org/draft/2020-12/schema",
+  "title": "shell hotkeys schema",
+  "type": "object",
+  "required": ["schema_version", "context_allowlist", "hotkeys"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"type": "string"},
+    "context_allowlist": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-z0-9_:-]+$"},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "hotkeys": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["action_id", "action_name", "context", "enabled", "chord"],
+        "additionalProperties": false,
+        "properties": {
+          "action_id": {"type": "string", "pattern": "^[a-z0-9_\\.:-]+$"},
+          "action_name": {"type": "string", "minLength": 1},
+          "context": {"type": "string", "default": "global"},
+          "enabled": {"type": "boolean", "default": true},
+          "chord": {"type": "string"},
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "dead_letter_routing_consistency_integrity schema",
+  "type": "object",
+  "required": [
+    "status",
+    "dead_letter_routing_consistency_integrity",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "dead_letter_routing_consistency_integrity": {
+      "type": "object"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

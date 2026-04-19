@@ -1,0 +1,10 @@
+{
+  "contract_id": "pcie_hotplug_isolation_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PCIE_HOTPLUG_ISOLATION_BYPASS_ACCEPTED",
+    "PCIE_LINK_TRUST_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3071
+}

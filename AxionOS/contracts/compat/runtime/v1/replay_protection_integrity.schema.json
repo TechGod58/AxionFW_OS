@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "replay_protection_integrity schema",
+  "type": "object",
+  "required": [
+    "status",
+    "replay_protection_integrity",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "replay_protection_integrity": {
+      "type": "object"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+* text=auto
+
+# Keep PowerShell and markdown normalized as text
+*.ps1 text eol=crlf
+*.md text eol=lf

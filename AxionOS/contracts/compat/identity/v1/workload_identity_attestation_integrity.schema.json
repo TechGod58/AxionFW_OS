@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "workload identity attestation integrity schema",
+  "type": "object",
+  "required": ["status", "workload_identity_attestation", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "workload_identity_attestation": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

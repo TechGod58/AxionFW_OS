@@ -1,0 +1,10 @@
+{
+  "contract_id": "post_boot_attestation_refresh_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "ATTESTATION_REFRESH_BYPASS_ACCEPTED",
+    "ATTESTATION_CHAIN_REUSE_ACCEPTED"
+  ],
+  "parked_gate_exit": 2881
+}

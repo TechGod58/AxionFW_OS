@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "policyId": "AXION_SERVICE_MAINTENANCE_V1",
+  "delayed_start": {
+    "registry_clean": {
+      "enabled": true,
+      "delay_seconds": 90,
+      "scope": "all_user_and_app_sandboxes",
+      "remove_stale_entries": true,
+      "compact_hives": true
+    },
+    "active_x_error_cleanup": {
+      "enabled": true,
+      "catch_all_active_x_errors": true,
+      "cleanup_actions": [
+        "terminate_faulted_capsule",
+        "purge_error_marker",
+        "rebuild_sandbox_shell",
+        "emit_audit"
+      ],
+      "quarantine_repeats_after": 3
+    }
+  },
+  "scheduled": {
+    "shadow_copy": {
+      "enabled": true,
+      "frequency": "weekly",
+      "interval_weeks": 1,
+      "day_utc": "sunday",
+      "time_utc": "03:00",
+      "retention_max_copies": 8,
+      "scope_id": "system"
+    }
+  }
+}

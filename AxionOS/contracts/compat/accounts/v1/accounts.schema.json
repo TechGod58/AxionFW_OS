@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "accounts schema",
+  "type": "object",
+  "required": ["accounts","default_account_id","active_account_id","failures"],
+  "properties": {
+    "accounts": {"type":"array","items":{"type":"object"}},
+    "default_account_id": {"type":["string","null"]},
+    "active_account_id": {"type":["string","null"]},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

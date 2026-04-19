@@ -1,0 +1,10 @@
+{
+  "contract_id": "device_binding_anchor_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEVICE_BINDING_ANCHOR_BYPASS_ACCEPTED",
+    "DEVICE_BINDING_HASH_MISMATCH_ACCEPTED"
+  ],
+  "parked_gate_exit": 2951
+}

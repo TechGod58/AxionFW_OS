@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "policyId": "AXION_QM_ECC_POLICY_V1",
+  "enabled": true,
+  "contract_version": "axion.qm.v1",
+  "qm_root": "runtime/qm",
+  "deny_actions": [
+    "rollback",
+    "halt"
+  ],
+  "checkpoint_actions": [
+    "checkpoint"
+  ],
+  "telemetry": {
+    "entropy_weight": 1.0,
+    "error_rate_weight": 1.0,
+    "instability_weight": 1.0,
+    "default_error_rate": 0.02,
+    "default_instability": 0.01,
+    "high_risk_error_rate": 0.8,
+    "high_risk_instability": 0.85
+  },
+  "bindings": {
+    "security_firewall": true,
+    "runtime_launcher": true,
+    "kernel_qecc_contract": true
+  }
+}

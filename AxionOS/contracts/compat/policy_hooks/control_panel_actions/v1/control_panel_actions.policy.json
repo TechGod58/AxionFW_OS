@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "policy_hook_control_panel",
+  "version": "1.0",
+  "kind": "policy_hook",
+  "scope": "control_panel_actions",
+  "enforcement": {
+    "engine": "policy_enforcement",
+    "default": "allow",
+    "deny_rules": ["deny_devtools_kernel_debug", "deny_untrusted_backup_target"]
+  },
+  "failure_code": "POLICY_CONTROL_ACTION_BLOCKED"
+}

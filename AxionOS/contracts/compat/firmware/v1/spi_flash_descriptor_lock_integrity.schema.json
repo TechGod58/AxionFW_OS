@@ -1,0 +1,46 @@
+{
+  "contract_id": "spi_flash_descriptor_lock_integrity",
+  "domain": "firmware",
+  "version": "v1",
+  "required_invariants": [
+    "PASS_DESCRIPTOR_LOCKED",
+    "PASS_WRITE_PROTECT_ENFORCED",
+    "PASS_REGION_POLICY_MATCH",
+    "PASS_TAMPER_CHECKS_ACTIVE",
+    "PASS_TRACE_DETERMINISTIC",
+    "PASS_REPORT_FAILURES_COUNT"
+  ],
+  "negative_proofs": [
+    "SPI_DESCRIPTOR_UNLOCKED_WRITE_ALLOWED",
+    "SPI_DESCRIPTOR_TAMPER_ACCEPTED"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "status",
+    "audit_path",
+    "smoke_path",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "audit_path": {
+      "type": "string"
+    },
+    "smoke_path": {
+      "type": "string"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AxionC-BD host session artifact",
+  "type": "object",
+  "required": ["run_id","timestamp_utc","inputs","outputs","status","failures"],
+  "properties": {
+    "run_id": {"type":"string"},
+    "timestamp_utc": {"type":"string"},
+    "host": {"type":"object"},
+    "inputs": {"type":"array","items":{"type":"string"}},
+    "outputs": {"type":"array","items":{"type":"string"}},
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

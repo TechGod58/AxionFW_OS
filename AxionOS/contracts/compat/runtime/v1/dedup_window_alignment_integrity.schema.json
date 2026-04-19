@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "dedup_window_alignment_integrity schema",
+  "type": "object",
+  "required": [
+    "status",
+    "dedup_window_alignment_integrity",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "dedup_window_alignment_integrity": {
+      "type": "object"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

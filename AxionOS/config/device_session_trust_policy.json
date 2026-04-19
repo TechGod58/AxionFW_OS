@@ -1,0 +1,10 @@
+{
+  "contract_id": "device_session_trust_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEVICE_SESSION_TRUST_BYPASS_ACCEPTED",
+    "DEVICE_SESSION_TOKEN_REPLAY_ACCEPTED"
+  ],
+  "parked_gate_exit": 3031
+}

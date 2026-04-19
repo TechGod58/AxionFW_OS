@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "services": {
+    "svc.shell": {
+      "display_name": "Shell Host",
+      "state": "running",
+      "startup_type": "auto",
+      "health": "ok",
+      "protected": true
+    },
+    "svc.eventbus": {
+      "display_name": "Event Bus",
+      "state": "running",
+      "startup_type": "auto",
+      "health": "ok",
+      "protected": true
+    },
+    "svc.network": {
+      "display_name": "Network Broker",
+      "state": "running",
+      "startup_type": "auto",
+      "health": "ok",
+      "protected": true
+    },
+    "svc.updates": {
+      "display_name": "Updates Host",
+      "state": "stopped",
+      "startup_type": "auto",
+      "health": "ok",
+      "protected": false
+    },
+    "svc.promotion": {
+      "display_name": "Promotion Daemon",
+      "state": "running",
+      "startup_type": "auto",
+      "health": "ok",
+      "protected": true
+    }
+  },
+  "sections": [
+    "Running",
+    "Stopped",
+    "Startup",
+    "Recovery",
+    "Dependencies"
+  ]
+}

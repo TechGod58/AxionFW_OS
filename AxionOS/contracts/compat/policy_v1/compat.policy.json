@@ -1,0 +1,9 @@
+﻿{
+    "policy_id":  "policy_v1",
+    "policy_version":  "1.0",
+    "runtime_contracts":  [
+                              "sandbox_lifecycle_v1",
+                              "promotion_policy_v1"
+                          ],
+    "cache_contract":  "shell_cache_v1"
+}

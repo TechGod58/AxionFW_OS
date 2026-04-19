@@ -1,0 +1,10 @@
+{
+  "contract_id": "platform_fuse_configuration_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PLATFORM_FUSE_UNLOCK_ACCEPTED",
+    "PLATFORM_FUSE_POLICY_BYPASS_ACCEPTED"
+  ],
+  "parked_gate_exit": 2741
+}

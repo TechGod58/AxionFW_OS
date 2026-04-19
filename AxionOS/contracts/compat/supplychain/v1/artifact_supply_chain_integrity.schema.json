@@ -1,0 +1,7 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "artifact supply chain integrity schema",
+  "type": "object",
+  "required": ["status","artifact_supply_chain","failures"],
+  "properties": {"status":{"type":"string","enum":["PASS","FAIL"]},"artifact_supply_chain":{"type":"object"},"failures":{"type":"array","items":{"type":"object"}}}
+}

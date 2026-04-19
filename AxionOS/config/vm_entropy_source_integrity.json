@@ -1,0 +1,12 @@
+{
+  "name": "vm_entropy_source_integrity",
+  "policy": "strict",
+  "deterministic": false,
+  "sample_bytes": 4096,
+  "min_unique_byte_ratio": 0.45,
+  "min_shannon_bits_per_byte": 7.2,
+  "max_repeated_run": 64,
+  "min_hash_bit_diff_ratio": 0.15,
+  "allow_baseline_bootstrap": true,
+  "state_path": "AXION_ROOT:/out/runtime/vm_entropy_source_state.json"
+}

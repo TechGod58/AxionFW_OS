@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "producer_epoch_fencing_integrity schema",
+  "type": "object",
+  "required": [
+    "status",
+    "producer_epoch_fencing_integrity",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "producer_epoch_fencing_integrity": {
+      "type": "object"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

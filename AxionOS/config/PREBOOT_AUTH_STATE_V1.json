@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "title": "Pre-Boot Secure Sign-In",
+  "mode": "preboot_secure_desktop",
+  "placement": "after_firmware_integrity_before_os_session",
+  "guidance": "Authenticate before starting the OS user session. Encryption recovery key is reserved for external/offline disk access scenarios.",
+  "methods": {
+    "password": true,
+    "pin": true,
+    "recovery_key": true,
+    "security_key": false,
+    "biometric": false,
+    "fingerprint": false,
+    "face_unlock": false
+  },
+  "repair_option": {
+    "visible_on_sign_in_screen": true,
+    "target": "Repair Portal",
+    "scope": ["firmware", "os", "driver_bundle", "hardware_diagnostics"]
+  },
+  "sequence": [
+    "firmware_integrity_gate",
+    "preboot_secure_desktop",
+    "authenticate_or_enter_repair",
+    "unlock_os_and_profile",
+    "launch_shell"
+  ],
+  "non_goals": [
+    "full_user_shell_before_firmware_boot",
+    "bypass_of_measured_boot_or_secure_boot",
+    "network_required_logon"
+  ]
+}

@@ -1,0 +1,7 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "dispatch fairness integrity schema",
+  "type": "object",
+  "required": ["status","dispatch_fairness_integrity","failures"],
+  "properties": {"status":{"type":"string","enum":["PASS","FAIL"]},"dispatch_fairness_integrity":{"type":"object"},"failures":{"type":"array","items":{"type":"object"}}}
+}

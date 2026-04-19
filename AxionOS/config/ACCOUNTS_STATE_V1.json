@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "account": {
+    "user_id": "usr_default_001",
+    "display_name": "TechGod",
+    "handle": "techgod",
+    "role": "Administrator",
+    "avatar": null
+  },
+  "users": [
+    {
+      "user_id": "usr_default_001",
+      "display_name": "TechGod",
+      "handle": "techgod",
+      "role": "Administrator",
+      "bootstrap_admin": true,
+      "default_profile_id": "p1"
+    },
+    {
+      "user_id": "usr_002",
+      "display_name": "Builder",
+      "handle": "builder",
+      "role": "User",
+      "bootstrap_admin": false,
+      "default_profile_id": "p2",
+      "created_utc": "2026-03-26T01:03:37.154883+00:00"
+    },
+    {
+      "user_id": "usr_003",
+      "display_name": "Builder Two",
+      "handle": "builder2",
+      "role": "User",
+      "bootstrap_admin": false,
+      "default_profile_id": "p3",
+      "created_utc": "2026-03-26T01:03:37.154883+00:00"
+    }
+  ],
+  "default_setup": {
+    "windows_like_bootstrap": true,
+    "bootstrap_admin_required": true,
+    "default_admin_role": "Administrator",
+    "default_user_role": "User",
+    "password_optional": true,
+    "pin_length": {
+      "min": 4,
+      "max": 8
+    }
+  },
+  "signin": {
+    "password_enabled": true,
+    "pin_enabled": true,
+    "biometric_enabled": false,
+    "fingerprint_enabled": false,
+    "face_unlock_enabled": false,
+    "pin_policy": {
+      "min_length": 4,
+      "max_length": 8,
+      "digits_only": true
+    },
+    "mfa_enabled": false
+  },
+  "recovery": {
+    "codes_generated": true,
+    "last_generated": "2026-04-18T07:14:57.308642+00:00"
+  }
+}

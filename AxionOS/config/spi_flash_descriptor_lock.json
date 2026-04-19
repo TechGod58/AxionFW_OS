@@ -1,0 +1,26 @@
+{
+  "descriptor_regions": [
+    {
+      "name": "BIOS",
+      "allowlist": [
+        "READ"
+      ],
+      "expected_lock_bits": [
+        "FLOCKDN"
+      ]
+    },
+    {
+      "name": "GbE",
+      "allowlist": [
+        "READ"
+      ],
+      "expected_lock_bits": [
+        "PR0",
+        "PR1"
+      ]
+    }
+  ],
+  "write_protect_expected": true,
+  "tamper_detection_required": true,
+  "schema_version": "v1"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "vm_snapshot_restore_isolation_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

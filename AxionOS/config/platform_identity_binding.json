@@ -1,0 +1,10 @@
+{
+  "contract_id": "platform_identity_binding_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PLATFORM_IDENTITY_BINDING_BYPASS_ACCEPTED",
+    "IDENTITY_CERT_CHAIN_MISMATCH_ACCEPTED"
+  ],
+  "parked_gate_exit": 2831
+}

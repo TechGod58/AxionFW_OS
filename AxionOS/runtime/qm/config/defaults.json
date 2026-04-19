@@ -1,0 +1,10 @@
+{
+  "profile": "balanced",
+  "recovery_window_steps": 2,
+  "rollback_cooldown_steps": 3,
+  "em_bridge": {
+    "enabled": false,
+    "em_root": "../AxionEM",
+    "config_path": "../AxionEM/config/defaults.json"
+  }
+}

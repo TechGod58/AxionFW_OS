@@ -1,0 +1,10 @@
+{
+  "contract_id": "external_storage_execution_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "EXTERNAL_STORAGE_EXECUTION_BYPASS_ACCEPTED",
+    "REMOVABLE_MEDIA_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3091
+}

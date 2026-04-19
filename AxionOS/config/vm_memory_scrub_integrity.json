@@ -1,0 +1,5 @@
+{
+  "name": "vm_memory_scrub_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

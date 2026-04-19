@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "type": "component.register",
+  "id": "msg_bad_0001",
+  "ts": "2026-03-01T13:45:30Z",
+  "source": "axionos",
+  "target": "axionbus",
+  "payload": {
+    "component_id": "comp_vm_bad",
+    "component_kind": "vm",
+    "contract_version": "1.0.0",
+    "capabilities": ["compute.cpu"]
+  }
+}

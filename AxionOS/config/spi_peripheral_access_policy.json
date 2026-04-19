@@ -1,0 +1,10 @@
+{
+  "contract_id": "spi_peripheral_access_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "SPI_PERIPHERAL_ACCESS_BYPASS_ACCEPTED",
+    "SPI_DEVICE_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3111
+}

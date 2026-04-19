@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "policyId": "AXION_BROWSER_EXPERIENCE_STATE_V1",
+  "preinstalled": {
+    "browser_id": "brave",
+    "app_id": "brave_browser",
+    "label": "Brave Browser",
+    "ready": true,
+    "installed_utc": "2026-04-18T00:00:00+00:00"
+  },
+  "first_boot": {
+    "requires_default_browser_choice": true,
+    "prompted_utc": "2026-04-18T12:50:46.779853+00:00",
+    "completed": true,
+    "completed_utc": "2026-04-18T17:27:26.178914+00:00"
+  },
+  "default_browser": {
+    "browser_id": "brave",
+    "app_id": "brave_browser",
+    "label": "Brave Browser",
+    "source": "first_boot_choice",
+    "changed_utc": "2026-04-18T17:27:26.178914+00:00"
+  },
+  "choices": [
+    {
+      "browser_id": "brave",
+      "app_id": "brave_browser",
+      "label": "Brave Browser",
+      "preinstalled": true,
+      "desktop_link_id": null,
+      "installer_artifact": null
+    },
+    {
+      "browser_id": "chrome",
+      "app_id": "browser_manager",
+      "label": "Google Chrome",
+      "preinstalled": false,
+      "desktop_link_id": "google_chrome_download",
+      "installer_artifact": "chrome_installer.exe"
+    },
+    {
+      "browser_id": "edge",
+      "app_id": "browser_manager",
+      "label": "Microsoft Edge",
+      "preinstalled": false,
+      "desktop_link_id": "microsoft_edge_download",
+      "installer_artifact": "microsoft_edge_installer.exe"
+    },
+    {
+      "browser_id": "firefox",
+      "app_id": "browser_manager",
+      "label": "Mozilla Firefox",
+      "preinstalled": false,
+      "desktop_link_id": "mozilla_firefox_download",
+      "installer_artifact": "firefox_installer.exe"
+    }
+  ]
+}

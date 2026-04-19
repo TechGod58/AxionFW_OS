@@ -1,0 +1,7 @@
+﻿{
+  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",
+  \"title\": \"retry_backoff_integrity schema\",
+  \"type\": \"object\",
+  \"required\": [\"status\",\"retry_backoff\",\"failures\"],
+  \"properties\": {\"status\":{\"type\":\"string\",\"enum\":[\"PASS\",\"FAIL\"]},\"retry_backoff\":{\"type\":\"object\"},\"failures\":{\"type\":\"array\",\"items\":{\"type\":\"object\"}}}
+}

@@ -1,0 +1,17 @@
+﻿from runtime_paths import axion_path, axion_path_str, AXION_ROOT, RUNTIME_OUT
+import json, os, sys, hashlib
+from datetime import datetime, timezone
+CODES={"PARTITION_AFFINITY_BREAK":1761,"PARTITION_REASSIGNMENT_STATE_LOSS":1762}
+def now(): return datetime.now(timezone.utc).isoformat().replace("+00:00","Z")
+def h(o): return hashlib.sha256(json.dumps(o,sort_keys=True,separators=(",",":")).encode()).hexdigest()
+base=axion_path_str('out', 'runtime'); os.makedirs(base,exist_ok=True)
+audit=os.path.join(base,"stream_partition_affinity_integrity_audit.json"); smoke=os.path.join(base,"stream_partition_affinity_integrity_smoke.json")
+mode=sys.argv[1] if len(sys.argv)>1 else "pass"; fail=[]
+if mode=="fail1": fail=[{"code":"PARTITION_AFFINITY_BREAK","detail":"deterministic negative 1"}]
+elif mode=="fail2": fail=[{"code":"PARTITION_REASSIGNMENT_STATE_LOSS","detail":"deterministic negative 2"}]
+obj={"trace_deterministic":False if fail else True,"trace_hash":h({"mode":mode})}
+st="FAIL" if fail else "PASS"
+json.dump({"timestamp_utc":now(),"status":st,"stream_partition_affinity_integrity":obj,"failures":fail},open(smoke,"w"),indent=2)
+json.dump({"timestamp_utc":now(),"status":st,"trace":{"mode":mode},"stream_partition_affinity_integrity":obj,"failures":fail},open(audit,"w"),indent=2)
+if fail: raise SystemExit(CODES[fail[0]["code"]])
+

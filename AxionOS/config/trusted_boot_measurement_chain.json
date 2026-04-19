@@ -1,0 +1,19 @@
+{
+  "root_of_trust_source": "AXION_ROOT:/firmware/root_of_trust.pem",
+  "bootloader_measurement_path": "AXION_ROOT:/out/firmware/bootloader_measurement.json",
+  "pcr_register_set": [
+    0,
+    2,
+    4,
+    7
+  ],
+  "expected_boot_measurements": [
+    "PCR0_HASH",
+    "PCR2_HASH",
+    "PCR4_HASH",
+    "PCR7_HASH"
+  ],
+  "measurement_log_path": "AXION_ROOT:/out/firmware/boot_measurement.log",
+  "measurement_verifier_policy": "strict",
+  "trusted_boot_manifest_path": "AXION_ROOT:/firmware/trusted_boot_manifest.json"
+}

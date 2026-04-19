@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "policyId": "AXION_SHADOW_COPY_POLICY_V1",
+  "enabled": true,
+  "default_scope_id": "system",
+  "schedule": {
+    "enabled": true,
+    "frequency": "weekly",
+    "interval_weeks": 1,
+    "day_utc": "sunday",
+    "time_utc": "03:00"
+  },
+  "retention": {
+    "max_copies": 8,
+    "delete_oldest_first": true
+  },
+  "targets": [
+    "data/profiles/p1/Archives",
+    "data/profiles/p1/Workspace",
+    "data/profiles/p1/Photos",
+    "data/profiles/p1/Downloads",
+    "data/profiles/p1/Music",
+    "data/profiles/p1/Videos"
+  ]
+}

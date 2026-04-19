@@ -1,0 +1,29 @@
+﻿AXION PROPRIETARY LICENSE v1.0
+Copyright (c) 2026 John T Straub. All rights reserved.
+
+1) Ownership
+All software, source code, binaries, assets, documentation, build scripts, and related materials in this repository/package (the "Work") are proprietary and owned by John T Straub.
+
+2) Grant
+No license is granted to use, copy, modify, merge, publish, distribute, sublicense, sell, host, train on, reverse engineer, or create derivative works from the Work except with prior written permission from John T Straub.
+
+3) Default Restriction
+Access does NOT imply permission. Possession of source or binaries does NOT grant rights.
+
+4) Internal Use Exception
+Only John T Straub may use the Work directly. Any third-party use requires explicit written authorization.
+
+5) Redistribution
+Redistribution in any form (source, binary, container, image, model input/output bundle, mirrors) is prohibited without prior written permission.
+
+6) No Warranty
+THE WORK IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+7) Enforcement
+Unauthorized use is a copyright violation and may be prosecuted to the maximum extent permitted by law.
+
+8) Contact / Permission Requests
+Permission requests must be approved in writing by John T Straub.
+
+SPDX-License-Identifier: LicenseRef-Axion-Proprietary-John T Straub-1.0
+

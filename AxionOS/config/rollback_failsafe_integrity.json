@@ -1,0 +1,10 @@
+{
+  "contract_id": "rollback_failsafe_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "ROLLBACK_FAILSAFE_BYPASS_ACCEPTED",
+    "UNSAFE_VERSION_FALLBACK_ACCEPTED"
+  ],
+  "parked_gate_exit": 3321
+}

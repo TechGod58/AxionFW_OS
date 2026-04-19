@@ -1,0 +1,10 @@
+{
+  "contract_id": "resume_memory_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "RESUME_MEMORY_TAMPER_ACCEPTED",
+    "RESUME_MEMORY_REMAP_BYPASS_ACCEPTED"
+  ],
+  "parked_gate_exit": 2871
+}

@@ -1,0 +1,10 @@
+﻿{
+    "category":  "fixture",
+    "version":  "1.0",
+    "required":  [
+                     "fixture_id",
+                     "fixture_version",
+                     "expected_markers"
+                 ],
+    "contract_id":  "fixture_manifest"
+}

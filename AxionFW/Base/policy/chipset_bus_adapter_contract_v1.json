@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "contract_id": "AXION_CHIPSET_BUS_ADAPTER_CONTRACT_V1",
+  "default_adapter_id": "generic_uefi_fallback_v1",
+  "adapters": [
+    {
+      "adapter_id": "intel_pch_generic_v1",
+      "platform_lanes": [
+        "intel_x64"
+      ],
+      "vendor_hints": [
+        "intel"
+      ],
+      "chipset_hints": [
+        "q35",
+        "ich",
+        "pch",
+        "z",
+        "h",
+        "b"
+      ],
+      "required_buses": [
+        "pci",
+        "acpi"
+      ],
+      "primitive_ids": [
+        "inventory_guard",
+        "backup_firmware_payload",
+        "stage_inactive_slot",
+        "program_intel_pcie_fabric",
+        "program_intel_mmio_policy",
+        "verify_staged_hashes",
+        "mark_slot_switch_on_reboot",
+        "rollback_on_stage_failure"
+      ]
+    },
+    {
+      "adapter_id": "amd_promontory_generic_v1",
+      "platform_lanes": [
+        "amd_x64"
+      ],
+      "vendor_hints": [
+        "amd"
+      ],
+      "chipset_hints": [
+        "amd",
+        "x670",
+        "b650",
+        "x570",
+        "promontory"
+      ],
+      "required_buses": [
+        "pci",
+        "acpi"
+      ],
+      "primitive_ids": [
+        "inventory_guard",
+        "backup_firmware_payload",
+        "stage_inactive_slot",
+        "program_amd_pcie_fabric",
+        "program_amd_mmio_policy",
+        "verify_staged_hashes",
+        "mark_slot_switch_on_reboot",
+        "rollback_on_stage_failure"
+      ]
+    },
+    {
+      "adapter_id": "generic_uefi_fallback_v1",
+      "platform_lanes": [
+        "intel_x64",
+        "amd_x64",
+        "generic_x64_uefi"
+      ],
+      "vendor_hints": [],
+      "chipset_hints": [],
+      "required_buses": [
+        "acpi"
+      ],
+      "primitive_ids": [
+        "inventory_guard",
+        "backup_firmware_payload",
+        "stage_inactive_slot",
+        "program_generic_uefi_bus_policy",
+        "verify_staged_hashes",
+        "mark_slot_switch_on_reboot",
+        "rollback_on_stage_failure"
+      ]
+    }
+  ]
+}

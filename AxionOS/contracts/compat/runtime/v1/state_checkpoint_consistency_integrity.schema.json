@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "state checkpoint consistency integrity schema",
+  "type": "object",
+  "required": ["status", "state_checkpoint_consistency", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "state_checkpoint_consistency": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

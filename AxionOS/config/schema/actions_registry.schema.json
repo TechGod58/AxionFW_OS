@@ -1,0 +1,31 @@
+﻿{
+  "": "https://json-schema.org/draft/2020-12/schema",
+  "title": "actions registry schema",
+  "type": "object",
+  "required": ["schema_version", "actions"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"type": "string"},
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["action_id","action_name","category","contexts","enabled"],
+        "additionalProperties": false,
+        "properties": {
+          "action_id": {"type":"string","pattern":"^[a-z0-9_\\.:-]+$"},
+          "action_name": {"type":"string","minLength":1},
+          "category": {"type":"string","pattern":"^[a-z0-9_:-]+$"},
+          "contexts": {
+            "oneOf": [
+              {"type":"string","const":"*"},
+              {"type":"array","items":{"type":"string","pattern":"^[a-z0-9_:-]+$"},"minItems":1,"uniqueItems":true}
+            ]
+          },
+          "enabled": {"type":"boolean","default": true},
+          "notes": {"type":"string"}
+        }
+      }
+    }
+  }
+}

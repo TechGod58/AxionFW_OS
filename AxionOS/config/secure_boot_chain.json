@@ -1,0 +1,33 @@
+{
+  "allowed_root_keys": [
+    "ROOT_KEY_A_SHA256",
+    "ROOT_KEY_B_SHA256"
+  ],
+  "allowed_root_key_hashes": [
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  ],
+  "signing_policy": {
+    "require_signed_stages": true,
+    "require_chain_complete": true
+  },
+  "chain_stages": [
+    "firmware",
+    "bootloader",
+    "kernel",
+    "initramfs"
+  ],
+  "measurement_policy": {
+    "pcrs": [
+      0,
+      2,
+      4,
+      7
+    ],
+    "quote_required": false,
+    "quote_fields": [
+      "pcr_digest",
+      "nonce"
+    ]
+  }
+}

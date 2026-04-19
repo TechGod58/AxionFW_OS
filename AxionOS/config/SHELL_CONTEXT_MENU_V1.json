@@ -1,0 +1,180 @@
+{
+  "version": 3,
+  "contextMenu": {
+    "mode": "full",
+    "showMoreOptionsEnabled": false,
+    "groupAdvancedActions": true,
+    "enableSearch": true,
+    "showDisabledWithReason": true,
+    "defaultLeftClick": "open",
+    "defaultRightClick": "context_menu",
+    "propertiesActionId": "properties"
+  },
+  "targetPolicies": {
+    "workspace_surface": {
+      "leftClick": "open",
+      "rightClick": "context_menu",
+      "defaultActions": [
+        "view",
+        "sort_by",
+        "group_by",
+        "refresh",
+        "paste",
+        "paste_shortcut",
+        "new",
+        "new_folder",
+        "display_settings",
+        "personalize",
+        "properties"
+      ]
+    },
+    "profile_folder": {
+      "leftClick": "open",
+      "rightClick": "context_menu",
+      "defaultActions": [
+        "open",
+        "open_new_window",
+        "sort_by",
+        "view",
+        "refresh",
+        "new",
+        "new_folder",
+        "rename",
+        "properties"
+      ]
+    },
+    "file": {
+      "leftClick": "open",
+      "rightClick": "context_menu",
+      "defaultActions": [
+        "open",
+        "open_with",
+        "copy",
+        "cut",
+        "rename",
+        "delete",
+        "properties"
+      ]
+    },
+    "app": {
+      "leftClick": "launch",
+      "rightClick": "context_menu",
+      "defaultActions": [
+        "launch",
+        "pin_to_taskbar",
+        "pin_to_start",
+        "run_as_administrator",
+        "properties"
+      ]
+    },
+    "control_panel_item": {
+      "leftClick": "open",
+      "rightClick": "context_menu",
+      "defaultActions": [
+        "open",
+        "open_in_new_window",
+        "create_shortcut",
+        "properties"
+      ]
+    }
+  },
+  "actionCatalog": {
+    "view": {
+      "label": "View",
+      "submenu": [
+        "large_icons",
+        "medium_icons",
+        "small_icons",
+        "list",
+        "details"
+      ]
+    },
+    "sort_by": {
+      "label": "Sort by",
+      "submenu": [
+        "name",
+        "date_modified",
+        "type",
+        "size"
+      ]
+    },
+    "group_by": {
+      "label": "Group by",
+      "submenu": [
+        "none",
+        "name",
+        "date_modified",
+        "type"
+      ]
+    },
+    "refresh": {
+      "label": "Refresh"
+    },
+    "paste": {
+      "label": "Paste"
+    },
+    "paste_shortcut": {
+      "label": "Paste shortcut"
+    },
+    "new": {
+      "label": "New",
+      "submenu": [
+        "folder",
+        "text_document",
+        "shortcut",
+        "capsule_link"
+      ]
+    },
+    "new_folder": {
+      "label": "New Folder"
+    },
+    "display_settings": {
+      "label": "Display settings"
+    },
+    "personalize": {
+      "label": "Personalize"
+    },
+    "open": {
+      "label": "Open"
+    },
+    "open_new_window": {
+      "label": "Open in new window"
+    },
+    "open_with": {
+      "label": "Open with"
+    },
+    "copy": {
+      "label": "Copy"
+    },
+    "cut": {
+      "label": "Cut"
+    },
+    "rename": {
+      "label": "Rename"
+    },
+    "delete": {
+      "label": "Delete"
+    },
+    "launch": {
+      "label": "Open"
+    },
+    "pin_to_taskbar": {
+      "label": "Pin to Taskbar"
+    },
+    "pin_to_start": {
+      "label": "Pin to Start"
+    },
+    "run_as_administrator": {
+      "label": "Run as Administrator"
+    },
+    "create_shortcut": {
+      "label": "Create shortcut"
+    },
+    "open_in_new_window": {
+      "label": "Open in new window"
+    },
+    "properties": {
+      "label": "Properties"
+    }
+  }
+}

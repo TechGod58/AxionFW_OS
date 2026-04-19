@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "schema migration integrity schema",
+  "type": "object",
+  "required": ["status","schema_migration","failures"],
+  "properties": {
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "schema_migration": {"type":"object"},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

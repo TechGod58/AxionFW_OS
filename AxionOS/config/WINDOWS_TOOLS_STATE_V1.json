@@ -1,0 +1,382 @@
+{
+    "version":  1,
+    "title":  "Windows Tools",
+    "style":  "windows7_tools",
+    "implementationVersion":  "axion-wintools-1.0.0",
+    "groups":  [
+                   {
+                       "name":  "System Management",
+                       "items":  [
+                                     "computer_management",
+                                     "task_manager",
+                                     "task_scheduler",
+                                     "event_viewer",
+                                     "disk_management",
+                                     "services",
+                                     "system_configuration",
+                                     "firmware_bios_settings"
+                                 ]
+                   },
+                   {
+                       "name":  "Diagnostics",
+                       "items":  [
+                                     "resource_monitor",
+                                     "windows_memory_diagnostic",
+                                     "hardware_diagnostics",
+                                     "statistics"
+                                 ]
+                   },
+                   {
+                       "name":  "Shell and Security",
+                       "items":  [
+                                     "command_prompt",
+                                     "powershell",
+                                     "run",
+                                     "file_explorer",
+                                     "codex",
+                                     "registry_editor",
+                                     "preboot_auth",
+                                     "repair_portal"
+                                 ]
+                   },
+                   {
+                       "name":  "Media and Utility",
+                       "items":  [
+                                     "disk_cleanup",
+                                     "audio_video_codecs",
+                                     "audio_recorder",
+                                     "video_recorder",
+                                     "video_player"
+                                 ]
+                   },
+                   {
+                       "name":  "Driver Fabric",
+                       "items":  [
+                                     "smart_driver_fabric",
+                                     "smart_driver_builder"
+                                 ]
+                   },
+                   {
+                       "name":  "Productivity and Creative",
+                       "items":  [
+                                     "write",
+                                     "sheets",
+                                     "slides",
+                                     "mail",
+                                     "database",
+                                     "publisher",
+                                     "pdf_studio",
+                                     "vector_studio",
+                                     "creative_studio",
+                                     "notepad_plus_plus",
+                                     "calculator"
+                                 ]
+                   }
+               ],
+    "items":  [
+                  {
+                      "tool_id":  "command_prompt",
+                      "label":  "Command Prompt",
+                      "version":  "axion-cmd-1.0.0",
+                      "route":  "/apps",
+                      "target":  "shell",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "powershell",
+                      "label":  "PowerShell",
+                      "version":  "axion-powershell-1.0.0",
+                      "route":  "/apps",
+                      "target":  "shell",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "computer_management",
+                      "label":  "Computer Management",
+                      "version":  "axion-computer-management-1.0.0",
+                      "route":  "/computer-management",
+                      "target":  "computer_management_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "task_manager",
+                      "label":  "Task Manager",
+                      "version":  "axion-task-manager-1.0.0",
+                      "route":  "/apps",
+                      "target":  "task_manager",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "task_scheduler",
+                      "label":  "Task Scheduler",
+                      "version":  "axion-task-scheduler-1.0.0",
+                      "route":  "/computer-management",
+                      "target":  "computer_management_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "event_viewer",
+                      "label":  "Event Viewer",
+                      "version":  "axion-event-viewer-1.0.0",
+                      "route":  "/computer-management",
+                      "target":  "computer_management_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "disk_management",
+                      "label":  "Disk Management",
+                      "version":  "axion-disk-management-1.0.0",
+                      "route":  "/computer-management",
+                      "target":  "computer_management_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "services",
+                      "label":  "Services",
+                      "version":  "axion-services-1.0.0",
+                      "route":  "/services",
+                      "target":  "services_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "system_configuration",
+                      "label":  "System Configuration",
+                      "version":  "axion-system-config-1.0.0",
+                      "route":  "/advanced",
+                      "target":  "advanced_system_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "firmware_bios_settings",
+                      "label":  "Firmware and BIOS Settings",
+                      "version":  "axion-firmware-bios-settings-1.0.0",
+                      "route":  "/system",
+                      "target":  "firmware_settings_host",
+                      "source":  "axion"
+                  },
+                  {
+                      "tool_id":  "resource_monitor",
+                      "label":  "Resource Monitor",
+                      "version":  "axion-resource-monitor-1.0.0",
+                      "route":  "/system",
+                      "target":  "statistics_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "windows_memory_diagnostic",
+                      "label":  "Windows Memory Diagnostic",
+                      "version":  "axion-memory-diagnostic-1.0.0",
+                      "route":  "/advanced",
+                      "target":  "advanced_system_host",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "hardware_diagnostics",
+                      "label":  "Hardware Diagnostics",
+                      "version":  "axion-hardware-diagnostics-1.0.0",
+                      "route":  "/hardware-diagnostics",
+                      "target":  "hardware_diagnostics_host",
+                      "source":  "axion"
+                  },
+                  {
+                      "tool_id":  "statistics",
+                      "label":  "Statistics",
+                      "version":  "axion-statistics-1.0.0",
+                      "route":  "/system",
+                      "target":  "statistics_host",
+                      "source":  "axion"
+                  },
+                  {
+                      "tool_id":  "run",
+                      "label":  "Run",
+                      "version":  "axion-run-dialog-1.0.0",
+                      "route":  "/apps",
+                      "target":  "shell",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "file_explorer",
+                      "label":  "File Explorer",
+                      "version":  "axion-file-explorer-1.0.0",
+                      "route":  "/apps",
+                      "target":  "file_explorer",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "codex",
+                      "label":  "Codex",
+                      "version":  "axion-codex-1.0.0",
+                      "route":  "/apps",
+                      "target":  "codex",
+                      "source":  "axion"
+                  },
+                  {
+                      "tool_id":  "registry_editor",
+                      "label":  "Registry Editor",
+                      "version":  "axion-registry-editor-1.0.0",
+                      "route":  "/users-tools",
+                      "target":  "registry_editor",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "preboot_auth",
+                      "label":  "Pre-Boot Secure Sign-In",
+                      "version":  "axion-preboot-auth-1.0.0",
+                      "route":  "/preboot-auth",
+                      "target":  "preboot_auth_host",
+                      "source":  "axion"
+                  },
+                  {
+                      "tool_id":  "repair_portal",
+                      "label":  "Repair Portal",
+                      "version":  "axion-repair-portal-1.0.0",
+                      "route":  "/repair",
+                      "target":  "repair_portal_host",
+                      "source":  "axion"
+                  },
+                  {
+                      "tool_id":  "disk_cleanup",
+                      "label":  "Disk Cleanup",
+                      "version":  "axion-disk-cleanup-1.0.0",
+                      "route":  "/apps",
+                      "target":  "disk_cleanup",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "audio_video_codecs",
+                      "label":  "Audio and Video Codecs",
+                      "version":  "axion-media-codecs-1.0.0",
+                      "route":  "/apps",
+                      "target":  "media_codecs",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "audio_recorder",
+                      "label":  "Audio Recorder",
+                      "version":  "axion-audio-recorder-1.0.0",
+                      "route":  "/apps",
+                      "target":  "audio_recorder",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "video_recorder",
+                      "label":  "Video Recorder",
+                      "version":  "axion-video-recorder-1.0.0",
+                      "route":  "/apps",
+                      "target":  "video_recorder",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "video_player",
+                      "label":  "Video Player",
+                      "version":  "axion-video-player-1.0.0",
+                      "route":  "/apps",
+                      "target":  "video_player",
+                      "source":  "windows"
+                  },
+                  {
+                      "tool_id":  "smart_driver_fabric",
+                      "label":  "Smart Driver Fabric",
+                      "version":  "axion-smart-driver-fabric-1.0.0",
+                      "route":  "/system",
+                      "target":  "smart_driver_fabric_host",
+                      "source":  "axion"
+                  },
+                  {
+                      "tool_id":  "smart_driver_builder",
+                      "label":  "Smart Driver Builder",
+                      "version":  "axion-smart-driver-builder-1.0.0",
+                      "route":  "/system",
+                      "target":  "smart_driver_builder_host",
+                      "source":  "axion"
+                  },
+                  {
+                      "version":  "axion-write-1.0.0",
+                      "tool_id":  "write",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Write",
+                      "target":  "write"
+                  },
+                  {
+                      "version":  "axion-sheets-1.0.0",
+                      "tool_id":  "sheets",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Sheets",
+                      "target":  "sheets"
+                  },
+                  {
+                      "version":  "axion-slides-1.0.0",
+                      "tool_id":  "slides",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Slides",
+                      "target":  "slides"
+                  },
+                  {
+                      "version":  "axion-mail-1.0.0",
+                      "tool_id":  "mail",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Mail",
+                      "target":  "mail"
+                  },
+                  {
+                      "version":  "axion-database-1.0.0",
+                      "tool_id":  "database",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Database",
+                      "target":  "database"
+                  },
+                  {
+                      "version":  "axion-publisher-1.0.0",
+                      "tool_id":  "publisher",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Publisher",
+                      "target":  "publisher"
+                  },
+                  {
+                      "version":  "axion-pdf-studio-1.0.0",
+                      "tool_id":  "pdf_studio",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "PDF Studio",
+                      "target":  "pdf_studio"
+                  },
+                  {
+                      "version":  "axion-vector-studio-1.0.0",
+                      "tool_id":  "vector_studio",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Vector Studio",
+                      "target":  "vector_studio"
+                  },
+                  {
+                      "version":  "axion-creative-studio-1.0.0",
+                      "tool_id":  "creative_studio",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Creative Studio",
+                      "target":  "creative_studio"
+                  },
+                  {
+                      "version":  "axion-notepad-plus-plus-1.0.0",
+                      "tool_id":  "notepad_plus_plus",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Notepad++",
+                      "target":  "notepad_plus_plus"
+                  },
+                  {
+                      "version":  "axion-calculator-1.0.0",
+                      "tool_id":  "calculator",
+                      "source":  "axion",
+                      "route":  "/apps",
+                      "label":  "Calculator",
+                      "target":  "calculator"
+                  }
+              ]
+}

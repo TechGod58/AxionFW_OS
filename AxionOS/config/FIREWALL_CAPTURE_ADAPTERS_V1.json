@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "policyId": "AXION_FIREWALL_CAPTURE_ADAPTERS_V1",
+  "default_provider_id": "windows_tcp_snapshot_provider_v1",
+  "providers": {
+    "windows_tcp_snapshot_provider_v1": {
+      "enabled": true,
+      "kind": "windows_tcp_snapshot",
+      "family": "windows"
+    },
+    "linux_ss_snapshot_provider_v1": {
+      "enabled": true,
+      "kind": "linux_ss_snapshot",
+      "family": "linux"
+    }
+  },
+  "mappings": {
+    "windows:sandbox_windows_compat": "windows_tcp_snapshot_provider_v1",
+    "windows": "windows_tcp_snapshot_provider_v1",
+    "linux:sandbox_linux_compat": "linux_ss_snapshot_provider_v1",
+    "linux": "linux_ss_snapshot_provider_v1"
+  }
+}

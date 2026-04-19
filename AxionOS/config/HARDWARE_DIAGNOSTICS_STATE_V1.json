@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "title": "Hardware Diagnostics",
+  "profile": "reference_bsp_q35",
+  "tests": [
+    {
+      "id": "memory_test_64",
+      "label": "Memory Test 64",
+      "kind": "memtest64_like",
+      "target": "system_memory",
+      "status": "available"
+    },
+    {
+      "id": "disk_integrity_scan",
+      "label": "Disk Integrity Scan",
+      "kind": "hdd_ssd_surface_and_boot_scan",
+      "target": "primary_storage",
+      "status": "available"
+    },
+    {
+      "id": "board_driver_readiness",
+      "label": "Board Driver Readiness",
+      "kind": "reference_bsp_validation",
+      "target": "q35_reference_stack",
+      "status": "available"
+    }
+  ],
+  "save_report_to": "out\\runtime\\hardware_diagnostics_report.json"
+}

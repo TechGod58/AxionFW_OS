@@ -1,0 +1,10 @@
+{
+  "contract_id": "frequency_scaling_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "FREQUENCY_SCALING_POLICY_BYPASS_ACCEPTED",
+    "UNAUTHORIZED_PERF_STATE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3261
+}

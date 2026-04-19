@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "policy_hook_backup_restore",
+  "version": "1.0",
+  "kind": "policy_hook",
+  "scope": "backup_restore",
+  "enforcement": {
+    "engine": "policy_enforcement",
+    "default": "allow",
+    "deny_rules": ["deny_untrusted_backup_target", "deny_restore_from_unverified_snapshot"]
+  },
+  "failure_code": "POLICY_BACKUP_RESTORE_BLOCKED"
+}

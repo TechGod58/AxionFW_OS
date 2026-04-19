@@ -1,0 +1,10 @@
+﻿name: contracts-gate
+on:
+  push:
+    paths:
+      - 'contracts/**'
+      - 'tools/contracts/validate_registry.py'
+  pull_request:
+    paths:
+      - 'contracts/**'
+      - 'tools/contracts/validate_registry.py'

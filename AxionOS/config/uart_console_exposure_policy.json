@@ -1,0 +1,10 @@
+{
+  "contract_id": "uart_console_exposure_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "UART_CONSOLE_EXPOSURE_BYPASS_ACCEPTED",
+    "UART_DEBUG_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3131
+}

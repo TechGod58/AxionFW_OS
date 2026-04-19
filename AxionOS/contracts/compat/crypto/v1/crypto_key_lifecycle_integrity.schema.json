@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "crypto key lifecycle integrity schema",
+  "type": "object",
+  "required": ["status", "crypto_key_lifecycle", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "crypto_key_lifecycle": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "state_sync_panel_write",
+  "version": "1.0",
+  "kind": "state_sync_hook",
+  "scope": "panel_write",
+  "reconciliation": {
+    "engine": "state_sync",
+    "pre_commit": true,
+    "conflict_policy": "reject"
+  },
+  "failure_code": "STATE_SYNC_WRITE_REJECTED"
+}

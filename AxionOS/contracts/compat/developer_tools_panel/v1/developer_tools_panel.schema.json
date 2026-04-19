@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "developer tools panel schema",
+  "type": "object",
+  "required": ["status", "modes", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "modes": {"type": "array", "items": {"type": "object"}},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

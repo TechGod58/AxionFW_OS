@@ -1,0 +1,10 @@
+{
+  "contract_id": "external_device_measurement_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "EXTERNAL_DEVICE_MEASUREMENT_BYPASS_ACCEPTED",
+    "DEVICE_MEASUREMENT_CHAIN_BREAK_ACCEPTED"
+  ],
+  "parked_gate_exit": 2971
+}

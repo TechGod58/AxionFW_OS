@@ -1,0 +1,22 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "profiles schema",
+  "type": "object",
+  "required": ["profiles","default_profile_id"],
+  "properties": {
+    "default_profile_id": {"type":"string"},
+    "profiles": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "required": ["profile_id","user_id","name","created_utc"],
+        "properties": {
+          "profile_id": {"type":"string","minLength":1},
+          "user_id": {"type":"string","minLength":1},
+          "name": {"type":"string","minLength":1},
+          "created_utc": {"type":"string"}
+        }
+      }
+    }
+  }
+}

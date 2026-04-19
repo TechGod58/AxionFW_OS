@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "firmware_capsule_update_integrity",
+  "fail_codes": [
+    "CAPSULE_SIGNATURE_VERIFICATION_BYPASS",
+    "CAPSULE_PAYLOAD_TAMPER_ACCEPTED"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

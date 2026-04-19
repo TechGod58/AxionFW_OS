@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "profileId": "REAL_HARDWARE_BRINGUP_LADDER_V1",
+  "destination": "Any 64-bit laptop or tower that satisfies the AxionFW/AxionOS generic x64 UEFI contract.",
+  "policy": {
+    "generic_end_state": true,
+    "single_family_first_is_temporary": true,
+    "unsafe_mass_rollout_forbidden": true
+  },
+  "phases": [
+    {
+      "phase_id": "q35_reference",
+      "status": "active",
+      "purpose": "Emulator and firmware-contract proving ground.",
+      "board_support_packages": [
+        "bsp_q35_ovmf_ref_v1"
+      ],
+      "exit_criteria": [
+        "boot_path_verified",
+        "security_contract_verified",
+        "storage_path_verified"
+      ]
+    },
+    {
+      "phase_id": "first_real_laptop_family",
+      "status": "active",
+      "purpose": "Validate the generic x64 laptop path on one recoverable business-laptop family.",
+      "board_support_packages": [
+        "bsp_hp_9470m_9480m_bridge_v1"
+      ],
+      "exit_criteria": [
+        "storage_ok",
+        "input_ok",
+        "display_ok",
+        "repair_ok",
+        "preboot_auth_ok"
+      ]
+    },
+    {
+      "phase_id": "generic_x64_laptop_broadening",
+      "status": "planned",
+      "purpose": "Expand from one family to additional 64-bit UEFI laptops without forking the platform contract.",
+      "board_support_packages": [
+        "bsp_generic_x64_uefi_v1"
+      ],
+      "exit_criteria": [
+        "three_families_boot",
+        "common_driver_matrix_documented",
+        "fallback_paths_validated"
+      ]
+    },
+    {
+      "phase_id": "generic_x64_tower_broadening",
+      "status": "planned",
+      "purpose": "Extend the same generic contract to desktop and tower systems.",
+      "board_support_packages": [
+        "bsp_generic_x64_uefi_v1"
+      ],
+      "exit_criteria": [
+        "desktop_storage_ok",
+        "desktop_network_ok",
+        "desktop_recovery_ok"
+      ]
+    }
+  ]
+}

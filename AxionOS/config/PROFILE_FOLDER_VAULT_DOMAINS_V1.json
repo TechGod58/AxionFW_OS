@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "policyId": "AXION_PROFILE_FOLDER_VAULT_DOMAINS_V1",
+  "description": "Per-folder vault domains for layered profile sandbox enforcement.",
+  "folders": {
+    "archives": {
+      "domainId": "profile.vault.archives",
+      "legacyAlias": "Documents"
+    },
+    "downloads": {
+      "domainId": "profile.vault.downloads",
+      "legacyAlias": "Downloads"
+    },
+    "photos": {
+      "domainId": "profile.vault.photos",
+      "legacyAlias": "Pictures"
+    },
+    "music": {
+      "domainId": "profile.vault.music",
+      "legacyAlias": "Music"
+    },
+    "videos": {
+      "domainId": "profile.vault.videos",
+      "legacyAlias": "Videos"
+    },
+    "workspace": {
+      "domainId": "profile.vault.workspace",
+      "legacyAlias": "Desktop"
+    },
+    "favorites_bar": {
+      "domainId": "profile.vault.favorites_bar",
+      "legacyAlias": "Favorites"
+    },
+    "searches": {
+      "domainId": "profile.vault.searches",
+      "legacyAlias": "Searches"
+    },
+    "connections": {
+      "domainId": "profile.vault.connections",
+      "domainAliases": [
+        "profile.vault.connectios"
+      ],
+      "aliases": [
+        "connectios"
+      ],
+      "legacyAlias": "Links"
+    }
+  }
+}

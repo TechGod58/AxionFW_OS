@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "policy_hook_developer_tools",
+  "version": "1.0",
+  "kind": "policy_hook",
+  "scope": "developer_tools",
+  "enforcement": {
+    "engine": "policy_enforcement",
+    "default": "allow",
+    "deny_rules": ["deny_devtools_kernel_debug", "deny_devtools_unsigned_extensions"]
+  },
+  "failure_code": "POLICY_DEVTOOLS_BLOCKED"
+}

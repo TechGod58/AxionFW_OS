@@ -1,0 +1,10 @@
+﻿{
+    "fixture_id":  "policy_deny_v1",
+    "fixture_version":  "1.0",
+    "expected_markers":  [
+                             "M1"
+                         ],
+    "files":  [
+
+              ]
+}

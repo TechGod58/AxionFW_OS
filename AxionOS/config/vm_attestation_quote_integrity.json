@@ -1,0 +1,5 @@
+{
+  "name": "vm_attestation_quote_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

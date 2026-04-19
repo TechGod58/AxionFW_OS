@@ -1,0 +1,5 @@
+{
+  "name": "vm_console_channel_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

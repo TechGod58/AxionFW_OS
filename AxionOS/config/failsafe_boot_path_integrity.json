@@ -1,0 +1,10 @@
+{
+  "contract_id": "failsafe_boot_path_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "FAILSAFE_BOOT_POLICY_BYPASS_ACCEPTED",
+    "FAILSAFE_IMAGE_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3301
+}

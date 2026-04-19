@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "policy": {
+    "enabled": false,
+    "algorithm": "aes-256-gcm",
+    "scope": [
+      "os_volume",
+      "profile_storage"
+    ],
+    "requires_preboot_auth": false,
+    "key_prompt_mode": "external_offline_access_only",
+    "allow_email_recovery_escrow": false
+  },
+  "runtime": {
+    "status": "not_configured",
+    "last_updated_utc": null,
+    "last_key_rotation_utc": null,
+    "normal_boot_unlock_mode": "transparent_via_trusted_boot"
+  },
+  "recovery": {
+    "key_id": null,
+    "key_hint": null,
+    "local_secure_path": null,
+    "email_escrow": {
+      "enabled": false,
+      "address": null,
+      "delivery_mode": "manual_out_of_band_only",
+      "last_staged_utc": null
+    }
+  },
+  "setup_requirements": {
+    "computer_name_required": true,
+    "username_required": true,
+    "password_optional": true,
+    "pin_length": {
+      "min": 4,
+      "max": 8
+    },
+    "biometric": {
+      "fingerprint_supported": true,
+      "face_unlock_supported": true
+    }
+  }
+}

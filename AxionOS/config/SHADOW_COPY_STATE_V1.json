@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "policyId": "AXION_SHADOW_COPY_STATE_V1",
+  "scopes": {
+    "unit_shadow_roundtrip": {
+      "last_snapshot_id": "sc_20260418T161558710581Z",
+      "last_snapshot_utc": "2026-04-18T16:15:58.710581+00:00",
+      "last_rollback_snapshot_id": "sc_20260418T161558710581Z",
+      "last_rollback_utc": "2026-04-18T16:15:58.718397+00:00"
+    },
+    "unit_shadow_retention": {
+      "last_snapshot_id": "sc_20260110T000000000000Z",
+      "last_snapshot_utc": "2026-01-10T00:00:00+00:00"
+    },
+    "unit_shadow_maintenance": {
+      "last_snapshot_id": "sc_20260101T000000000000Z",
+      "last_snapshot_utc": "2026-01-01T00:00:00+00:00"
+    },
+    "cp_shadow_copy_scope": {
+      "last_snapshot_id": "sc_20260418T183721470933Z",
+      "last_snapshot_utc": "2026-04-18T18:37:21.470933+00:00",
+      "last_rollback_snapshot_id": "sc_20260418T183721470933Z",
+      "last_rollback_utc": "2026-04-18T18:37:21.478694+00:00"
+    },
+    "soak_shadow_weekly_scope": {
+      "last_snapshot_id": "sc_20260305T000000000000Z",
+      "last_snapshot_utc": "2026-03-05T00:00:00+00:00",
+      "last_rollback_snapshot_id": "sc_20260305T000000000000Z",
+      "last_rollback_utc": "2026-04-18T18:39:59.607850+00:00"
+    }
+  }
+}

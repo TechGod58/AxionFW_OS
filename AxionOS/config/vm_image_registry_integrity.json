@@ -1,0 +1,5 @@
+{
+  "name": "vm_image_registry_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

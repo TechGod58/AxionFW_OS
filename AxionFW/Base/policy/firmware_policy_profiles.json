@@ -1,0 +1,39 @@
+﻿{
+  "version": 1,
+  "policy_id": "AXION_FW_POLICY_EXECUTOR_V1",
+  "default_profile": "generic_x64_safe",
+  "profiles": [
+    {
+      "id": "q35_reference",
+      "match": {
+        "model_contains": ["q35", "qemu", "virtual"],
+        "manufacturer_contains": ["qemu", "bochs", "innotek"]
+      },
+      "firmware_profile": "axionfw_q35_split_ref",
+      "driver_profile": "axionos_capsule_q35_ref",
+      "required_firmware_artifacts": ["OVMF_CODE.fd", "OVMF_VARS.fd"],
+      "required_services": ["UEFI Boot Services", "UEFI Runtime Services", "ACPI table export"],
+      "parallel_cubed_guard": {
+        "strict_mode": true,
+        "allow_bus_classes": [1, 2, 6],
+        "deny_bus_classes": [12, 13]
+      }
+    },
+    {
+      "id": "generic_x64_safe",
+      "match": {
+        "model_contains": [],
+        "manufacturer_contains": []
+      },
+      "firmware_profile": "axionfw_generic_x64_safe",
+      "driver_profile": "axionos_capsule_generic_x64",
+      "required_firmware_artifacts": ["OVMF_CODE.fd", "OVMF_VARS.fd"],
+      "required_services": ["UEFI Boot Services", "UEFI Runtime Services", "ACPI table export"],
+      "parallel_cubed_guard": {
+        "strict_mode": true,
+        "allow_bus_classes": [1, 2, 6],
+        "deny_bus_classes": [12, 13]
+      }
+    }
+  ]
+}

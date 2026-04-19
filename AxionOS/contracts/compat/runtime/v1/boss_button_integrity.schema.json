@@ -1,0 +1,1 @@
+﻿{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"boss button integrity schema","type":"object","required":["status","boss_button","failures"],"properties":{"status":{"type":"string","enum":["PASS","FAIL"]},"boss_button":{"type":"object"},"failures":{"type":"array","items":{"type":"object"}}}}

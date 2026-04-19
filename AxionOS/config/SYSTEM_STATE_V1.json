@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "about": {
+    "product": "AxionOS",
+    "edition": "Qh8#",
+    "version": "0.1.0-dev",
+    "channel": "dev",
+    "activation": "development"
+  },
+  "display": {
+    "scale_pct": 100,
+    "night_light": true,
+    "multiple_displays": "extend"
+  },
+  "sound": {
+    "output_device": "Test Headset",
+    "input_device": "Integrated Microphone",
+    "spatial_audio": false
+  },
+  "notifications": {
+    "enabled": true,
+    "do_not_disturb": false
+  },
+  "power": {
+    "mode": "balanced",
+    "battery_saver": false
+  },
+  "storage": {
+    "storage_sense": true,
+    "cleanup_recommendations": true
+  },
+  "clipboard": {
+    "history_enabled": false,
+    "sync_enabled": false
+  },
+  "optional_features": [
+    "Remote Desktop",
+    "Hypervisor Bridge",
+    "Linux Compatibility"
+  ]
+}

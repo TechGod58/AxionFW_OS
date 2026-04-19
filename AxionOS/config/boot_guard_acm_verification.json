@@ -1,0 +1,10 @@
+{
+  "contract_id": "boot_guard_acm_verification_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "BOOT_GUARD_ACM_SIGNATURE_BYPASS_ACCEPTED",
+    "BOOT_GUARD_ACM_HASH_MISMATCH_ACCEPTED"
+  ],
+  "parked_gate_exit": 2691
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "trusted_resume_path_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "TRUSTED_RESUME_STATE_TAMPER_ACCEPTED",
+    "RESUME_MEASUREMENT_BYPASS_ACCEPTED"
+  ],
+  "parked_gate_exit": 2841
+}

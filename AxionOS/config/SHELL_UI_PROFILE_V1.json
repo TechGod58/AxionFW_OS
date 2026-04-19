@@ -1,0 +1,150 @@
+{
+    "version":  1,
+    "taskbar":  {
+                    "style":  "windows7",
+                    "alignment":  "left",
+                    "allowLeftAlign":  true,
+                    "startButton":  {
+                                        "style":  "orb_win7",
+                                        "label":  "Start"
+                                    },
+                    "superbar":  {
+                                     "mergePinnedAndRunning":  true,
+                                     "largeIcons":  false,
+                                     "showLabels":  true,
+                                     "combineMode":  "combine_when_full",
+                                     "showRunningIndicators":  true,
+                                     "hoverPreviews":  true,
+                                     "showDesktopButton":  true
+                                 },
+                    "notificationArea":  {
+                                             "style":  "windows7",
+                                             "condenseInactiveIcons":  false,
+                                             "showClock":  true,
+                                             "showNetwork":  true,
+                                             "showSound":  true,
+                                             "showBattery":  true
+                                         },
+                    "backdrop":  "glass",
+                    "animations":  "aero"
+                },
+    "startMenu":  {
+                      "style":  "windows7_classic",
+                      "openOnWinKey":  true,
+                      "searchFirst":  false,
+                      "searchBoxPosition":  "bottom",
+                      "sections":  [
+                                       "pinned",
+                                       "recent_programs",
+                                       "right_column_links",
+                                       "power"
+                                   ],
+                      "rightColumnLinks":  [
+                                               "Workspace",
+                                               "Archives",
+                                               "Photos",
+                                               "Downloads",
+                                               "Music",
+                                               "FavoritesBar",
+                                               "Searches",
+                                               "Connections"
+                                           ],
+                      "defaultPowerAction":  "shutdown",
+                      "keyboardNavigation":  true,
+                      "quickActions":  [
+                                           {
+                                               "id":  "quick_connect_module",
+                                               "label":  "1-Click Connect Module",
+                                               "host":  "control_panel",
+                                               "item":  "Program Modules",
+                                               "action":  "one_click_connect",
+                                               "defaults":  {
+
+                                                            }
+                                           },
+                                           {
+                                               "id":  "quick_run_windows_installer",
+                                               "label":  "Run Windows Installer",
+                                               "host":  "control_panel",
+                                               "item":  "Programs and Features",
+                                               "action":  "run_installer",
+                                               "defaults":  {
+                                                                "family":  "windows",
+                                                                "profile":  "win11",
+                                                                "execute":  true
+                                                            }
+                                           },
+                                           {
+                                               "id":  "quick_run_linux_installer",
+                                               "label":  "Run Linux Installer",
+                                               "host":  "control_panel",
+                                               "item":  "Programs and Features",
+                                               "action":  "run_installer",
+                                               "defaults":  {
+                                                                "family":  "linux",
+                                                                "profile":  "linux_current",
+                                                                "execute":  true
+                                                            }
+                                           },
+                                           {
+                                               "id":  "quick_review_firewall_quarantine",
+                                               "label":  "Review Firewall Quarantine",
+                                               "host":  "control_panel",
+                                               "item":  "Windows Defender Firewall",
+                                               "action":  "review_firewall_quarantine",
+                                               "defaults":  {
+                                                                "limit":  20,
+                                                                "decision":  "pending"
+                                                            }
+                                           },
+                                           {
+                                               "id":  "quick_launch_command_prompt",
+                                               "label":  "Command Prompt",
+                                               "host":  "windows_tools",
+                                               "item":  "command_prompt",
+                                               "action":  "launch_tool",
+                                               "defaults":  {
+
+                                                            }
+                                           },
+                                           {
+                                               "id":  "quick_launch_powershell",
+                                               "label":  "PowerShell",
+                                               "host":  "windows_tools",
+                                               "item":  "powershell",
+                                               "action":  "launch_tool",
+                                               "defaults":  {
+
+                                                            }
+                                           },
+                                           {
+                                               "id":  "quick_launch_run_dialog",
+                                               "label":  "Run Dialog",
+                                               "host":  "windows_tools",
+                                               "item":  "run",
+                                               "action":  "launch_tool",
+                                               "defaults":  {
+
+                                                            }
+                                           },
+                                           {
+                                               "id":  "quick_pending_bios_settings",
+                                               "label":  "Firmware Settings Queue",
+                                               "host":  "windows_tools",
+                                               "item":  "firmware_bios_settings",
+                                               "action":  "get_pending_bios_settings",
+                                               "defaults":  {
+
+                                                            }
+                                           }
+                                       ]
+                  },
+    "accessibility":  {
+                          "reducedMotion":  true,
+                          "highContrast":  true
+                      },
+    "performance":  {
+                        "startOpenMsWarmTarget":  120,
+                        "shellIdleCpuPctTarget":  1.5
+                    }
+}

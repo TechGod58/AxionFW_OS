@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "network schema",
+  "type": "object",
+  "required": ["status","adapters","failures"],
+  "properties": {
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "adapters": {"type":"array","items":{"type":"object"}},
+    "dns": {"type":"array","items":{"type":"string"}},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

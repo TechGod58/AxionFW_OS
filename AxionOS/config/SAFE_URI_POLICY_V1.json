@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "scheme": "safe",
+  "zones": {
+    "projects": {
+      "enabled": true,
+      "root": "data\\projects",
+      "maxBytes": 268435456,
+      "allowedMimePrefixes": [
+        "application/",
+        "text/",
+        "image/"
+      ],
+      "blockedExtensions": [
+        ".sys",
+        ".dll",
+        ".exe",
+        ".bat",
+        ".ps1"
+      ]
+    },
+    "userdocs": {
+      "enabled": true,
+      "root": "data\\userdocs",
+      "maxBytes": 33554432,
+      "allowedMimePrefixes": [
+        "text/",
+        "application/pdf",
+        "image/"
+      ],
+      "blockedExtensions": [
+        ".sys",
+        ".dll",
+        ".exe",
+        ".bat",
+        ".ps1"
+      ]
+    },
+    "artifacts": {
+      "enabled": true,
+      "root": "data\\artifacts",
+      "maxBytes": 1073741824,
+      "allowedMimePrefixes": [
+        "application/",
+        "text/",
+        "image/"
+      ],
+      "blockedExtensions": [
+        ".sys",
+        ".dll",
+        ".exe",
+        ".bat",
+        ".ps1"
+      ]
+    },
+    "imports": {
+      "enabled": true,
+      "root": "data\\imports",
+      "maxBytes": 268435456,
+      "allowedMimePrefixes": [
+        "application/",
+        "text/",
+        "image/"
+      ],
+      "blockedExtensions": [
+        ".sys",
+        ".dll",
+        ".exe",
+        ".bat",
+        ".ps1"
+      ]
+    }
+  },
+  "disallowedZones": [
+    "system",
+    "windows",
+    "boot",
+    "drivers",
+    "registry"
+  ],
+  "pathRules": {
+    "forbidTraversal": true,
+    "forbidDriveLetters": true,
+    "forbidUNC": true,
+    "forbidAbsolute": true
+  },
+  "decisionCodes": [
+    "MAP_OK",
+    "MAP_FAIL_SCHEME",
+    "MAP_FAIL_ZONE",
+    "MAP_FAIL_PATH_EMPTY",
+    "MAP_FAIL_TRAVERSAL",
+    "MAP_FAIL_POLICY_TYPE",
+    "MAP_FAIL_POLICY_SIZE",
+    "MAP_FAIL_ESCAPE_DETECTED"
+  ]
+}

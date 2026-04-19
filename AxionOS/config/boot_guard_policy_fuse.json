@@ -1,0 +1,7 @@
+{
+  "expected_fuse_state": "LOCKED",
+  "expected_profile": "VerifiedBoot",
+  "expected_measurement_policy": "strict",
+  "policy_enforced": true,
+  "schema_version": "v1"
+}

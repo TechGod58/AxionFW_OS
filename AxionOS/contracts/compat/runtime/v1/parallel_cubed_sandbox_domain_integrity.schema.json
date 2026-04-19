@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "parallel cubed sandbox domain integrity schema",
+  "type": "object",
+  "required": [
+    "status",
+    "policy_id",
+    "app_vm_policy_id",
+    "regions",
+    "rails",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "policy_id": {
+      "type": "string"
+    },
+    "app_vm_policy_id": {
+      "type": "string"
+    },
+    "regions": {
+      "type": "object"
+    },
+    "rails": {
+      "type": "object"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

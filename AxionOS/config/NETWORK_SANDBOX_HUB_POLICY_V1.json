@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "policyId": "AXION_NETWORK_SANDBOX_HUB_POLICY_V1",
+  "enabled": true,
+  "fail_closed": true,
+  "ingress_sandbox": {
+    "session_id": "internet_ingress_hub",
+    "default_ingress_adapter": "wired",
+    "adapters": {
+      "wired": {
+        "enabled": true,
+        "sandboxed": true
+      },
+      "wifi": {
+        "enabled": true,
+        "sandboxed": true
+      },
+      "bluetooth": {
+        "enabled": true,
+        "sandboxed": true
+      },
+      "vpn": {
+        "enabled": true,
+        "sandboxed": true
+      },
+      "rdp_admin": {
+        "enabled": true,
+        "sandboxed": true
+      },
+      "rdp_user": {
+        "enabled": false,
+        "sandboxed": true
+      }
+    }
+  },
+  "sharing_defaults": {
+    "require_share_mapping": true,
+    "allow_upload": false,
+    "allow_download": true,
+    "allowed_adapters": [
+      "wired",
+      "wifi",
+      "bluetooth",
+      "vpn"
+    ],
+    "deny_if_quarantined": true
+  },
+  "quarantine": {
+    "auto_cutoff": true,
+    "infected_signal_fields": [
+      "sandbox_infection_signal",
+      "infected_sandbox",
+      "malware_detected"
+    ]
+  }
+}

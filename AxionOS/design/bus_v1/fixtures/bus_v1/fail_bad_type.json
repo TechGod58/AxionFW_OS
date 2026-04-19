@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "type": "route.launch",
+  "id": "msg_bad_0002",
+  "ts": "2026-03-01T13:45:40Z",
+  "source": "axionos",
+  "target": "axionbus",
+  "corr": "corr_bad_0002",
+  "payload": {
+    "job_id": "job_bad"
+  }
+}

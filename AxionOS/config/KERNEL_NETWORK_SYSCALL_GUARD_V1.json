@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "policyId": "AXION_KERNEL_NETWORK_SYSCALL_GUARD_V1",
+  "enabled": true,
+  "default_effect": "deny",
+  "rules": [
+    {
+      "id": "kernel_allow_external_repo",
+      "enabled": true,
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": "repo.axion.local",
+      "host_match": "exact",
+      "remote_port": 443,
+      "priority": 200
+    },
+    {
+      "id": "kernel_allow_external_packages",
+      "enabled": true,
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": "packages.axion.local",
+      "host_match": "exact",
+      "remote_port": 443,
+      "priority": 200
+    },
+    {
+      "id": "kernel_allow_external_microsoft_suffix",
+      "enabled": true,
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": ".microsoft.com",
+      "host_match": "suffix",
+      "remote_port": 443,
+      "priority": 150
+    },
+    {
+      "id": "kernel_allow_external_ubuntu_suffix",
+      "enabled": true,
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": ".ubuntu.com",
+      "host_match": "suffix",
+      "remote_port": 443,
+      "priority": 150
+    },
+    {
+      "id": "kernel_allow_quarantine_00001",
+      "enabled": true,
+      "source": "firewall_quarantine_adjudication",
+      "note": "unit test allow",
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": "adjudication-test.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "remote_port": 443
+    },
+    {
+      "id": "kernel_allow_quarantine_00002",
+      "enabled": true,
+      "source": "firewall_quarantine_adjudication",
+      "note": "approved in host test",
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": "privacy-host-quarantine.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "remote_port": 443
+    },
+    {
+      "id": "kernel_allow_quarantine_00003",
+      "enabled": true,
+      "source": "firewall_quarantine_adjudication",
+      "note": "allow from control panel test",
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": "cp-quarantine.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "remote_port": 443
+    },
+    {
+      "id": "kernel_allow_quarantine_00004",
+      "enabled": true,
+      "source": "firewall_quarantine_adjudication",
+      "note": "qa smoke allowlist",
+      "app_id": "external_installer",
+      "effect": "allow",
+      "protocol": "https",
+      "remote_host": "qa-firewall-quarantine.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "remote_port": 443
+    }
+  ]
+}

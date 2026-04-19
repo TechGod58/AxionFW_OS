@@ -1,0 +1,36 @@
+﻿{
+  "version": 2,
+  "toggles": {
+    "wifi": true,
+    "bluetooth": false,
+    "vpn": false,
+    "airplane_mode": false,
+    "metered_network": false,
+    "location": false,
+    "camera_access": true,
+    "microphone_access": true,
+    "clipboard_history": false,
+    "telemetry_mode_local_only": true,
+    "firewall_strict_mode": false,
+    "lockdown_mode": false,
+    "threat_scan_mode_quick": false,
+    "notifications": true,
+    "background_apps": false,
+    "autostart_permission": false,
+    "reduced_motion": false,
+    "high_contrast": false,
+    "live_captions": false,
+    "on_screen_keyboard": false,
+    "visual_effects": false,
+    "night_light": false,
+    "developer_mode": false
+  },
+  "favorites": [
+    "wifi",
+    "bluetooth",
+    "vpn",
+    "location",
+    "notifications",
+    "visual_effects"
+  ]
+}

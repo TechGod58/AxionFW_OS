@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "audit log immutability integrity schema",
+  "type": "object",
+  "required": ["status", "audit_immutability", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "audit_immutability": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

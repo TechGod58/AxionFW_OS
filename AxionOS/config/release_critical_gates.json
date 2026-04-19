@@ -1,0 +1,989 @@
+{
+  "version": "1.0",
+  "gates": [
+    {
+      "contract_id": "observability_unified_gate",
+      "gate_exit": 501,
+      "category": "observability",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "configuration_immutable_field_policy",
+      "gate_exit": 531,
+      "category": "configuration",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "secrets_handling_integrity",
+      "gate_exit": 551,
+      "category": "secrets",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "artifact_provenance_integrity",
+      "gate_exit": 571,
+      "category": "supply_chain",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "runtime_isolation_integrity",
+      "gate_exit": 591,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "dependency_version_lock_integrity",
+      "gate_exit": 611,
+      "category": "build",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "build_reproducibility_integrity",
+      "gate_exit": 631,
+      "category": "build",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "backup_restore_integrity",
+      "gate_exit": 651,
+      "category": "recovery",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "time_sync_integrity",
+      "gate_exit": 671,
+      "category": "time",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "identity_access_integrity",
+      "gate_exit": 691,
+      "category": "identity",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "network_trust_boundary_integrity",
+      "gate_exit": 711,
+      "category": "network",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "audit_log_immutability_integrity",
+      "gate_exit": 751,
+      "category": "audit",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "state_machine_transition_integrity",
+      "gate_exit": 771,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "privilege_boundary_integrity",
+      "gate_exit": 791,
+      "category": "access",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "cluster_membership_integrity",
+      "gate_exit": 911,
+      "category": "cluster",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "service_discovery_integrity",
+      "gate_exit": 931,
+      "category": "cluster",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "scheduler_decision_determinism_integrity",
+      "gate_exit": 951,
+      "category": "scheduler",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "storage_snapshot_integrity",
+      "gate_exit": 971,
+      "category": "storage",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "leader_election_integrity",
+      "gate_exit": 991,
+      "category": "cluster",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "inter_service_mtls_identity_integrity",
+      "gate_exit": 1011,
+      "category": "identity",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "consensus_log_integrity",
+      "gate_exit": 1031,
+      "category": "cluster",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "admission_control_integrity",
+      "gate_exit": 1051,
+      "category": "policy",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "configuration_rollout_consistency_integrity",
+      "gate_exit": 1071,
+      "category": "configuration",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "workload_identity_attestation_integrity",
+      "gate_exit": 1091,
+      "category": "identity",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "runtime_api_contract_integrity",
+      "gate_exit": 1111,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "event_bus_delivery_integrity",
+      "gate_exit": 1131,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "state_checkpoint_consistency_integrity",
+      "gate_exit": 1151,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "distributed_rate_limit_integrity",
+      "gate_exit": 1211,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "secrets_rotation_consistency_integrity",
+      "gate_exit": 1221,
+      "category": "secrets",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "control_plane_reconciliation_integrity",
+      "gate_exit": 1231,
+      "category": "cluster",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "artifact_supply_chain_integrity",
+      "gate_exit": 1241,
+      "category": "supply_chain",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "policy_compiler_integrity",
+      "gate_exit": 1261,
+      "category": "policy",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "idempotency_semantics_integrity",
+      "gate_exit": 1281,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "transactional_outbox_integrity",
+      "gate_exit": 1301,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "schema_migration_integrity",
+      "gate_exit": 1321,
+      "category": "storage",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "dead_letter_queue_integrity",
+      "gate_exit": 1341,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "retry_backoff_integrity",
+      "gate_exit": 1441,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "poison_message_quarantine_integrity",
+      "gate_exit": 1451,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "consumer_offset_commit_integrity",
+      "gate_exit": 1461,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "exactly_once_delivery_integrity",
+      "gate_exit": 1481,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "saga_compensation_integrity",
+      "gate_exit": 1531,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "inbox_outbox_pairing_integrity",
+      "gate_exit": 1541,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "event_schema_compatibility_integrity",
+      "gate_exit": 1611,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "boss_button_integrity",
+      "gate_exit": 1663,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "parallel_cubed_sandbox_domain_integrity",
+      "gate_exit": 1664,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "event_schema_integrity",
+      "gate_exit": 2001,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "producer_sequence_integrity",
+      "gate_exit": 2011,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "consumer_group_balance_integrity",
+      "gate_exit": 2021,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "hotkey_layout_integrity",
+      "gate_exit": 2031,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "hotkey_action_registry_integrity",
+      "gate_exit": 2041,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "message_deduplication_store_integrity",
+      "gate_exit": 2051,
+      "category": "runtime",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_test_harness_integrity",
+      "gate_exit": 2061,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_image_build_provenance_integrity",
+      "gate_exit": 2071,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "usb_device_isolation_integrity",
+      "gate_exit": 2081,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "thunderbolt_dma_policy_integrity",
+      "gate_exit": 2091,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "pcie_hotplug_isolation_integrity",
+      "gate_exit": 2101,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "backpressure_enforcement_integrity",
+      "gate_exit": 2102,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "peripheral_firmware_trust_integrity",
+      "gate_exit": 2111,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "checkpoint_lineage_integrity",
+      "gate_exit": 2112,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "external_storage_execution_policy_integrity",
+      "gate_exit": 2121,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "consumer_rebalance_state_safety_integrity",
+      "gate_exit": 2122,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "peripheral_interrupt_isolation_integrity",
+      "gate_exit": 2131,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "dead_letter_routing_consistency_integrity",
+      "gate_exit": 2132,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "spi_peripheral_access_policy_integrity",
+      "gate_exit": 2141,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "dedup_window_alignment_integrity",
+      "gate_exit": 2142,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "i2c_bus_trust_policy_integrity",
+      "gate_exit": 2151,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "event_time_ordering_integrity",
+      "gate_exit": 2152,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "uart_console_exposure_integrity",
+      "gate_exit": 2161,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "event_time_watermark_alignment_integrity",
+      "gate_exit": 2162,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "embedded_controller_trust_integrity",
+      "gate_exit": 2171,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "exactly_once_state_update_integrity",
+      "gate_exit": 2172,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "sensor_bus_isolation_integrity",
+      "gate_exit": 2181,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "late_event_handling_integrity",
+      "gate_exit": 2182,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "mmio_window_policy_integrity",
+      "gate_exit": 2191,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "offset_to_state_atomicity_integrity",
+      "gate_exit": 2192,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "interconnect_link_training_integrity",
+      "gate_exit": 2201,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "poison_event_quarantine_integrity",
+      "gate_exit": 2202,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "fabric_error_containment_integrity",
+      "gate_exit": 2211,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "producer_epoch_fencing_integrity",
+      "gate_exit": 2212,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "cross_socket_trust_integrity",
+      "gate_exit": 2221,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "restore_replay_determinism_integrity",
+      "gate_exit": 2222,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "fabric_bandwidth_partition_integrity",
+      "gate_exit": 2231,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "retry_policy_coupling_integrity",
+      "gate_exit": 2232,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "interconnect_firmware_consistency_integrity",
+      "gate_exit": 2241,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "state_schema_evolution_integrity",
+      "gate_exit": 2242,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "pcie_fabric_policy_integrity",
+      "gate_exit": 2251,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "state_store_checkpoint_integrity",
+      "gate_exit": 2252,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "clock_source_integrity",
+      "gate_exit": 2261,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "state_store_compaction_integrity",
+      "gate_exit": 2262,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "pll_configuration_integrity",
+      "gate_exit": 2271,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "state_store_corruption_detection_integrity",
+      "gate_exit": 2272,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "power_state_transition_integrity",
+      "gate_exit": 2281,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "state_store_ttl_integrity",
+      "gate_exit": 2282,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "frequency_scaling_policy_integrity",
+      "gate_exit": 2291,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "stream_correctness_telemetry_integrity",
+      "gate_exit": 2292,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "virtual_network_policy_integrity",
+      "gate_exit": 2301,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "stream_partition_affinity_integrity",
+      "gate_exit": 2302,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_snapshot_restore_isolation_integrity",
+      "gate_exit": 2311,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "stream_retention_window_integrity",
+      "gate_exit": 2312,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_disk_encryption_integrity",
+      "gate_exit": 2321,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "time_window_boundary_integrity",
+      "gate_exit": 2322,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_memory_scrub_integrity",
+      "gate_exit": 2331,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "watermark_progress_integrity",
+      "gate_exit": 2332,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_device_passthrough_integrity",
+      "gate_exit": 2341,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "window_aggregation_consistency_integrity",
+      "gate_exit": 2342,
+      "category": "stream_processing",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_kernel_cmdline_lock_integrity",
+      "gate_exit": 2351,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_guest_tools_channel_integrity",
+      "gate_exit": 2361,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_time_sync_tamper_integrity",
+      "gate_exit": 2371,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_entropy_source_integrity",
+      "gate_exit": 2381,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_image_registry_integrity",
+      "gate_exit": 2391,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_attestation_quote_integrity",
+      "gate_exit": 2401,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "vm_console_channel_integrity",
+      "gate_exit": 2411,
+      "category": "virtualization",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "voltage_rail_policy_integrity",
+      "gate_exit": 2421,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "watchdog_timer_policy_integrity",
+      "gate_exit": 2431,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "firmware_rollback_protection_integrity",
+      "gate_exit": 2501,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "trusted_boot_measurement_chain_integrity",
+      "gate_exit": 2521,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "platform_measured_boot_policy_integrity",
+      "gate_exit": 2531,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "firmware_attestation_chain_integrity",
+      "gate_exit": 2541,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "bootloader_key_rotation_integrity",
+      "gate_exit": 2551,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "uefi_variable_policy_integrity",
+      "gate_exit": 2561,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "spi_flash_descriptor_lock_integrity",
+      "gate_exit": 2671,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "boot_guard_policy_fuse_integrity",
+      "gate_exit": 2681,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "boot_guard_acm_verification_integrity",
+      "gate_exit": 2691,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "tpm_event_log_integrity",
+      "gate_exit": 2701,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "pcr_policy_binding_integrity",
+      "gate_exit": 2711,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "firmware_image_layout_integrity",
+      "gate_exit": 2721,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "microcode_patch_authenticity_integrity",
+      "gate_exit": 2731,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "platform_fuse_configuration_integrity",
+      "gate_exit": 2741,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "smm_handler_integrity",
+      "gate_exit": 2751,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "dma_remapping_policy_integrity",
+      "gate_exit": 2761,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "iommu_enforcement_integrity",
+      "gate_exit": 2771,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "runtime_services_table_integrity",
+      "gate_exit": 2781,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "option_rom_execution_policy_integrity",
+      "gate_exit": 2791,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "chipset_lock_register_integrity",
+      "gate_exit": 2801,
+      "category": "firmware",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "secure_time_source_integrity",
+      "gate_exit": 2811,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "runtime_measurement_anchor_integrity",
+      "gate_exit": 2821,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "platform_identity_binding_integrity",
+      "gate_exit": 2831,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "trusted_resume_path_integrity",
+      "gate_exit": 2841,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "crashdump_protection_integrity",
+      "gate_exit": 2851,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "debug_unlock_policy_integrity",
+      "gate_exit": 2861,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "resume_memory_integrity",
+      "gate_exit": 2871,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "post_boot_attestation_refresh_integrity",
+      "gate_exit": 2881,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "sealed_storage_binding_integrity",
+      "gate_exit": 2891,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "platform_event_forwarding_integrity",
+      "gate_exit": 2901,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "recovery_mode_policy_integrity",
+      "gate_exit": 2911,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "maintenance_override_integrity",
+      "gate_exit": 2921,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_identity_attestation_integrity",
+      "gate_exit": 2931,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "platform_certificate_rotation_integrity",
+      "gate_exit": 2941,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_binding_anchor_integrity",
+      "gate_exit": 2951,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "peripheral_trust_policy_integrity",
+      "gate_exit": 2961,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "external_device_measurement_integrity",
+      "gate_exit": 2971,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_trust_revocation_integrity",
+      "gate_exit": 2981,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_runtime_access_policy_integrity",
+      "gate_exit": 2991,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "hotplug_device_trust_integrity",
+      "gate_exit": 2992,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_driver_runtime_policy_integrity",
+      "gate_exit": 2993,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_dma_runtime_guard_integrity",
+      "gate_exit": 2994,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_session_trust_integrity",
+      "gate_exit": 2995,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "device_runtime_revocation_integrity",
+      "gate_exit": 2996,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "reset_path_integrity",
+      "gate_exit": 3291,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "failsafe_boot_path_integrity",
+      "gate_exit": 3301,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "recovery_chain_integrity",
+      "gate_exit": 3311,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "rollback_failsafe_integrity",
+      "gate_exit": 3321,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "panic_response_policy_integrity",
+      "gate_exit": 3331,
+      "category": "platform",
+      "doctrine_required": true
+    },
+    {
+      "contract_id": "platform_safe_mode_integrity",
+      "gate_exit": 3341,
+      "category": "platform",
+      "doctrine_required": true
+    }
+  ]
+}

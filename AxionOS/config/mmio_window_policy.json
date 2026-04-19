@@ -1,0 +1,10 @@
+{
+  "contract_id": "mmio_window_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "MMIO_WINDOW_POLICY_BYPASS_ACCEPTED",
+    "MMIO_RANGE_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3161
+}

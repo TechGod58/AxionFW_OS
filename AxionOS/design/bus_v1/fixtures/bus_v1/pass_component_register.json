@@ -1,0 +1,17 @@
+{
+  "v": 1,
+  "type": "component.register",
+  "id": "msg_0001",
+  "ts": "2026-03-01T13:45:00Z",
+  "source": "axionos",
+  "target": "axionbus",
+  "corr": "corr_0001",
+  "payload": {
+    "component_id": "comp_vm_001",
+    "component_kind": "vm",
+    "contract_version": "1.0.0",
+    "capabilities": ["compute.cpu", "io.net"],
+    "resource_hints": { "cpu": 2, "mem_mb": 2048 },
+    "labels": { "priority": "normal" }
+  }
+}

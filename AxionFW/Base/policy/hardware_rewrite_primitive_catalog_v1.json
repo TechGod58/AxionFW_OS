@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "catalog_id": "AXION_FW_REWRITE_PRIMITIVE_CATALOG_V1",
+  "default_primitives": [
+    "inventory_guard",
+    "backup_firmware_payload",
+    "stage_inactive_slot",
+    "verify_staged_hashes",
+    "mark_slot_switch_on_reboot",
+    "rollback_on_stage_failure"
+  ],
+  "platform_primitives": {
+    "intel_x64": [
+      "program_intel_pcie_fabric",
+      "program_intel_mmio_policy"
+    ],
+    "amd_x64": [
+      "program_amd_pcie_fabric",
+      "program_amd_mmio_policy"
+    ],
+    "generic_x64_uefi": [
+      "program_generic_uefi_bus_policy"
+    ]
+  },
+  "primitives": {
+    "inventory_guard": {
+      "requires": [
+        "inventory_manifest"
+      ],
+      "description": "Fail closed unless inventory exists and hashes match."
+    },
+    "backup_firmware_payload": {
+      "requires": [
+        "firmware_payload"
+      ],
+      "description": "Copy current firmware payload and metadata to immutable backup directory."
+    },
+    "stage_inactive_slot": {
+      "requires": [
+        "ab_slot_state"
+      ],
+      "description": "Stage rewrite artifacts into inactive A/B slot only."
+    },
+    "verify_staged_hashes": {
+      "requires": [
+        "staged_slot_payload"
+      ],
+      "description": "Verify staged payload hash parity before any slot transition."
+    },
+    "mark_slot_switch_on_reboot": {
+      "requires": [
+        "slot_state_update"
+      ],
+      "description": "Mark inactive slot as pending activation after restart."
+    },
+    "rollback_on_stage_failure": {
+      "requires": [
+        "backup_completed"
+      ],
+      "description": "Keep current active slot and preserve backup pointer on failure."
+    },
+    "program_intel_pcie_fabric": {
+      "requires": [
+        "intel_adapter"
+      ],
+      "description": "Apply Intel bus/chipset primitive policy operations (metadata-planned)."
+    },
+    "program_intel_mmio_policy": {
+      "requires": [
+        "intel_adapter"
+      ],
+      "description": "Apply Intel MMIO guardrail operations (metadata-planned)."
+    },
+    "program_amd_pcie_fabric": {
+      "requires": [
+        "amd_adapter"
+      ],
+      "description": "Apply AMD bus/chipset primitive policy operations (metadata-planned)."
+    },
+    "program_amd_mmio_policy": {
+      "requires": [
+        "amd_adapter"
+      ],
+      "description": "Apply AMD MMIO guardrail operations (metadata-planned)."
+    },
+    "program_generic_uefi_bus_policy": {
+      "requires": [
+        "generic_adapter"
+      ],
+      "description": "Fallback bus policy operations for unknown/unsupported boards."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "i2c_bus_trust_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "I2C_BUS_TRUST_BYPASS_ACCEPTED",
+    "I2C_DEVICE_AUTH_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3121
+}

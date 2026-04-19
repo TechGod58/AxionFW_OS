@@ -1,0 +1,10 @@
+{
+  "contract_id": "power_state_transition_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "POWER_STATE_TRANSITION_BYPASS_ACCEPTED",
+    "UNAUTHORIZED_LOW_POWER_ENTRY_ACCEPTED"
+  ],
+  "parked_gate_exit": 3251
+}

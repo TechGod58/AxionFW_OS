@@ -1,0 +1,6 @@
+{
+  "uri": "safe://system/kernel.bin",
+  "mimeType": "application/octet-stream",
+  "sizeBytes": 4096,
+  "expected": "MAP_FAIL_ZONE"
+}

@@ -1,0 +1,11 @@
+﻿{
+  "version": 1,
+  "theme": "Axion Industries AI",
+  "signatureMark": "Qh8#",
+  "signatureMeaning": "Check / Checkmate",
+  "wallpapers": [
+    {"id":"axion_ai_01","file":"axion_ai_wallpaper_01.jpg","title":"Axion Industries AI - Cyber Figure"},
+    {"id":"axion_ai_02","file":"axion_ai_wallpaper_02.jpg","title":"Axion Industries AI - Elder Figure"},
+    {"id":"axion_ai_03","file":"axion_ai_wallpaper_03.jpg","title":"Axion Industries AI - Logo Dark"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "watchdog_timer_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "WATCHDOG_POLICY_BYPASS_ACCEPTED",
+    "WATCHDOG_DISABLE_PATH_ACCEPTED"
+  ],
+  "parked_gate_exit": 3281
+}

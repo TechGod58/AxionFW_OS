@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "desktop": {
+    "surface": {
+      "displayName": "Workspace",
+      "legacyAlias": "Desktop"
+    },
+    "defaultIcons": {
+      "profileFolder": true,
+      "mainDrive": true,
+      "recycleBin": true
+    },
+    "defaultLinks": [
+      {
+        "id": "google_chrome_download",
+        "label": "Download Google Chrome",
+        "placement": "Workspace",
+        "linkType": "web_download",
+        "target": "https://www.google.com/chrome/",
+        "installerArtifact": "chrome_installer.exe",
+        "preferredFamily": "windows",
+        "preferredProfile": "win11",
+        "launchPolicy": "open_in_default_browser_capsule"
+      },
+      {
+        "id": "microsoft_edge_download",
+        "label": "Download Microsoft Edge",
+        "placement": "Workspace",
+        "linkType": "web_download",
+        "target": "https://www.microsoft.com/edge/download",
+        "installerArtifact": "microsoft_edge_installer.exe",
+        "preferredFamily": "windows",
+        "preferredProfile": "win11",
+        "launchPolicy": "open_in_default_browser_capsule"
+      },
+      {
+        "id": "mozilla_firefox_download",
+        "label": "Download Mozilla Firefox",
+        "placement": "Workspace",
+        "linkType": "web_download",
+        "target": "https://www.mozilla.org/firefox/new/",
+        "installerArtifact": "firefox_installer.exe",
+        "preferredFamily": "windows",
+        "preferredProfile": "win11",
+        "launchPolicy": "open_in_default_browser_capsule"
+      }
+    ],
+    "folders": {
+      "showHiddenFiles": false,
+      "showFileExtensions": true,
+      "showProtectedSystemFiles": false,
+      "openEachFolderInNewWindow": false,
+      "launchFolderWindowsInSeparateProcess": false,
+      "showStatusBar": true,
+      "showPreviewPane": false,
+      "showDetailsPane": true,
+      "singleClickToOpen": false,
+      "itemCheckBoxes": true
+    }
+  },
+  "graphics": {
+    "quality": "balanced",
+    "transparency": false,
+    "blur": false,
+    "reducedMotion": false,
+    "themeLinkedAccent": true
+  }
+}

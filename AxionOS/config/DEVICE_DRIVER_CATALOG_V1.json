@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "drivers": [
+    {
+      "match": {
+        "bus": "usb",
+        "vendor": "1234",
+        "product": "5678"
+      },
+      "driver_id": "drv_usb_storage_generic",
+      "version": "1.0.0",
+      "signed": true
+    },
+    {
+      "match": {
+        "bus": "pci",
+        "vendor": "8086",
+        "product": "100e"
+      },
+      "driver_id": "drv_pci_net_e1000",
+      "version": "1.0.0",
+      "signed": true
+    },
+    {
+      "match": {
+        "bus": "pci",
+        "vendor": "8086",
+        "product": "29c0",
+        "bsp": "bsp_q35_ovmf_ref_v1"
+      },
+      "driver_id": "drv_mb_q35_acpi",
+      "driver_class": "motherboard_core",
+      "version": "0.1.0",
+      "signed": true
+    },
+    {
+      "match": {
+        "bus": "pci",
+        "vendor": "8086",
+        "product": "2918",
+        "bsp": "bsp_q35_ovmf_ref_v1"
+      },
+      "driver_id": "drv_mb_ich9_lpc",
+      "driver_class": "motherboard_core",
+      "version": "0.1.0",
+      "signed": true
+    },
+    {
+      "match": {
+        "bus": "pci",
+        "vendor": "1af4",
+        "product": "1042",
+        "bsp": "bsp_q35_ovmf_ref_v1"
+      },
+      "driver_id": "drv_storage_virtio_blk_modern",
+      "driver_class": "device_io",
+      "version": "0.1.0",
+      "signed": true
+    },
+    {
+      "match": {
+        "bus": "sandbox",
+        "profile": "persistent_profile_sandbox"
+      },
+      "driver_id": "drv_sbx_profile_persist_bridge",
+      "driver_class": "sandbox_mediation",
+      "version": "0.1.0",
+      "signed": true
+    },
+    {
+      "match": {
+        "bus": "sandbox",
+        "profile": "audio_capture_capsule"
+      },
+      "driver_id": "drv_sbx_audio_capture_broker",
+      "driver_class": "sandbox_mediation",
+      "version": "0.1.0",
+      "signed": true
+    },
+    {
+      "match": {
+        "bus": "sandbox",
+        "profile": "video_capture_capsule"
+      },
+      "driver_id": "drv_sbx_video_capture_broker",
+      "driver_class": "sandbox_mediation",
+      "version": "0.1.0",
+      "signed": true
+    }
+  ]
+}

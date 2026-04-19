@@ -1,0 +1,10 @@
+{
+  "contract_id": "smm_handler_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "SMM_HANDLER_PATCH_ACCEPTED",
+    "SMM_HANDLER_ENTRY_VALIDATION_BYPASS"
+  ],
+  "parked_gate_exit": 2751
+}

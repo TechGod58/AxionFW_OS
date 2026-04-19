@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "title": "User's Tools",
+  "style": "windows7_all_items",
+  "items": [
+    {
+      "tool_id": "command_prompt",
+      "label": "Command Prompt",
+      "target": "shell"
+    },
+    {
+      "tool_id": "component_services",
+      "label": "Component Services",
+      "target": "Services"
+    },
+    {
+      "tool_id": "computer_management",
+      "label": "Computer Management",
+      "target": "System"
+    },
+    {
+      "tool_id": "control_panel",
+      "label": "ControlPanel",
+      "target": "ControlPanel"
+    },
+    {
+      "tool_id": "disk_cleanup",
+      "label": "Disk Cleanup",
+      "target": "Disk Cleanup"
+    },
+    {
+      "tool_id": "event_viewer",
+      "label": "Event Viewer",
+      "target": "Statistics"
+    },
+    {
+      "tool_id": "performance_monitor",
+      "label": "Performance Monitor",
+      "target": "Statistics"
+    },
+    {
+      "tool_id": "registry_editor",
+      "label": "Registry Editor",
+      "target": "registry_editor"
+    },
+    {
+      "tool_id": "remote_desktop_connection",
+      "label": "Remote Desktop Connection",
+      "target": "Remote Desktop"
+    },
+    {
+      "tool_id": "services",
+      "label": "Services",
+      "target": "Services"
+    },
+    {
+      "tool_id": "system_information",
+      "label": "System Information",
+      "target": "System"
+    },
+    {
+      "tool_id": "statistics",
+      "label": "Statistics",
+      "target": "Statistics"
+    },
+    {
+      "tool_id": "powershell",
+      "label": "PowerShell",
+      "target": "shell"
+    },
+    {
+      "tool_id": "audio_video_codecs",
+      "label": "Audio and Video Codecs",
+      "target": "media_codecs"
+    },
+    {
+      "tool_id": "video_player",
+      "label": "Video Player",
+      "target": "video_player"
+    },
+    {
+      "tool_id": "audio_recorder",
+      "label": "Audio Recorder",
+      "target": "audio_recorder"
+    },
+    {
+      "tool_id": "video_recorder",
+      "label": "Video Recorder",
+      "target": "video_recorder"
+    },
+    {
+      "tool_id": "advanced_system",
+      "label": "Advanced System",
+      "target": "advanced_system"
+    },
+    {
+      "tool_id": "task_scheduler",
+      "label": "Task Scheduler",
+      "target": "computer_management"
+    },
+    {
+      "tool_id": "disk_management",
+      "label": "Disk Management",
+      "target": "computer_management"
+    },
+    {
+      "tool_id": "system_configuration",
+      "label": "System Configuration",
+      "target": "advanced_system"
+    },
+    {
+      "tool_id": "shared_folders",
+      "label": "Shared Folders",
+      "target": "computer_management"
+    },
+    {
+      "tool_id": "local_users_groups",
+      "label": "Local Users and Groups",
+      "target": "computer_management"
+    },
+    {
+      "tool_id": "resource_monitor",
+      "label": "Resource Monitor",
+      "target": "Statistics"
+    },
+    {
+      "tool_id": "windows_memory_diagnostic",
+      "label": "Windows Memory Diagnostic",
+      "target": "advanced_system"
+    },
+    {
+      "tool_id": "run",
+      "label": "Run",
+      "target": "shell"
+    },
+    {
+      "tool_id": "print_management",
+      "label": "Print Management",
+      "target": "Bluetooth & Devices"
+    },
+    {
+      "tool_id": "preboot_auth",
+      "label": "Pre-Boot Secure Sign-In",
+      "target": "preboot_auth"
+    },
+    {
+      "tool_id": "repair_portal",
+      "label": "Repair Portal",
+      "target": "repair_portal"
+    },
+    {
+      "tool_id": "hardware_diagnostics",
+      "label": "Hardware Diagnostics",
+      "target": "hardware_diagnostics"
+    },
+    {
+      "tool_id": "user_account_creation",
+      "label": "User Account Creation",
+      "target": "account_creation"
+    }
+  ]
+}

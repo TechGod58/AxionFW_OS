@@ -1,0 +1,6 @@
+{
+  "uri": "safe://artifacts/qecc/run42/ttf_summary.json",
+  "mimeType": "application/json",
+  "sizeBytes": 8400,
+  "expected": "MAP_OK"
+}

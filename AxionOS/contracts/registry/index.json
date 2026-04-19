@@ -1,0 +1,1785 @@
+{
+  "registry_schema_version": "1.0",
+  "registry_build_id": "AXION_BUILD_20260304T115301Z",
+  "generated_at_utc": "2026-03-06T12:25:59.218523Z",
+  "entries": [
+    {
+      "contract_id": "accessibility_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/accessibility_panel/v1/accessibility_panel.schema.json",
+      "sha256": "d894d334ee69e7e5bb7944aec312c72d1e876e0147d1908aa6f4d5a1aa1ecce9"
+    },
+    {
+      "contract_id": "accounts",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/accounts/v1/accounts.schema.json",
+      "sha256": "cdf153782f5f3c9b7456880a37c73bc2bb6a6d7a391656b544478535d240506f"
+    },
+    {
+      "contract_id": "acpi_table_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/acpi_table_integrity.schema.json",
+      "sha256": "6299e199eb73a1c82684b9feac452fbb3f74753c814fe1bab22f2b731a31d778",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "admission_control_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/policy/v1/admission_control_integrity.schema.json",
+      "sha256": "adb07d0c215f7ba3779a743d680724e78ef322b2d10fc59a06dfe3fa35bcdfdf"
+    },
+    {
+      "contract_id": "apps",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/apps/v1/apps.schema.json",
+      "sha256": "f438d6ce16a75a386c67557a5529c5100d9a5035efbf5c011c641c9d68ccdab6"
+    },
+    {
+      "contract_id": "artifact_provenance_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/supply_chain/v1/artifact_provenance_integrity.schema.json",
+      "sha256": "f5ddbb585af582d8a4191ca20bc7c8bdb02b26c762919345e56c08412dce1866"
+    },
+    {
+      "contract_id": "artifact_supply_chain_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/supplychain/v1/artifact_supply_chain_integrity.schema.json",
+      "sha256": "ee8418e5380ec7e1caabb48d0e992a99e1447547629e3387aff6e4590d9895b6"
+    },
+    {
+      "contract_id": "audio_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/audio_panel/v1/audio_panel.schema.json",
+      "sha256": "5e9faf9d6574a65ddefc104767760c899965b5aadf517696f3804932d4ff319b"
+    },
+    {
+      "contract_id": "axionc_bd_session",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/axionc_bd_session/v1/axionc_bd_session.schema.json",
+      "sha256": "6019d631be01abc1528d02c957433e9dc353e915f72a4e3958dd3a4c993442ee"
+    },
+    {
+      "contract_id": "backpressure_enforcement_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/backpressure_enforcement_integrity.schema.json",
+      "sha256": "3f63fc7905d3a2de6873c538373ce545c54c16274c38e943d24a2c8df18825d7"
+    },
+    {
+      "contract_id": "backup_restore_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/backup/v1/backup_restore_integrity.schema.json",
+      "sha256": "d49193ff15eb55c7013402a63d85cafaa2e1adbfc958e88dd571543ad839756c"
+    },
+    {
+      "contract_id": "backup_restore_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/backup_restore_panel/v1/backup_restore_panel.schema.json",
+      "sha256": "74825e01b320348761a93cd0667182bef5eee3a4edd9dd421987ec6d5541a9e6"
+    },
+    {
+      "contract_id": "bios_region_write_protection_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/bios_region_write_protection_integrity.schema.json",
+      "sha256": "eb34109937934fcfb3e96dc44a22842b8fdea709382bde10f3166af409ec6bcd",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "boot_guard_acm_verification_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/boot_guard_acm_verification_integrity.schema.json",
+      "sha256": "399b9c5332e15ab081678fa4d0e1ececc2e333fc173216d7b378d73e885b47b0",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "boot_guard_policy_fuse_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/boot_guard_policy_fuse_integrity.schema.json",
+      "sha256": "e3e00080eec080bf695b5b46421a3e548fd3a574758aa849ec5d5bf731575161",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "boot_services_lockdown_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/boot_services_lockdown_integrity.schema.json",
+      "sha256": "7e2cba36be929a090e7013d22dc3f70ed6b7ca37e4415793216c62ab542b2c06",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "boss_button_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/boss_button_integrity.schema.json",
+      "sha256": "de6c61c28ea73d99f0f7cd4f20e60bbb0efef9a39a1a366efcb912c5b7ff4bd5"
+    },
+    {
+      "contract_id": "build_reproducibility_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/build/v1/build_reproducibility_integrity.schema.json",
+      "sha256": "6f2b200487974bf2999f649fc185104dd4338f51634deea640925e3a474b8b68"
+    },
+    {
+      "contract_id": "bus",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/bus/v1/bus.schema.json",
+      "sha256": "cbb7c243f23efd426147aab928bccc1becabd5140bf0b280a565b7e2f9a2cba9"
+    },
+    {
+      "contract_id": "checkpoint_lineage_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/checkpoint_lineage_integrity.schema.json",
+      "sha256": "d56fa4326aa00fcd4ef9cab9d8c9311bdde0042ef937f0328f1685a74d3f9b3f"
+    },
+    {
+      "contract_id": "chipset_lock_register_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/chipset_lock_register_integrity.schema.json",
+      "sha256": "8227685d29cb40cac36a334d6bdf16ffdd3d8b95fe83ed2aeb7c26ad864946bb",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "clock_source_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/clock_source_integrity.schema.json",
+      "sha256": "ed55e65dd78d8f316e453fe0dcd19e6d1897e20e377dcd677041fd02a6c03e96",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "cluster_membership_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/cluster/v1/cluster_membership_integrity.schema.json",
+      "sha256": "80d26af7dd96ae36feb3902e7a541f44e5d8cd0f802b2347ea7d1acd3a6281bc"
+    },
+    {
+      "contract_id": "configuration_drift_detection",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/configuration/v1/configuration_drift_detection.schema.json",
+      "sha256": "dfff773c52a62d22ea6d94e6f6dc496c3b5e4b29e29c05a630a90a0e80141fe2"
+    },
+    {
+      "contract_id": "configuration_immutable_field_policy",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/configuration/v1/configuration_immutable_field_policy.schema.json",
+      "sha256": "9ee250330f2dac49b066f8431d432232082fd715619eb1e52c7a4fef40ac2d48"
+    },
+    {
+      "contract_id": "configuration_rollout_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/configuration/v1/configuration_rollout_consistency_integrity.schema.json",
+      "sha256": "860e2fce25b8af67fe6ff9db54ba3abf6ae6cb7587ab4a81589826238f4c98af"
+    },
+    {
+      "contract_id": "consensus_log_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/cluster/v1/consensus_log_integrity.schema.json",
+      "sha256": "9c646784804f68b264211e5a5611a7db99b370143b5bfda4fb78730d8713a154"
+    },
+    {
+      "contract_id": "consumer_group_balance_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/cluster/v1/consumer_group_balance_integrity.schema.json",
+      "sha256": "94f2338008f953b1d7fc1735f37537649bfd01327178ddf6c8bd9b8e15f4d747"
+    },
+    {
+      "contract_id": "consumer_lag_reporting_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/consumer_lag_reporting_integrity.schema.json",
+      "sha256": "809b17e0136031116aab000ee25c0b2075f1958dbe203bf146f17850dd4c0c30"
+    },
+    {
+      "contract_id": "consumer_offset_commit_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\consumer_offset_commit_integrity.schema.json",
+      "sha256": "7bdf94e327a7a96508bd6dffebc1d4f4d4bfe9599d311afdcc9f6567df967299"
+    },
+    {
+      "contract_id": "consumer_rebalance_state_safety_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/consumer_rebalance_state_safety_integrity.schema.json",
+      "sha256": "aa78d1b63d44d9c5c14b14d21d38e2412bd4e7926176016051fe75906de28a9c"
+    },
+    {
+      "contract_id": "control_plane_reconciliation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/cluster/v1/control_plane_reconciliation_integrity.schema.json",
+      "sha256": "3b52e1b33d39a0ef38dfb333c10fc7e2260ceaa26c57f8aac8ea9ee224f6122b"
+    },
+    {
+      "contract_id": "crashdump_protection_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/crashdump_protection_integrity.schema.json",
+      "sha256": "14e2bf4e4be9bd1ad73d7e3f37c21ef57b1c1042e5d17bad25a5f987800a1180",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "cross_service_trust_delegation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/access/v1/cross_service_trust_delegation_integrity.schema.json",
+      "sha256": "57108878c07b2ca8ce8b78f48906d380ec82b8ab572d2b27133b0d391315b9f0"
+    },
+    {
+      "contract_id": "cross_socket_trust_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/cross_socket_trust_integrity.schema.json",
+      "sha256": "9dd0e1b56f0da048d29e2229dd92e17593f416dc3f05601096224b34f0e90bb5",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "data_lineage_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/data/v1/data_lineage_integrity.schema.json",
+      "sha256": "f6249474606ef49e0486c6e609f383e433b5645aabe355bf058a3eded7ab8a6d"
+    },
+    {
+      "contract_id": "dead_letter_queue_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/dead_letter_queue_integrity.schema.json",
+      "sha256": "15e0a45242c4b0b3cf2d30b24eaacbbff00d26dab345d79f16dbea0347341899"
+    },
+    {
+      "contract_id": "dead_letter_routing_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/dead_letter_routing_consistency_integrity.schema.json",
+      "sha256": "53ffdb43e9e7002ae1d1bc8c55aa343e95862a7055a703dd826a755f5aee5f61"
+    },
+    {
+      "contract_id": "debug_unlock_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/debug_unlock_policy_integrity.schema.json",
+      "sha256": "1f4a9f34492ce4e4f29e8bb69566cef63b2d7540894e858860ce4a12fcf7cc02",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "dedup_window_alignment_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/dedup_window_alignment_integrity.schema.json",
+      "sha256": "698a68d937ba7e016bc354b5196eefb2133e611882e65f0321c84796dc289ae4"
+    },
+    {
+      "contract_id": "dependency_version_lock_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/dependency/v1/dependency_version_lock_integrity.schema.json",
+      "sha256": "f776d40537b369fbf37e0c87752b5058e0135b3975a7166afde41d8d6076124b"
+    },
+    {
+      "contract_id": "developer_tools_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/developer_tools_panel/v1/developer_tools_panel.schema.json",
+      "sha256": "3771194339a4756d05cbe6bb495272097caabe996ab963bb23cc76c67a452454"
+    },
+    {
+      "contract_id": "device_binding_anchor_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_binding_anchor_integrity.schema.json",
+      "sha256": "6d4571bf5b9083b16b643febcbd9a7b2ef353e166f97b62c78e90557f111793d",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "device_dma_runtime_guard_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_dma_runtime_guard_integrity.schema.json",
+      "sha256": "a9e359cb668782203e096ba6193f54244e7893b5f7b491112935d45f36212978",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "device_driver_runtime_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_driver_runtime_policy_integrity.schema.json",
+      "sha256": "63bbc320229f21a4af81b00455eeca3c20dece2a1458e3b1107134365025fcb5",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "device_identity_attestation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_identity_attestation_integrity.schema.json",
+      "sha256": "63a20ff93676d06d8420fd41670776d19ab3d2ab5e23d633613ae873c59ac8c2",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "device_runtime_access_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_runtime_access_policy_integrity.schema.json",
+      "sha256": "2036151fba511a4419cdd922199f312d9af19d051a348edea75bd53704ac8860",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "device_runtime_revocation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_runtime_revocation_integrity.schema.json",
+      "sha256": "dada8d86294e3346dd8291da0ce5cbde5fd8fbee28a65efb06baca3cd0307ce1",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "device_session_trust_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_session_trust_integrity.schema.json",
+      "sha256": "21210a111dc427aa03c45bd16377407d958510ad3c6b1790d3e50dc915c56eaa",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "device_trust_revocation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/device_trust_revocation_integrity.schema.json",
+      "sha256": "54308b4c8e97bb0d6f1b60a703abe021d45f6af0c001d60c854b08a745cb4160",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "devices_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/devices_panel/v1/devices_panel.schema.json",
+      "sha256": "f88166b5f95abf9139b1f58ec74e9e078e13ca82b1e8c76f93dd749d0fbc309a"
+    },
+    {
+      "contract_id": "dispatch_fairness_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/dispatch_fairness_integrity.schema.json",
+      "sha256": "5c707e72d99f95f7131f9f878179b91dd053e07d7ab6fd7d889829cf8050d396"
+    },
+    {
+      "contract_id": "display_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/display_panel/v1/display_panel.schema.json",
+      "sha256": "0cc60e51a5f8abf5aec222dc25812185c1c5d00d1a6f8fa831aa69e9d57405a5"
+    },
+    {
+      "contract_id": "distributed_rate_limit_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/distributed_rate_limit_integrity.schema.json",
+      "sha256": "4eb35242b365731328b9ac667f7f9f72f4a4e1cf6d7b76aa3c036bd1d013ff1c"
+    },
+    {
+      "contract_id": "dma_remapping_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/dma_remapping_policy_integrity.schema.json",
+      "sha256": "62bb2301401c3894b27a51c49105b5adb21e2f3c22d3a1d779e7da16cfef8ac9",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "embedded_controller_trust_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/embedded_controller_trust_integrity.schema.json",
+      "sha256": "597700c573ab70332ed7739488990375d8c74d98cb97c87f7b7219c674075ff4",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "event_bus_delivery_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/event_bus_delivery_integrity.schema.json",
+      "sha256": "d7fb5938f67d43e71011939dad54ed182adcf805bdd6f5877f73e0d6a871526f"
+    },
+    {
+      "contract_id": "event_schema_compatibility_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\event_schema_compatibility_integrity.schema.json",
+      "sha256": "855bb683673f98fda2322cded4e556a1e3fe1a38a97667837e743e3c9a167373"
+    },
+    {
+      "contract_id": "event_schema_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/event_schema_integrity.schema.json",
+      "sha256": "17b74d8c3653eab8737ba636f705ea190e47986c59f49e0c06caf4adf6b3d48b"
+    },
+    {
+      "contract_id": "event_time_ordering_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/event_time_ordering_integrity.schema.json",
+      "sha256": "256a9adadbc890153798cd7dbe0a1e6c4ad04fd2f21a010e8218d2c69ad11ccd"
+    },
+    {
+      "contract_id": "event_time_watermark_alignment_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/event_time_watermark_alignment_integrity.schema.json",
+      "sha256": "fa33c259aca042ba0c5d6e6a02a7f632cce43fda7cba01f43fcd64ed0118097b"
+    },
+    {
+      "contract_id": "event_time_windowing_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/event_time_windowing_integrity.schema.json",
+      "sha256": "9ef892ffd8ef6078982aa42a842e38bb633be2fea199ece01298708697f0c9dc"
+    },
+    {
+      "contract_id": "exactly_once_delivery_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/exactly_once_delivery_integrity.schema.json",
+      "sha256": "5909db89afd91338ff08df4de698d3689a0dd22168b504f4ad721612a854707a"
+    },
+    {
+      "contract_id": "exactly_once_effective_delivery_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\exactly_once_effective_delivery_integrity.schema.json",
+      "sha256": "daeede06a6d874e94346cd71b1e3a778a36f2c6bf4c3f4a1304f56d61b4dac64"
+    },
+    {
+      "contract_id": "exactly_once_state_update_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/exactly_once_state_update_integrity.schema.json",
+      "sha256": "ef596ee555d7ceeae136c6056caa047f002029d5e427a1e3661173c4f6cb79db"
+    },
+    {
+      "contract_id": "external_device_measurement_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/external_device_measurement_integrity.schema.json",
+      "sha256": "95035a14370f23541a43842cbe04e08137fa49eeab78d167da2fa5edbd4f4d2d",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "external_storage_execution_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/external_storage_execution_policy_integrity.schema.json",
+      "sha256": "d07bead63b99db2604dc38ab8838cae51f3c34531d9b0a88b92d88b374a556e7",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "fabric_bandwidth_partition_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/fabric_bandwidth_partition_integrity.schema.json",
+      "sha256": "a16b1146ccc9e2e232e3af1b8e64f8ca5fb1cb784d58b25b7487d3f53dc5667d",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "fabric_error_containment_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/fabric_error_containment_integrity.schema.json",
+      "sha256": "e51db919103358fb9c04125b133f41bdbc319f2aa67ff47ffab952772f0ade8f",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "failsafe_boot_path_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/failsafe_boot_path_integrity.schema.json",
+      "sha256": "d264e5c537d3569697c2d391a49e42e8335cdac022956217708b432e9978a2c0",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "firmware_attestation_chain_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/firmware_attestation_chain_integrity.schema.json",
+      "sha256": "e8ff0a2315c9f9cb47e85954e1fcaea8d45aa7bda5744a66da2e9dab90daa116",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "firmware_attestation_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/firmware_attestation_policy_integrity.schema.json",
+      "sha256": "1c10187d6c929cf12bdc374e8e53da40d47523d928c667773d6c92b1590ffec5",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "firmware_capsule_update_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/firmware_capsule_update_integrity.schema.json",
+      "sha256": "c86b5965956f34a26f4bba58e0b51af6001c5417eb46643d64b911308b08f92b",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "firmware_image_layout_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/firmware_image_layout_integrity.schema.json",
+      "sha256": "c35c4ed25c388d3307d1c55020cde146b7a149eb2adb903ffc14673263331c39",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "firmware_key_manifest_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/firmware_key_manifest_consistency_integrity.schema.json",
+      "sha256": "85591b0f5d882b9a600e82fc4aa8522fcfbb17e5c78bd55899d7b1187a663a0f",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "firmware_rollback_protection_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/firmware_rollback_protection_integrity.schema.json",
+      "sha256": "ee5f8cd4dd5c4d9408e4638637a23ddf342867953b51546fcccf34bf0f1a1026",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "firmware_update_transport_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/firmware_update_transport_integrity.schema.json",
+      "sha256": "46af7aa769a7e667baec1c2d1621200f4a29c040916ff3a9d99f8e0726845b17",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "fixture_manifest",
+      "category": "fixture",
+      "version": "1.0",
+      "path": "contracts/compat/fixture_manifest/v1/fixture_manifest.fixture.json",
+      "sha256": "344be574fd81e1e7b95ba4b39cf0f23bf7e03612c122c2e234bee9db18347962"
+    },
+    {
+      "contract_id": "frequency_scaling_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/frequency_scaling_policy_integrity.schema.json",
+      "sha256": "f5197b4a151a10db091871a2a730e26155edc9ab5768904a0b1c460a9cd9523e",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "fw_handoff",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/fw_handoff/v1/fw_handoff.schema.json",
+      "sha256": "b0545a75844aa547e51373e5612e836e58265747dfeb7fe30fdbcc22a9079f34"
+    },
+    {
+      "contract_id": "host_assist_markers",
+      "category": "marker",
+      "version": "1.0",
+      "path": "contracts/compat/host_assist_markers/v1/host_assist_markers.marker.json",
+      "sha256": "6188ec49ee48e62d39401ecf52c535b856c4193630fed514abe6b966a64f0312"
+    },
+    {
+      "contract_id": "hotkey_action_registry_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui/v1/hotkey_action_registry_integrity.schema.json",
+      "sha256": "bad1e9ffb649cc195289fc19ca47a6f9f09efc70690b2ea65e51b3f4a73b06a9"
+    },
+    {
+      "contract_id": "hotkey_layout_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui/v1/hotkey_layout_integrity.schema.json",
+      "sha256": "ca491b314912f706e11e35a6a2a1d7415d1a57055adb620f952afabc52434504"
+    },
+    {
+      "contract_id": "hotplug_device_trust_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/hotplug_device_trust_integrity.schema.json",
+      "sha256": "27bf398e0df12b9dc9b6e02d13a6e45e56b9bce802533d116e68115ca0f416df",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "hypervisor_interface_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/hypervisor_interface_integrity.schema.json",
+      "sha256": "c11a2a7deaaa0613665591bad1468b174cc600fd9279473308619348293bad73",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "i2c_bus_trust_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/i2c_bus_trust_policy_integrity.schema.json",
+      "sha256": "fc593740e47fe266514ce5e4ac1474925c2169fa30c1cfb3917c4fc61fa8e727",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "idempotency_semantics_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/idempotency_semantics_integrity.schema.json",
+      "sha256": "fcfdc7b665144a45ec0685ba4bca9c52820f28d8786c4457492c0b9fed82c61c"
+    },
+    {
+      "contract_id": "identity_access_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/identity/v1/identity_access_integrity.schema.json",
+      "sha256": "d8a9114cecf353a284ffea6b3f64fe061682fda6ecd58920529605d32d2c0800"
+    },
+    {
+      "contract_id": "inbox_outbox_pairing_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\inbox_outbox_pairing_integrity.schema.json",
+      "sha256": "d045323f1c75d7817f59830ea2743e1993452250c437ea00941e673aae924afd"
+    },
+    {
+      "contract_id": "inter_service_mtls_identity_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/identity/v1/inter_service_mtls_identity_integrity.schema.json",
+      "sha256": "1af5c210d8facfe9fc595cbfdde4a66b78f2190ddc73830d4f3d2a16b8856c7d"
+    },
+    {
+      "contract_id": "interconnect_firmware_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/interconnect_firmware_consistency_integrity.schema.json",
+      "sha256": "4d736087088d0431012425da9a175feeeb80836c073462b67823387e35e7ab1a",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "interconnect_link_training_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/interconnect_link_training_integrity.schema.json",
+      "sha256": "16e67578ddbc9fb8036edd6155a5b9b40f6a1e4c10dd34fac72c853d8d99bde3",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "iommu_enforcement_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/iommu_enforcement_integrity.schema.json",
+      "sha256": "b2079025a565a867b1eea914f7006a9f04d10a8c3d1bf56fb601f113ef48360d",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "late_event_handling_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/late_event_handling_integrity.schema.json",
+      "sha256": "48f4aa86fed69bdd0648f8f8bb05d73dcc34a4ab7da9462c13a29248b2f60129"
+    },
+    {
+      "contract_id": "leader_election_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/cluster/v1/leader_election_integrity.schema.json",
+      "sha256": "f7979909e5d17f1c2dcb024b2af92d33083a2295f79979d6d4b4858c345710d0"
+    },
+    {
+      "contract_id": "logs_diagnostics_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/logs_diagnostics_panel/v1/logs_diagnostics_panel.schema.json",
+      "sha256": "c7d3bc7760fd3f134e84a35b64b1acb1cca5cf54e78c59c062603e1d794ccf5b"
+    },
+    {
+      "contract_id": "maintenance_override_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/maintenance_override_integrity.schema.json",
+      "sha256": "d8cb6f80b28cf007a25177f528fd73d4f53bf993909b7cf4da7e07685be302a3",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "markers",
+      "category": "marker",
+      "version": "1.0",
+      "path": "contracts/compat/markers/v1/markers.marker.json",
+      "sha256": "8e79ade6d4e768ae7f9f3ccf1497cfc079738bc7f2c9607cbac5b18ca0d9defb"
+    },
+    {
+      "contract_id": "message_dedup_store_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\message_dedup_store_integrity.schema.json",
+      "sha256": "1e1d0ad2733a16b2f87cdc58f23e37532a44077d7b309698dc0854eec6c4c2ff"
+    },
+    {
+      "contract_id": "message_deduplication_store_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\message_deduplication_store_integrity.schema.json",
+      "sha256": "d00ad4780825c4b2d4288cfb5b5357ec068aa28d20c427b28e2b37cf6a21bb63"
+    },
+    {
+      "contract_id": "message_ordering_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/message_ordering_consistency_integrity.schema.json",
+      "sha256": "61c277831157c5cc8b432fc741883b424c8c3647d36f3145f7a5325c93cd9e36"
+    },
+    {
+      "contract_id": "microcode_patch_authenticity_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/microcode_patch_authenticity_integrity.schema.json",
+      "sha256": "7dfb7dc17de4ca961a437085daec488a34c059611ac27e2804d85383114ad3d0",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "mmio_window_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/mmio_window_policy_integrity.schema.json",
+      "sha256": "12f311678d06a1fbd2203fe4654c35b1a68cb8de0388506d5c7f2533c7e72621",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "network",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/network/v1/network.schema.json",
+      "sha256": "64ddec0ff94b119837315baf03c72a18a6eedeb72c44eabce88436948fa3e165"
+    },
+    {
+      "contract_id": "network_trust_boundary_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/network/v1/network_trust_boundary_integrity.schema.json",
+      "sha256": "18a3fafb773daeaaea5f38bc3b9cf26482d0566c33a7a48c4e00e6aefdb492f8"
+    },
+    {
+      "contract_id": "observability_anomaly_detection",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/observability/v1/observability_anomaly_detection.schema.json",
+      "sha256": "c219bb2999edd858f5ab6a3e56814d44be188a34ef642090cf8b18871d1934ea"
+    },
+    {
+      "contract_id": "observability_hash_correlation",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/observability/v1/observability_hash_correlation.schema.json",
+      "sha256": "32faa65cece70b48806cdf253bbdc05418d2a7d06de5abdec4e1a77d93a64c15"
+    },
+    {
+      "contract_id": "observability_timestamp_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/observability/v1/observability_timestamp_integrity.schema.json",
+      "sha256": "a14de56d246ab7a3c1b5c7e3ce1fe4bb00d4f2b85a0213fe6e10ac1a5cfbc18e"
+    },
+    {
+      "contract_id": "observability_unified_gate",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/observability/v1/observability_unified_gate.schema.json",
+      "sha256": "8f5cce6195a9b325ee35dda1991cf5f7af51955188cb9e77161a4bb371104d37"
+    },
+    {
+      "contract_id": "offset_to_state_atomicity_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/offset_to_state_atomicity_integrity.schema.json",
+      "sha256": "120f5fdd1bf92f450532f722064deb988d3b047f6268507e174448f5de9c00af"
+    },
+    {
+      "contract_id": "option_rom_execution_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/option_rom_execution_policy_integrity.schema.json",
+      "sha256": "b2dfcf2e6ba0adf043ade751c27e8e45be92b7e42c9675cf0d054b810e3d46cb",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "panic_response_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/panic_response_policy_integrity.schema.json",
+      "sha256": "1b08a9f59e68dabb0193a40c192cdc21e30e4d93e96edec7d69b468d8ebc3afd",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "parallel_cubed_sandbox_domain_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/parallel_cubed_sandbox_domain_integrity.schema.json",
+      "sha256": "2ef7f66c3760e31ae4948a97bc98bc4eb434493c82a7ab248452d1d55cb3e3bf"
+    },
+    {
+      "contract_id": "pcie_fabric_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/pcie_fabric_policy_integrity.schema.json",
+      "sha256": "61262f84fe2c0193cecfde93696e267152fab0312ee92f82a0232d7a0c63c9eb",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "pcie_hotplug_isolation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/pcie_hotplug_isolation_integrity.schema.json",
+      "sha256": "e1b581dccecbcb32113e3b2d30d49bb8d1229921dc9d8829aafd618a84b1ccd1",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "pcr_policy_binding_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/pcr_policy_binding_integrity.schema.json",
+      "sha256": "524c934b1e56d97f63db24c5aaafe35750a5a2d7b1ccc109ff0e27ccf31de542",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "peripheral_firmware_trust_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/peripheral_firmware_trust_integrity.schema.json",
+      "sha256": "ed0e8468adb5ac3b2bee412ae5f4e7b21706fd18ebf5fea48d7182f1b33153f5",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "peripheral_interrupt_isolation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/peripheral_interrupt_isolation_integrity.schema.json",
+      "sha256": "dad1e4e5797466ba767195bd3a01c3e9c4611cbea48781d3db4665d16bd88d77",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "peripheral_trust_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/peripheral_trust_policy_integrity.schema.json",
+      "sha256": "5abc70a30b1ca90c77320f0e280b0f1b203f9b3b6c8620dd3f1994ae655ef2fe",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "permissions_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/permissions_panel/v1/permissions_panel.schema.json",
+      "sha256": "ee38f67ecde25c492d75c0e08e666a57486108bed120599749cde5721b4362bf"
+    },
+    {
+      "contract_id": "platform_certificate_rotation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/platform_certificate_rotation_integrity.schema.json",
+      "sha256": "64f97e7e60a799532a0ee11ceef1c64bdcb80d05d671af5cfefed1021c70323b",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "platform_event_forwarding_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/platform_event_forwarding_integrity.schema.json",
+      "sha256": "5e4468c2fa0f94c78706275a4908ad1973aea4224baa8bcadcf8d95db7b910ac",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "platform_fuse_configuration_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/platform_fuse_configuration_integrity.schema.json",
+      "sha256": "b64cb344e4838288bc3faae1b97d59edf40eb3f7baee1f2373980d39abdd2b7c",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "platform_identity_binding_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/platform_identity_binding_integrity.schema.json",
+      "sha256": "46eb1e9effa6956da02243254d031dedaf6092add9c73b2b0209cf38e20fdbfd",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "platform_key_database_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/platform_key_database_integrity.schema.json",
+      "sha256": "7d56add335843ac1df55fc0b7ca9910ba382d24a7786c42b9d7e24f44f2c56ad",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "platform_measured_boot_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/platform_measured_boot_policy_integrity.schema.json",
+      "sha256": "4fb422706f1be376ee49bd41bcaf893a21583d3278b5251eb0a224abef5add80",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "platform_safe_mode_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/platform_safe_mode_integrity.schema.json",
+      "sha256": "7bcbc6b76e3b162694e8ba04cd9482767284d0310dac90afacda967e1431d8f7",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "pll_configuration_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/pll_configuration_integrity.schema.json",
+      "sha256": "406b9fa5de9fb7f4f349cc52f12e954e5283c92ed95a03e4a04d03d1bf8158ad",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "poison_event_quarantine_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/poison_event_quarantine_integrity.schema.json",
+      "sha256": "e5d908b3a5ea1822b725d0971687928fc4ec6e2320bb2004d548c7c6df02bf84"
+    },
+    {
+      "contract_id": "poison_message_quarantine_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\poison_message_quarantine_integrity.schema.json",
+      "sha256": "83af670d3eacac83120df4dacd6d75a894db1d5a4bacb1c02d9d09456b19c4e2"
+    },
+    {
+      "contract_id": "policy",
+      "category": "compat",
+      "version": "1.0",
+      "path": "contracts/compat/policy/v1/policy.compat.json",
+      "sha256": "817732205872fd8c54372a00f46d7a9af72e60e33937fca3d669a79ae875decc"
+    },
+    {
+      "contract_id": "policy_compiler_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/policy/v1/policy_compiler_integrity.schema.json",
+      "sha256": "057e857dc8ce04a23ffbb65871cfef4e5212d891ec604897d4dd2b15fdcfec97"
+    },
+    {
+      "contract_id": "policy_enforcement",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/policy_enforcement/v1/policy_enforcement.schema.json",
+      "sha256": "72168762c135ada5aae2902dd5e7c03dd8e3cf2bbe1fcd59f3962320044df5e7"
+    },
+    {
+      "contract_id": "policy_hook_backup_restore",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/policy_hooks/backup_restore/v1/backup_restore.policy.json",
+      "sha256": "80dfca22dfddccd372d175b4cf52ce960880a9eae3274e0bf825112dfbd6868d"
+    },
+    {
+      "contract_id": "policy_hook_control_panel",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/policy_hooks/control_panel_actions/v1/control_panel_actions.policy.json",
+      "sha256": "33bafa40efe943ab511dd8e12a594af86eabfd2b2133fae2ee302da10a71a6a9"
+    },
+    {
+      "contract_id": "policy_hook_developer_tools",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/policy_hooks/developer_tools/v1/developer_tools.policy.json",
+      "sha256": "f32ec81813866d391651a7bf91c19e9af82d3aa53bb2f2a7c9fbff3f052ef162"
+    },
+    {
+      "contract_id": "policy_hook_service_operations",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/policy_hooks/service_operations/v1/service_operations.policy.json",
+      "sha256": "536dd818ead57d2cbb4a66a6546cfa277cf86585bb5b3a7c04b45652446e31eb"
+    },
+    {
+      "contract_id": "post_boot_attestation_refresh_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/post_boot_attestation_refresh_integrity.schema.json",
+      "sha256": "8036340e4583da5184f950240c2f55767f5b9001372fc69e3dc218947c4374e7",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "power_energy_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/power_energy_panel/v1/power_energy_panel.schema.json",
+      "sha256": "aac991137db433dbd3dd31b6d45b432effd3c03b6e9cd7f8d4fd8bac99662adb"
+    },
+    {
+      "contract_id": "power_state_transition_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/power_state_transition_integrity.schema.json",
+      "sha256": "2afbacf7ee82ffa64ba607d645bde8b1d2ce968f30aba9c94fd8a092e39ecbd0",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "priority_inversion_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/priority_inversion_integrity.schema.json",
+      "sha256": "57199d7ead0b32ad731e2e70485e41974f3ac4c3e7bf5981690e170a719af0d7"
+    },
+    {
+      "contract_id": "privilege_boundary_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/access/v1/privilege_boundary_integrity.schema.json",
+      "sha256": "6274376ec78f409d47be58bc0449864cb7d80d17066eb7bc8d76e7b997bf1fbd"
+    },
+    {
+      "contract_id": "producer_epoch_fencing_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/producer_epoch_fencing_integrity.schema.json",
+      "sha256": "7ac97f6ff8432816d146b9ca584cb096e8a9ae1602c570b3de2bde7e555023c8"
+    },
+    {
+      "contract_id": "producer_idempotence_window_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/producer_idempotence_window_integrity.schema.json",
+      "sha256": "d5699ce0e3c6cad42c31c5228fca4e4f81d49f7e0e3ba378e7b4038d5ddd88f2"
+    },
+    {
+      "contract_id": "producer_sequence_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/producer_sequence_integrity.schema.json",
+      "sha256": "d965344c06739225d9d8a786d9fd34b106b368c93169e6a418ad06f1dda5c3c0"
+    },
+    {
+      "contract_id": "profiles",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/profiles/v1/profiles.schema.json",
+      "sha256": "ac56cb700b85bb23e9a0ce1f6bb8ac4b072db5e864ebcaf73a07c4c91a54d6a9"
+    },
+    {
+      "contract_id": "promotion_policy",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/promotion_policy/v1/promotion_policy.policy.json",
+      "sha256": "cba101d77bf22eeb573991b645a6cb3a1a944b6a23c0c16f8a21a3547f87b492"
+    },
+    {
+      "contract_id": "recovery_chain_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/recovery_chain_integrity.schema.json",
+      "sha256": "95d1238e350bd783a1eb96da5a45e7b0ff1ace756031a99b9a5b7327bf0ba0ad",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "recovery_mode_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/recovery_mode_policy_integrity.schema.json",
+      "sha256": "810918e539b64cf2cdfa5e6db3a6b3fd5cd1397f2c4694fa035e8e79b9e043a0",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "replay_protection_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/replay_protection_integrity.schema.json",
+      "sha256": "7488eb0d266bfd929609cd564ad188fa67bb923262bcc6664a7426dd04ed485e"
+    },
+    {
+      "contract_id": "reset_path_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/reset_path_integrity.schema.json",
+      "sha256": "8abca97260e30f75f40c9834b8b33723166507aec54434cc0fe14187ba9b076e",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "resource_quota_enforcement_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/resource_quota_enforcement_integrity.schema.json",
+      "sha256": "00c5e47204fb5472a6ed3de8c1805ed820c6adb00869b342d8d2fcb0d4e8fbf7"
+    },
+    {
+      "contract_id": "restore_replay_determinism_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/restore_replay_determinism_integrity.schema.json",
+      "sha256": "52ab1ab71f2a9a4a4b86bbfdc4e9136017fc197bdacdac312adce8c51b4c05d4"
+    },
+    {
+      "contract_id": "resume_memory_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/resume_memory_integrity.schema.json",
+      "sha256": "688c722210e90a8c849ba58f9569b9ff1eefac728cbd27d7027d0f91ecedc2dc",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "retry_backoff_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\retry_backoff_integrity.schema.json",
+      "sha256": "6e46eaa06bd54f5b95e73b49eae17f7c37963101d05dd8c7cf73fd6758bafc2c"
+    },
+    {
+      "contract_id": "retry_policy_coupling_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/retry_policy_coupling_integrity.schema.json",
+      "sha256": "f727b542dd77b64376bc9a9000734ed2c7e1b2f823ce7498a5ea3575a3832e7a"
+    },
+    {
+      "contract_id": "rollback_failsafe_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/rollback_failsafe_integrity.schema.json",
+      "sha256": "58ddb729ae5634072e2780c9b06685154ba19678ecd412076476090683890373",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "runtime_api_contract_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/runtime_api_contract_integrity.schema.json",
+      "sha256": "719ba8bd75eb56173d0001507534fe366e01c916a1c9ca94c13787f46dc35d26"
+    },
+    {
+      "contract_id": "runtime_isolation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/runtime_isolation_integrity.schema.json",
+      "sha256": "4e7438c56552a70cac1edb92c7ccc578bdb66e6fa8f3f88c803fe719f4c6d289"
+    },
+    {
+      "contract_id": "runtime_measurement_anchor_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/runtime_measurement_anchor_integrity.schema.json",
+      "sha256": "92f3f708894535d450bf3727ec9b21530a68eb42b4f6c4aaf331bd2e89936249",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "runtime_services_table_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/runtime_services_table_integrity.schema.json",
+      "sha256": "8e970a3585849c914a94e98fc7be8b1e8f46b3c5b5b1969d2ca80028cf19a899",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "saga_compensation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts\\compat\\runtime\\v1\\saga_compensation_integrity.schema.json",
+      "sha256": "10e70694e0e9c1db4a7436e42dae1a18632738df697e980837d2b59f2bbaa811"
+    },
+    {
+      "contract_id": "scheduler_decision_determinism_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/scheduler/v1/scheduler_decision_determinism_integrity.schema.json",
+      "sha256": "99b4ca75cefa971882b38cfac9b93eb12832efc588ea70e22653d000925b8131"
+    },
+    {
+      "contract_id": "schema_migration_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/storage/v1/schema_migration_integrity.schema.json",
+      "sha256": "c3cd60325523d2976aebb15dd2e1b2a3e04b525171fa7ce71091b92053f9c3b7"
+    },
+    {
+      "contract_id": "sealed_storage_binding_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/sealed_storage_binding_integrity.schema.json",
+      "sha256": "4e727d0654a3acc5561436f4aeca79de9cf6a0b8fb359216e9e6626c47fb056d",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "secrets_handling_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/security/v1/secrets_handling_integrity.schema.json",
+      "sha256": "521caed8a5b8dc29daf24b1d5eb5469277387ce3ea942c62eb0f8fc81b9f5551"
+    },
+    {
+      "contract_id": "secrets_rotation_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/secrets/v1/secrets_rotation_consistency_integrity.schema.json",
+      "sha256": "cd9fd25145fdd27ede116c68ac88a456656827aba2ac5d2c57d49a9e5d7fd03f"
+    },
+    {
+      "contract_id": "secure_boot_chain_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/secure_boot_chain_integrity.schema.json",
+      "sha256": "434dbad0e82d1ae7f6084a85ab543245cc4287ceb000babc4873d6497b6332e0",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "secure_time_source_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/secure_time_source_integrity.schema.json",
+      "sha256": "7245d53e84cbc96a3065aa2490689f8e07ad4cd07ffa2714c30ecdd76c37af03",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "sensor_bus_isolation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/sensor_bus_isolation_integrity.schema.json",
+      "sha256": "54ea34103bfcacc9740aeecb2a2f2cd96bc56c4a426de96a292c98f8982e2cf4",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "service_discovery_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/service/v1/service_discovery_integrity.schema.json",
+      "sha256": "62ebc04cf183ac0720d1b4a9efa6c8fd4ceef4eb4acdd585656cb97b4605f710"
+    },
+    {
+      "contract_id": "services",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/services/v1/services.schema.json",
+      "sha256": "f42640ce5fdcf251258caa35a356076c3607f79ae4401df64b08ad3c11367001"
+    },
+    {
+      "contract_id": "services_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/services_panel/v1/services_panel.schema.json",
+      "sha256": "3ef3a64fb0af0b34e2c497e2201dbb43cfc44d96e0f332fc03e780ee5c78a3fd"
+    },
+    {
+      "contract_id": "smm_handler_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/smm_handler_integrity.schema.json",
+      "sha256": "b24daa2c65da0a1f734fb75fc2220374a5bf6d4acf6f5189c281b6dcda901586",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "smm_protection_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/smm_protection_integrity.schema.json",
+      "sha256": "810ca0439f4f2324514205672a0e325f274b43d9698cc0e5571f309a4b46daa8",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "spi_flash_descriptor_lock_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/spi_flash_descriptor_lock_integrity.schema.json",
+      "sha256": "d7ba1a9d1ffaff7c64da04b7e93f2d4a2a94f4b52b52ef6d8d793b1278f49e2e",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "spi_peripheral_access_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/spi_peripheral_access_policy_integrity.schema.json",
+      "sha256": "f67597b7ce9b642e74fc2337f04651ec28290188da467aa1a2b6e6f997afbc8a",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "state_checkpoint_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/state_checkpoint_consistency_integrity.schema.json",
+      "sha256": "bddbd84ccdeb82a8664beefbd432ca989970d93adf38b513a89560471a030a36"
+    },
+    {
+      "contract_id": "state_schema_evolution_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/state_schema_evolution_integrity.schema.json",
+      "sha256": "d58b855392e3abd6d056315fb01bdd5c9587566ce8cd27a9943cdaefc1c80cb6"
+    },
+    {
+      "contract_id": "state_store_checkpoint_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/state_store_checkpoint_integrity.schema.json",
+      "sha256": "3a71f14b4ec75ffb572453b1972b02006cef9479ffef9e1e9b51cd9b13b9e304"
+    },
+    {
+      "contract_id": "state_store_compaction_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/state_store_compaction_integrity.schema.json",
+      "sha256": "c8efc24ee6fa60474cf1a43dac69760bb344664e91e577541b27293b3d7f717a"
+    },
+    {
+      "contract_id": "state_store_corruption_detection_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/state_store_corruption_detection_integrity.schema.json",
+      "sha256": "74e37a8e9b1da23f30fbe83994275f662b5824bab83440e6e647b8590941e0f1"
+    },
+    {
+      "contract_id": "state_store_ttl_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/state_store_ttl_integrity.schema.json",
+      "sha256": "6cc0fcc8a1dbbc1a99d43183f2dae4b67ac73176504cc408f97da374fb15dcb5"
+    },
+    {
+      "contract_id": "state_sync",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/state_sync/v1/state_sync.schema.json",
+      "sha256": "d42ef9f6ea2d6029e233f8330c39ffa95e081d9182ddc435b3bf670829d71b99"
+    },
+    {
+      "contract_id": "state_sync_accounts_state",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/state_sync_hooks/accounts_state/v1/accounts_state.state_sync.json",
+      "sha256": "cc732da7f94bf58b33c1b0df34c5c4f22ec06e11e564db8e319b8aa61f5bb069"
+    },
+    {
+      "contract_id": "state_sync_backup_restore_state",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/state_sync_hooks/backup_restore_state/v1/backup_restore_state.state_sync.json",
+      "sha256": "464916613bf925bdd3760b39f8348c119f64eb5e7f9c6e626f12ef942788c7af"
+    },
+    {
+      "contract_id": "state_sync_network_state",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/state_sync_hooks/network_state/v1/network_state.state_sync.json",
+      "sha256": "6ad7f4cfbc4d3e2db3947960575d48fb3ca8a190fb9eff1c50974d8896619351"
+    },
+    {
+      "contract_id": "state_sync_panel_write",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/state_sync_hooks/panel_write/v1/panel_write.state_sync.json",
+      "sha256": "fda63a1f6a1a379ee0c159adfede8376fd5515598e12def4bd140b2d9f195ca0"
+    },
+    {
+      "contract_id": "state_sync_permissions_state",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/state_sync_hooks/permissions_state/v1/permissions_state.state_sync.json",
+      "sha256": "367caa3239a9981a2ae5a974f356db7f4716903b766dfd32083dee5117684ffa"
+    },
+    {
+      "contract_id": "state_sync_service_state",
+      "category": "policy",
+      "version": "1.0",
+      "path": "contracts/compat/state_sync_hooks/service_state/v1/service_state.state_sync.json",
+      "sha256": "4a202c3046cc17eb9eb6f1f80a225c8d06a4037999faceac2a719ebb72d9d2a5"
+    },
+    {
+      "contract_id": "storage_snapshot_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/storage/v1/storage_snapshot_integrity.schema.json",
+      "sha256": "9cb5d7ebdde96d0a2c7162d328a97b2118d5d2ad09d11a5cc114ff5733b7528b"
+    },
+    {
+      "contract_id": "stream_correctness_telemetry_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/stream_correctness_telemetry_integrity.schema.json",
+      "sha256": "d881a989237311e4cb5e7c4b1e4ddd1512b4b3d6a675fce8951c211f04fab0e6"
+    },
+    {
+      "contract_id": "stream_partition_affinity_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/stream_partition_affinity_integrity.schema.json",
+      "sha256": "474fa1815e77244ca5784303c1074dbd062b7309a01983a87b474c7daa803110"
+    },
+    {
+      "contract_id": "stream_retention_enforcement_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/stream_retention_enforcement_integrity.schema.json",
+      "sha256": "2e285af96064e5caee98e40d9ce15dfc6e8adf8c665ec550439d3ae3efe69ff0"
+    },
+    {
+      "contract_id": "stream_retention_window_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/stream_retention_window_integrity.schema.json",
+      "sha256": "957b685c70214b4a759b0fffd0f42374dc6f9a4b7ea7b7434dabb29bbbf380f9"
+    },
+    {
+      "contract_id": "system_info_panel",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/system_info_panel/v1/system_info_panel.schema.json",
+      "sha256": "6e84121d1fe4cab2645a91d2edf078526013c476a1c5de78d57140e03b6b6633"
+    },
+    {
+      "contract_id": "task_manager",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/task_manager/v1/task_manager.schema.json",
+      "sha256": "96d07ac2344c0007e4d9840450ec86915f6bb31a89e7de0a3157a734becfbd80"
+    },
+    {
+      "contract_id": "task_manager_markers",
+      "category": "marker",
+      "version": "1.0",
+      "path": "contracts/compat/task_manager_markers/v1/task_manager_markers.marker.json",
+      "sha256": "dd7b57f53fc1feb1d3c5bc29ee7a668ad038544cdb206ca1b61788b9ee535b2d"
+    },
+    {
+      "contract_id": "telemetry_event_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/telemetry/v1/telemetry_event_integrity.schema.json",
+      "sha256": "382d360c576f161d0cbdf42a8e80d63a743cbcb0de89620e60ab63b60dd63ad9"
+    },
+    {
+      "contract_id": "thunderbolt_dma_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/thunderbolt_dma_policy_integrity.schema.json",
+      "sha256": "e0c174deef6ba4379a4d33363ff4f3e32449c2764ac635906739788097f3abf1",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "time_sync_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/time/v1/time_sync_integrity.schema.json",
+      "sha256": "719834fd4ebad7cc07f26841f4d9a28eb8c0af6a1561ea11df69136790c3fd6b"
+    },
+    {
+      "contract_id": "time_window_boundary_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/time_window_boundary_integrity.schema.json",
+      "sha256": "0ef499aec82b92735723ab055cd462ef9b00c472ca67657ac055ea599ab1f433"
+    },
+    {
+      "contract_id": "tpm_event_log_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/tpm_event_log_integrity.schema.json",
+      "sha256": "ab21d136770712a0b2b24d25aa3ec6397ec966bceb3034b1b1cf63b61a6db5d6",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "tpm_nv_index_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/tpm_nv_index_policy_integrity.schema.json",
+      "sha256": "8e0ac489f60720cd84e13d43fbd951c0b5bee81dbd563814b388d3cf264bc7c0",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "transactional_outbox_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/transactional_outbox_integrity.schema.json",
+      "sha256": "65f1c34a7c623477feb65d314bcdce9f24208d3c6e013286baf9200160c53a95"
+    },
+    {
+      "contract_id": "trusted_boot_measurement_chain_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/trusted_boot_measurement_chain_integrity.schema.json",
+      "sha256": "af9ed01c951fad156f35e932ce3f08b33a0b600f2df8258231cc811a87b33713",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "trusted_resume_path_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/trusted_resume_path_integrity.schema.json",
+      "sha256": "b8920b336204a508973dbc2544e3144bdb2a1494e3e3a2ede7fd392341587140",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "uart_console_exposure_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/uart_console_exposure_integrity.schema.json",
+      "sha256": "2ad8ca4afee3fa66045020222f426b38e17a17dc7b2c41323569984a57459ef8",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "uefi_driver_load_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/uefi_driver_load_policy_integrity.schema.json",
+      "sha256": "1e5642bc91712ac2982128bcf70a4af1b27aa1f22c7be84ee31dd1603845852b",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "uefi_variable_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/firmware/v1/uefi_variable_policy_integrity.schema.json",
+      "sha256": "a44c5946e7bb7a4b5ab730d4f47ae54d0a2fdce7b7f3b4ac8bde126a9b91dbf7",
+      "domain": "firmware"
+    },
+    {
+      "contract_id": "ui_action_ack",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_binding/action_ack/v1/action_ack.schema.json",
+      "sha256": "6a24b11a8cffe8bcddb464152e0cb144c187522c8fb5dee1757808baa6a44e11"
+    },
+    {
+      "contract_id": "ui_e2e_multi_panel_concurrency",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_e2e/v1/ui_e2e_multi_panel_concurrency.schema.json",
+      "sha256": "770a377da3be45e92d52eb692d5aa360dd124aaa97ab66a2ae98fd9c3cb20d87"
+    },
+    {
+      "contract_id": "ui_e2e_retry_semantics",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_e2e/v1/ui_e2e_retry_semantics.schema.json",
+      "sha256": "cf05286c71c1fdd6a37c97527250899c8cded4233219dac031b4063ad587f554"
+    },
+    {
+      "contract_id": "ui_e2e_rollback_path",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_e2e/v1/ui_e2e_rollback_path.schema.json",
+      "sha256": "de3e7e92746f816cc932e2ab129fb5dd5fe295f697de0e625276e599b6a6605f"
+    },
+    {
+      "contract_id": "ui_e2e_scenarios",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_e2e/v1/ui_e2e_scenarios.schema.json",
+      "sha256": "bcdfc72da4a0121ef3db33aaea79aa757ea046f44d22727a1187825716a79678"
+    },
+    {
+      "contract_id": "ui_panel_action_dispatch",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_binding/panel_action/v1/panel_action.schema.json",
+      "sha256": "2659526629571cc2d1ae268ef272c264de91534c452e064f9b7915926a29cfae"
+    },
+    {
+      "contract_id": "ui_panel_state_reflection",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_binding/panel_state_reflection/v1/panel_state_reflection.schema.json",
+      "sha256": "99ab06b1f2bb35c16fe2a4f02adb2accfa7751362cb7b862ea4f130e46014190"
+    },
+    {
+      "contract_id": "ui_permission_gating",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/ui_binding/permission_gating/v1/permission_gating.schema.json",
+      "sha256": "a3c0756df2e9131413e464a1c1cca612a7ce10b3086adbe2a8b26f3d07890550"
+    },
+    {
+      "contract_id": "update_rollout_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/deployment/v1/update_rollout_integrity.schema.json",
+      "sha256": "9f204e26bdca341f128f63789d7309e5c71cd62415247d704192ca011b522d13"
+    },
+    {
+      "contract_id": "usb_device_isolation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/usb_device_isolation_integrity.schema.json",
+      "sha256": "08138030bd2548f3b0a711bb6403d2e526d1bc0026142fc9b729b9583f1a8a51",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "users",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/users/v1/users.schema.json",
+      "sha256": "ca9d8692554bae6e5ac5dfbcd0469b874fe4675afc41d2b1f4c277c8d39bb79a"
+    },
+    {
+      "contract_id": "virtual_network_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/virtual_network_policy_integrity.schema.json",
+      "sha256": "ef821e7cf08bdb6a97cc9f69d81034209af0c543a76c23d6384d551602f20754",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_attestation_quote_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_attestation_quote_integrity.schema.json",
+      "sha256": "d98055053a30b6d34b220bbf6a65b86adc0c1e1e000a1065ae89c008712feba5",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_console_channel_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_console_channel_integrity.schema.json",
+      "sha256": "6f6cc3ca6a65f2ade93101d26b681ce57fc0f307752467db1a777087493460f6",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_device_passthrough_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_device_passthrough_integrity.schema.json",
+      "sha256": "64bbc5055d16a671914cd6f6b1d37e7ec9c177768b8dbc7ff462dedc28997933",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_disk_encryption_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_disk_encryption_integrity.schema.json",
+      "sha256": "5df4eaa9b8b026949f30ef2817edeab5a4fa9ab5325a1df37a0f21f1c3bdbbb0",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_entropy_source_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_entropy_source_integrity.schema.json",
+      "sha256": "da1e8efc3c0486f7f25e67e6bec3f9980dee65b6b714a2b24cd8bba72c753dce",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_guest_tools_channel_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_guest_tools_channel_integrity.schema.json",
+      "sha256": "aa8e34ab8bcef1aeb3cbcd4ef82c135df466d4b1ee30075b33db1104c6ec3c55",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_image_build_provenance_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_image_build_provenance_integrity.schema.json",
+      "sha256": "dc2dd72271f59f610c22c29cf65338cd90515376468161f25153ec0ef317b957"
+    },
+    {
+      "contract_id": "vm_image_registry_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_image_registry_integrity.schema.json",
+      "sha256": "c4b2beae0fa2ff4b6b597770d3a157bb24bb18b59da413797d934a9b0ea68134",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_kernel_cmdline_lock_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_kernel_cmdline_lock_integrity.schema.json",
+      "sha256": "34e0249214338cc1716d1d450836bf9de1cc595bf4bcb76a10dfa09a86b723ab",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_memory_scrub_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_memory_scrub_integrity.schema.json",
+      "sha256": "7b88d6dfc1e8dcc192369e61535760f223dd9d38e5631fb5a3b5ac19277a12a4",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_snapshot_restore_isolation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_snapshot_restore_isolation_integrity.schema.json",
+      "sha256": "949873b2bcdbb2e7a7b41299d480d0e662c95fa86a512564530bcfea34137c70",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "vm_test_harness_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_test_harness_integrity.schema.json",
+      "sha256": "53b9fc173557b350302275514e036fcbb94544926de1d5be5a116b5df902baa2"
+    },
+    {
+      "contract_id": "vm_time_sync_tamper_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/virtualization/v1/vm_time_sync_tamper_integrity.schema.json",
+      "sha256": "d1c9212730caa12b2ee8a570a4fab42d8cfebcd0358e72f18b4437336869fde0",
+      "domain": "virtualization"
+    },
+    {
+      "contract_id": "voltage_rail_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/voltage_rail_policy_integrity.schema.json",
+      "sha256": "b3c6ff36cb7fd05988f30a95c29b8c4cf0326b98822be0e49202a5f7ef288d64",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "watchdog_timer_policy_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/platform/v1/watchdog_timer_policy_integrity.schema.json",
+      "sha256": "76f71ed262c7f5f1d48952dabf98cad5522da7beee0be9076d1cc51d1ef37d50",
+      "domain": "platform"
+    },
+    {
+      "contract_id": "watermark_progress_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/watermark_progress_integrity.schema.json",
+      "sha256": "1e89af7b38b23a27f3a27ef1f05d4ffdf95086c38208dcc1214f76921fb1d027"
+    },
+    {
+      "contract_id": "window_aggregation_consistency_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/runtime/v1/window_aggregation_consistency_integrity.schema.json",
+      "sha256": "4abf33f8890c1b90972d3b3951b688743e5940a90bbcf9377c4308ef67326b1e"
+    },
+    {
+      "contract_id": "workload_identity_attestation_integrity",
+      "category": "schema",
+      "version": "1.0",
+      "path": "contracts/compat/identity/v1/workload_identity_attestation_integrity.schema.json",
+      "sha256": "9f0072905ebf9e17a5992ccbdb882c5cc8210534176fbf7a314aad0fddae1596"
+    }
+  ]
+}

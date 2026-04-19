@@ -1,0 +1,17 @@
+{
+  "schema_version": "2.0",
+  "context_allowlist": [
+    "global",
+    "editor",
+    "shell"
+  ],
+  "hotkeys": [
+    {
+      "action_id": "boss_button",
+      "action_name": "Boss Button",
+      "context": "global",
+      "enabled": true,
+      "chord": "Ctrl+Z"
+    }
+  ]
+}

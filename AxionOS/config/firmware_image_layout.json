@@ -1,0 +1,10 @@
+{
+  "contract_id": "firmware_image_layout_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "FIRMWARE_LAYOUT_REGION_OVERLAP_ACCEPTED",
+    "FIRMWARE_LAYOUT_BOUNDARY_VIOLATION_ACCEPTED"
+  ],
+  "parked_gate_exit": 2721
+}

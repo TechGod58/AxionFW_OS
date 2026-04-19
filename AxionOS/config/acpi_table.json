@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "acpi_table_integrity",
+  "fail_codes": [
+    "ACPI_TABLE_TAMPER_ACCEPTED",
+    "ACPI_SDT_SIGNATURE_BYPASS"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

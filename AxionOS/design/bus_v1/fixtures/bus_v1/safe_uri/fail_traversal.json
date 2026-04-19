@@ -1,0 +1,6 @@
+{
+  "uri": "safe://projects/../windows/win.ini",
+  "mimeType": "text/plain",
+  "sizeBytes": 92,
+  "expected": "MAP_FAIL_TRAVERSAL"
+}

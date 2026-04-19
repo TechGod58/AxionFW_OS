@@ -1,0 +1,10 @@
+﻿{
+    "chains":  [
+                   "boot_handoff",
+                   "sandbox_lifecycle",
+                   "audit_bundle"
+               ],
+    "category":  "marker",
+    "version":  "1.0",
+    "contract_id":  "markers"
+}

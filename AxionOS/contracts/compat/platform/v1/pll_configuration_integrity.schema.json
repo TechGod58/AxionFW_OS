@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "pll_configuration_integrity schema",
+  "type": "object",
+  "required": [
+    "status",
+    "audit_path",
+    "smoke_path",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "audit_path": {
+      "type": "string"
+    },
+    "smoke_path": {
+      "type": "string"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

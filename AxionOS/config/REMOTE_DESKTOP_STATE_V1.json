@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "remote_desktop": {
+    "enabled": true,
+    "allow_admins": true,
+    "allow_users": false,
+    "require_network_level_auth": true,
+    "port": 3389,
+    "last_changed_utc": "2026-04-18T16:45:39.646406+00:00"
+  }
+}

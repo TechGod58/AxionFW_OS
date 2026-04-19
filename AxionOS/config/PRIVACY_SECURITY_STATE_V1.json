@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "privacy": {
+    "location": true,
+    "camera_access": true,
+    "microphone_access": true,
+    "clipboard_history": false,
+    "telemetry_mode": "local_only"
+  },
+  "security": {
+    "firewall_mode": "strict",
+    "threat_scan_mode": "balanced",
+    "quarantine_count": 1101,
+    "lockdown_mode": true
+  },
+  "logging": {
+    "level_default": [
+      "ERROR",
+      "CHANGE"
+    ],
+    "debug_enabled": false
+  }
+}

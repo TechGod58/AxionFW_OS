@@ -1,0 +1,6 @@
+AxionFW Base content is now hosted in the unified workspace:
+C:\AxionFW_OS\AxionFW\Base
+
+Legacy compatibility aliases can still map old paths when required:
+- C:\AxionFW\Base
+- C:\AxionFW_Base

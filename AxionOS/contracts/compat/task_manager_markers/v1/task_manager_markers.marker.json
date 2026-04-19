@@ -1,0 +1,7 @@
+﻿{
+  "contract_id": "task_manager_markers",
+  "version": "1.0",
+  "required_markers": [
+    {"name":"TASK_SNAPSHOT_OK","required_fields":["run_id","timestamp_utc","task_count"],"optional_fields":["build_id"]}
+  ]
+}

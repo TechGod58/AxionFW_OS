@@ -1,0 +1,10 @@
+{
+  "contract_id": "peripheral_trust_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PERIPHERAL_TRUST_POLICY_BYPASS_ACCEPTED",
+    "PERIPHERAL_POLICY_CHAIN_INVALID_ACCEPTED"
+  ],
+  "parked_gate_exit": 2961
+}

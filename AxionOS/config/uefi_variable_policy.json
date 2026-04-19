@@ -1,0 +1,35 @@
+{
+  "allowlist_variables": [
+    "PK",
+    "KEK",
+    "db",
+    "dbx"
+  ],
+  "denylist_variables": [
+    "SetupModeOverride",
+    "SecureBootDisable"
+  ],
+  "attribute_enforcement": {
+    "required": [
+      "NON_VOLATILE",
+      "BOOTSERVICE_ACCESS",
+      "RUNTIME_ACCESS"
+    ],
+    "forbid": [
+      "AUTH_BYPASS"
+    ]
+  },
+  "vendor_guid_rules": {
+    "allowed": [
+      "8BE4DF61-93CA-11D2-AA0D-00E098032B8C"
+    ],
+    "deny_unknown": true
+  },
+  "persistence_rules": {
+    "enforce_nonvolatile_for_secure_vars": true,
+    "forbid_transient_secure_vars": true
+  },
+  "runtime_access_rules": {
+    "secure_vars_read_only_at_runtime": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "v": 1,
+  "type": "route.request",
+  "id": "msg_0002",
+  "ts": "2026-03-01T13:45:10Z",
+  "source": "axionos",
+  "target": "axionbus",
+  "corr": "corr_0002",
+  "payload": {
+    "job_id": "job_001",
+    "workload_class": "stability_critical",
+    "requirements": ["compute.cpu", "qecc.decode"],
+    "safety_profile": "default",
+    "deadline_ms": 500,
+    "input_ref": "blob://job_001/input"
+  }
+}

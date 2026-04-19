@@ -1,0 +1,10 @@
+{
+  "contract_id": "device_trust_revocation_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEVICE_REVOCATION_LIST_BYPASS_ACCEPTED",
+    "DEVICE_REVOKED_CERT_ACCEPTED"
+  ],
+  "parked_gate_exit": 2981
+}

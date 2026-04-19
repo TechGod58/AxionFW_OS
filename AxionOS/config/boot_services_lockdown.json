@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "boot_services_lockdown_integrity",
+  "fail_codes": [
+    "BOOT_SERVICES_EXIT_HOOK_DETECTED",
+    "RUNTIME_SERVICES_POINTER_TAMPER_ACCEPTED"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

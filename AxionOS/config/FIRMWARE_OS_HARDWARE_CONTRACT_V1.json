@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "contractId": "AXION_FIRMWARE_OS_HARDWARE_CONTRACT_V1",
+  "firmware": {
+    "provider": "AxionFW",
+    "requiredArtifacts": ["OVMF_CODE.fd", "OVMF_VARS.fd"],
+    "requiredServices": ["UEFI Boot Services", "UEFI Runtime Services", "ACPI table export"],
+    "securityRequirements": {
+      "measuredBoot": true,
+      "secureBootPolicyPresent": true,
+      "runtimeVariableProtection": true
+    }
+  },
+  "os": {
+    "provider": "AxionOS",
+    "requiredConsumers": ["AxionHAL firmware_handoff class", "AxionHAL motherboard_core class", "security_trust class"],
+    "bootProfiles": ["axionos_capsule_q35_ref", "axionos_capsule_generic_x64"],
+    "driverInstallMode": "firmware_first_os_second"
+  },
+  "sharedContracts": {
+    "bootTransport": "uefi_x64",
+    "deviceDiscovery": ["ACPI", "PCIe", "UEFI configuration tables"],
+    "trustChain": ["firmware measurement", "secure boot policy", "OS attestation refresh"],
+    "biosSettingsApplyMode": "pending_restart_only",
+    "rewriteEngine": {
+      "contractId": "AXION_SIGNED_FW_REWRITE_EXECUTOR_V1",
+      "mandatoryBackup": true,
+      "abSlotRollbackRequired": true,
+      "allowedAdapters": [
+        "intel_pch_generic_v1",
+        "amd_promontory_generic_v1",
+        "generic_uefi_fallback_v1"
+      ]
+    },
+    "installerOrder": ["hardware_compatibility_gate", "firmware_install", "driver_bundle_install", "os_install", "security_seal_and_handoff"]
+  }
+}

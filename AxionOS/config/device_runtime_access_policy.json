@@ -1,0 +1,10 @@
+{
+  "contract_id": "device_runtime_access_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEVICE_RUNTIME_POLICY_BYPASS_ACCEPTED",
+    "DEVICE_RUNTIME_ACCESS_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 2991
+}

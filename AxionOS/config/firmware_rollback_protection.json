@@ -1,0 +1,9 @@
+{
+  "firmware_component": "axion-fw-core",
+  "rollback_counter_source": "nv_counter",
+  "minimum_allowed_version": "1.0.0",
+  "signed_version_manifest_path": "AXION_ROOT:/firmware/signed_version_manifest.json",
+  "counter_persistence_path": "AXION_ROOT:/out/firmware/rollback_counter.state",
+  "anti_rollback_policy": "strict_monotonic",
+  "measurement_log_path": "AXION_ROOT:/out/firmware/rollback_measurements.log"
+}

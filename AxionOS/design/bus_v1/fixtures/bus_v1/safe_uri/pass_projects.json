@@ -1,0 +1,6 @@
+{
+  "uri": "safe://projects/axionos/build/out.json",
+  "mimeType": "application/json",
+  "sizeBytes": 1200,
+  "expected": "MAP_OK"
+}

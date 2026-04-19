@@ -1,0 +1,13 @@
+﻿{
+  "schema_version": "1.0",
+  "actions": [
+    {
+      "action_id": "boss_button",
+      "action_name": "Boss Button",
+      "category": "safety",
+      "contexts": ["global"],
+      "enabled": true,
+      "notes": "Toggle safe screen and restore prior view"
+    }
+  ]
+}

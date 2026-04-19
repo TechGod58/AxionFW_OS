@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "policyId": "AXION_BIOS_SETTINGS_POLICY_V1",
+  "mode": "pending_restart_only",
+  "notes": [
+    "This policy controls what BIOS/firmware settings may be staged from AxionOS.",
+    "Staged settings are consumed by firmware handoff and only applied after restart."
+  ],
+  "allowedSettings": {
+    "virtualization": {
+      "type": "bool"
+    },
+    "iommu": {
+      "type": "bool"
+    },
+    "secure_boot_mode": {
+      "type": "enum",
+      "allowed": [
+        "standard",
+        "custom",
+        "disabled"
+      ]
+    },
+    "boot_order_lock": {
+      "type": "bool"
+    },
+    "memory_training_level": {
+      "type": "enum",
+      "allowed": [
+        "auto",
+        "fast",
+        "thorough"
+      ]
+    },
+    "fan_curve_profile": {
+      "type": "enum",
+      "allowed": [
+        "silent",
+        "balanced",
+        "performance"
+      ]
+    }
+  },
+  "forbiddenSettings": [
+    "tpm",
+    "bitlocker",
+    "me_unlock",
+    "spi_write_unlock"
+  ]
+}

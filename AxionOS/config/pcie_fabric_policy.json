@@ -1,0 +1,10 @@
+{
+  "contract_id": "pcie_fabric_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PCIE_FABRIC_POLICY_BYPASS_ACCEPTED",
+    "PCIE_FABRIC_ROUTE_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3171
+}

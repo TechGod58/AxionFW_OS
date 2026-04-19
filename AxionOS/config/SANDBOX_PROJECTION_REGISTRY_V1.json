@@ -1,0 +1,856 @@
+{
+  "version": 1,
+  "policyId": "AXION_SANDBOX_PROJECTION_REGISTRY_V1",
+  "apps": {
+    "legacy_windows_installer": {
+      "projection_id": "legacy_windows_installer:windows:win95",
+      "app_id": "legacy_windows_installer",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "setup_legacy.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\legacy_windows_installer",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\legacy_windows_installer",
+      "updated_utc": "2026-04-18T18:38:34.500250+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "legacy_setup": {
+      "projection_id": "legacy_setup:linux:linux_current",
+      "app_id": "legacy_setup",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "legacy_setup.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\legacy_setup",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\legacy_setup",
+      "updated_utc": "2026-04-18T17:29:52.768726+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win95": {
+      "projection_id": "matrix_windows_win95:windows:win95",
+      "app_id": "matrix_windows_win95",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win95.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win95",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win95",
+      "updated_utc": "2026-04-18T18:38:38.242077+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win98": {
+      "projection_id": "matrix_windows_win98:windows:win98",
+      "app_id": "matrix_windows_win98",
+      "family": "windows",
+      "profile": "win98",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win98.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win98",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win98",
+      "updated_utc": "2026-04-18T18:38:40.083597+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_winme": {
+      "projection_id": "matrix_windows_winme:windows:winme",
+      "app_id": "matrix_windows_winme",
+      "family": "windows",
+      "profile": "winme",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_winme.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_winme",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_winme",
+      "updated_utc": "2026-04-18T18:38:41.933913+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win2000": {
+      "projection_id": "matrix_windows_win2000:windows:win2000",
+      "app_id": "matrix_windows_win2000",
+      "family": "windows",
+      "profile": "win2000",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win2000.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win2000",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win2000",
+      "updated_utc": "2026-04-18T18:38:43.757078+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_winxp": {
+      "projection_id": "matrix_windows_winxp:windows:winxp",
+      "app_id": "matrix_windows_winxp",
+      "family": "windows",
+      "profile": "winxp",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_winxp.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_winxp",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_winxp",
+      "updated_utc": "2026-04-18T18:38:45.559738+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_vista": {
+      "projection_id": "matrix_windows_vista:windows:vista",
+      "app_id": "matrix_windows_vista",
+      "family": "windows",
+      "profile": "vista",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_vista.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_vista",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_vista",
+      "updated_utc": "2026-04-18T18:38:47.382610+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win7": {
+      "projection_id": "matrix_windows_win7:windows:win7",
+      "app_id": "matrix_windows_win7",
+      "family": "windows",
+      "profile": "win7",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win7.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win7",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win7",
+      "updated_utc": "2026-04-18T18:38:49.195956+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win8": {
+      "projection_id": "matrix_windows_win8:windows:win8",
+      "app_id": "matrix_windows_win8",
+      "family": "windows",
+      "profile": "win8",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win8.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win8",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win8",
+      "updated_utc": "2026-04-18T18:38:51.034054+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win81": {
+      "projection_id": "matrix_windows_win81:windows:win81",
+      "app_id": "matrix_windows_win81",
+      "family": "windows",
+      "profile": "win81",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win81.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win81",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win81",
+      "updated_utc": "2026-04-18T18:38:52.859362+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win10": {
+      "projection_id": "matrix_windows_win10:windows:win10",
+      "app_id": "matrix_windows_win10",
+      "family": "windows",
+      "profile": "win10",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win10.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win10",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win10",
+      "updated_utc": "2026-04-18T18:38:54.697765+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_windows_win11": {
+      "projection_id": "matrix_windows_win11:windows:win11",
+      "app_id": "matrix_windows_win11",
+      "family": "windows",
+      "profile": "win11",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_windows_win11.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_windows_win11",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_windows_win11",
+      "updated_utc": "2026-04-18T18:38:56.531680+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_2_0": {
+      "projection_id": "matrix_linux_linux_2_0:linux:linux_2_0",
+      "app_id": "matrix_linux_linux_2_0",
+      "family": "linux",
+      "profile": "linux_2_0",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_2_0.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_2_0",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_2_0",
+      "updated_utc": "2026-04-18T18:38:58.348093+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_2_2": {
+      "projection_id": "matrix_linux_linux_2_2:linux:linux_2_2",
+      "app_id": "matrix_linux_linux_2_2",
+      "family": "linux",
+      "profile": "linux_2_2",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_2_2.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_2_2",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_2_2",
+      "updated_utc": "2026-04-18T18:39:00.171691+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_2_4": {
+      "projection_id": "matrix_linux_linux_2_4:linux:linux_2_4",
+      "app_id": "matrix_linux_linux_2_4",
+      "family": "linux",
+      "profile": "linux_2_4",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_2_4.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_2_4",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_2_4",
+      "updated_utc": "2026-04-18T18:39:01.980557+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_2_6": {
+      "projection_id": "matrix_linux_linux_2_6:linux:linux_2_6",
+      "app_id": "matrix_linux_linux_2_6",
+      "family": "linux",
+      "profile": "linux_2_6",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_2_6.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_2_6",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_2_6",
+      "updated_utc": "2026-04-18T18:39:03.775633+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_3_x": {
+      "projection_id": "matrix_linux_linux_3_x:linux:linux_3_x",
+      "app_id": "matrix_linux_linux_3_x",
+      "family": "linux",
+      "profile": "linux_3_x",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_3_x.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_3_x",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_3_x",
+      "updated_utc": "2026-04-18T18:39:05.566981+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_4_x": {
+      "projection_id": "matrix_linux_linux_4_x:linux:linux_4_x",
+      "app_id": "matrix_linux_linux_4_x",
+      "family": "linux",
+      "profile": "linux_4_x",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_4_x.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_4_x",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_4_x",
+      "updated_utc": "2026-04-18T18:39:07.384888+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_5_x": {
+      "projection_id": "matrix_linux_linux_5_x:linux:linux_5_x",
+      "app_id": "matrix_linux_linux_5_x",
+      "family": "linux",
+      "profile": "linux_5_x",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_5_x.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_5_x",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_5_x",
+      "updated_utc": "2026-04-18T18:39:09.183708+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "matrix_linux_linux_current": {
+      "projection_id": "matrix_linux_linux_current:linux:linux_current",
+      "app_id": "matrix_linux_linux_current",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "matrix_linux_linux_current.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\matrix_linux_linux_current",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\matrix_linux_linux_current",
+      "updated_utc": "2026-04-18T18:39:11.015243+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "projection_ready_app": {
+      "projection_id": "projection_ready_app:linux:linux_2_6",
+      "app_id": "projection_ready_app",
+      "family": "linux",
+      "profile": "linux_2_6",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "projection_ready_setup.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\projection_ready_app",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\projection_ready_app",
+      "updated_utc": "2026-04-18T17:30:19.329365+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "projection_reconnect_app": {
+      "projection_id": "projection_reconnect_app:linux:linux_current",
+      "app_id": "projection_reconnect_app",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "projection_reconnect_setup.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\projection_reconnect_app",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\projection_reconnect_app",
+      "updated_utc": "2026-04-18T17:30:20.514899+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "blocked_setup": {
+      "projection_id": "blocked_setup:windows:win95",
+      "app_id": "blocked_setup",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "blocked_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\blocked_setup",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\blocked_setup",
+      "updated_utc": "2026-04-18T17:30:23.976119+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "source_env_setup": {
+      "projection_id": "source_env_setup:windows:win95",
+      "app_id": "source_env_setup",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "source_env_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\source_env_setup",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\source_env_setup",
+      "updated_utc": "2026-04-18T17:30:24.955782+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "session_broker_demo": {
+      "projection_id": "session_broker_demo:linux:linux_current",
+      "app_id": "session_broker_demo",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "unit_test",
+      "installer_artifact": "session_broker_demo.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\session_broker_demo",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\session_broker_demo",
+      "updated_utc": "2026-04-18T12:11:14.332503+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "session_broker_expire": {
+      "projection_id": "session_broker_expire:linux:linux_current",
+      "app_id": "session_broker_expire",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "unit_test",
+      "installer_artifact": "session_broker_expire.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\session_broker_expire",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\session_broker_expire",
+      "updated_utc": "2026-04-18T12:11:14.526064+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "projection_session_smoke_app": {
+      "projection_id": "projection_session_smoke_app:linux:linux_current",
+      "app_id": "projection_session_smoke_app",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "projection_session_smoke_app.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\projection_session_smoke_app",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\projection_session_smoke_app",
+      "updated_utc": "2026-04-18T18:39:12.464551+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "builder_demo": {
+      "projection_id": "builder_demo:native_axion:axion_default",
+      "app_id": "builder_demo",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "active": true,
+      "source": "one_click_module_connect",
+      "installer_artifact": "module.json",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\builder_demo",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\builder_demo",
+      "updated_utc": "2026-04-18T18:38:30.327041+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "setup_legacy": {
+      "projection_id": "setup_legacy:windows:win95",
+      "app_id": "setup_legacy",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "setup_legacy.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\setup_legacy",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\setup_legacy",
+      "updated_utc": "2026-04-17T21:57:03.327367+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "setup_new": {
+      "projection_id": "setup_new:linux:linux_current",
+      "app_id": "setup_new",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "setup_new.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\setup_new",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\setup_new",
+      "updated_utc": "2026-04-17T21:57:03.507154+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "cp_click_demo": {
+      "projection_id": "cp_click_demo:native_axion:axion_default",
+      "app_id": "cp_click_demo",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "active": true,
+      "source": "one_click_module_connect",
+      "installer_artifact": "module.json",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\cp_click_demo",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\cp_click_demo",
+      "updated_utc": "2026-04-18T18:37:19.318391+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "cp_setup_legacy": {
+      "projection_id": "cp_setup_legacy:linux:linux_current",
+      "app_id": "cp_setup_legacy",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "cp_setup_legacy.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\cp_setup_legacy",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\cp_setup_legacy",
+      "updated_utc": "2026-04-18T18:37:19.767243+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "start_menu_setup": {
+      "projection_id": "start_menu_setup:windows:win95",
+      "app_id": "start_menu_setup",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "start_menu_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\start_menu_setup",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\start_menu_setup",
+      "updated_utc": "2026-04-18T17:55:31.322458+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "startmenu_click_demo": {
+      "projection_id": "startmenu_click_demo:native_axion:axion_default",
+      "app_id": "startmenu_click_demo",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "active": true,
+      "source": "one_click_module_connect",
+      "installer_artifact": "module.json",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\startmenu_click_demo",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\startmenu_click_demo",
+      "updated_utc": "2026-04-18T17:55:32.140862+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "contract_setup": {
+      "projection_id": "contract_setup:windows:win95",
+      "app_id": "contract_setup",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "contract_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\contract_setup",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\contract_setup",
+      "updated_utc": "2026-04-18T17:18:44.991343+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "builder_legacy_setup": {
+      "projection_id": "builder_legacy_setup:windows:win95",
+      "app_id": "builder_legacy_setup",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "builder_legacy_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\builder_legacy_setup",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\builder_legacy_setup",
+      "updated_utc": "2026-04-18T17:27:25.183430+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "orch_setup_legacy": {
+      "projection_id": "orch_setup_legacy:windows:win95",
+      "app_id": "orch_setup_legacy",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "orch_setup_legacy.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\orch_setup_legacy",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\orch_setup_legacy",
+      "updated_utc": "2026-04-18T07:15:09.897053+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "builder_click_demo": {
+      "projection_id": "builder_click_demo:native_axion:axion_default",
+      "app_id": "builder_click_demo",
+      "family": "native_axion",
+      "profile": "axion_default",
+      "execution_model": "capsule_native",
+      "active": true,
+      "source": "one_click_module_connect",
+      "installer_artifact": "module.json",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\builder_click_demo",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\builder_click_demo",
+      "updated_utc": "2026-04-18T17:27:24.854687+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "legacy_linux_installer": {
+      "projection_id": "legacy_linux_installer:linux:linux_current",
+      "app_id": "legacy_linux_installer",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "setup_new.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\legacy_linux_installer",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\legacy_linux_installer",
+      "updated_utc": "2026-04-18T18:38:36.215999+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "soak_recovery_installer_app": {
+      "projection_id": "soak_recovery_installer_app:windows:win11",
+      "app_id": "soak_recovery_installer_app",
+      "family": "windows",
+      "profile": "win11",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "soak_recovery_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\soak_recovery_installer_app",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\soak_recovery_installer_app",
+      "updated_utc": "2026-04-18T18:39:58.626454+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "unsafe_web_drop": {
+      "projection_id": "unsafe_web_drop:windows:win95",
+      "app_id": "unsafe_web_drop",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "blocked_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\unsafe_web_drop",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\unsafe_web_drop",
+      "updated_utc": "2026-04-18T17:30:26.267042+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "session_broker_purge": {
+      "projection_id": "session_broker_purge:linux:linux_current",
+      "app_id": "session_broker_purge",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "unit_test",
+      "installer_artifact": "session_broker_purge.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\session_broker_purge",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\session_broker_purge",
+      "updated_utc": "2026-04-18T12:11:14.636229+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "pad": {
+      "projection_id": "pad:linux:linux_current",
+      "app_id": "pad",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "projection_runtime_close_setup.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\pad",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\pad",
+      "updated_utc": "2026-04-18T12:05:02.439806+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "notes": {
+      "projection_id": "notes:linux:linux_current",
+      "app_id": "notes",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "projection_runtime_close_setup.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\notes",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\notes",
+      "updated_utc": "2026-04-18T17:30:22.160334+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "firefox_browser_installer": {
+      "projection_id": "firefox_browser_installer:windows:win11",
+      "app_id": "firefox_browser_installer",
+      "family": "windows",
+      "profile": "win11",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "firefox_installer.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\firefox_browser_installer",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\firefox_browser_installer",
+      "updated_utc": "2026-04-18T17:27:26.495599+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "chrome_browser_installer": {
+      "projection_id": "chrome_browser_installer:windows:win11",
+      "app_id": "chrome_browser_installer",
+      "family": "windows",
+      "profile": "win11",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "chrome_installer.exe",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\chrome_browser_installer",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\chrome_browser_installer",
+      "updated_utc": "2026-04-18T12:55:23.916157+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "sandbox_win95_app": {
+      "projection_id": "sandbox_win95_app:windows:win95",
+      "app_id": "sandbox_win95_app",
+      "family": "windows",
+      "profile": "win95",
+      "execution_model": "sandbox_windows_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "sandbox_win95_setup.msi",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\sandbox_win95_app",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\sandbox_win95_app",
+      "updated_utc": "2026-04-18T17:29:49.543124+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "sandbox_linux_app": {
+      "projection_id": "sandbox_linux_app:linux:linux_current",
+      "app_id": "sandbox_linux_app",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "sandbox_linux_setup.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\sandbox_linux_app",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\sandbox_linux_app",
+      "updated_utc": "2026-04-18T17:29:50.216811+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    },
+    "runtime_image_lookup_app": {
+      "projection_id": "runtime_image_lookup_app:linux:linux_current",
+      "app_id": "runtime_image_lookup_app",
+      "family": "linux",
+      "profile": "linux_current",
+      "execution_model": "sandbox_linux_compat",
+      "active": true,
+      "source": "installer_execution",
+      "installer_artifact": "runtime_image_lookup_setup.deb",
+      "projection_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Catalog\\runtime_image_lookup_app",
+      "environment_root": "C:\\AxionFW_OS\\AxionOS\\data\\rootfs\\Sandbox Projections\\Environments\\runtime_image_lookup_app",
+      "updated_utc": "2026-04-18T17:29:50.888465+00:00",
+      "launch_contract": {
+        "run_from_projection": true,
+        "stable_environment": true
+      }
+    }
+  }
+}

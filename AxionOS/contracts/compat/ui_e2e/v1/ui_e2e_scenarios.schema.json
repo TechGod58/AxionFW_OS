@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ui e2e scenarios schema",
+  "type": "object",
+  "required": ["status", "scenario", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "scenario": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "uefi_driver_load_policy_integrity",
+  "fail_codes": [
+    "UEFI_DRIVER_ALLOWLIST_BYPASS",
+    "UEFI_OPTION_ROM_EXECUTION_UNCHECKED"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "install": {
+    "computer_name_required": true,
+    "computer_name": "AXION-LAB",
+    "owner": "TechGod",
+    "organization": "Axion Industries",
+    "network_profile": "private",
+    "workgroup": "AXIONWG"
+  }
+}

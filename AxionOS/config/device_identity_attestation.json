@@ -1,0 +1,10 @@
+{
+  "contract_id": "device_identity_attestation_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEVICE_ATTESTATION_SIGNATURE_BYPASS_ACCEPTED",
+    "DEVICE_ATTESTATION_CERT_CHAIN_MISMATCH_ACCEPTED"
+  ],
+  "parked_gate_exit": 2931
+}

@@ -1,0 +1,13 @@
+{
+  "attestation_root_ca": "AXION_ROOT:/certs/root_ca.pem",
+  "attestation_intermediate_ca": "AXION_ROOT:/certs/intermediate_ca.pem",
+  "expected_platform_measurements": [
+    "PCR0_HASH",
+    "PCR2_HASH",
+    "PCR7_HASH"
+  ],
+  "attestation_quote_source": "AXION_ROOT:/out/firmware/attestation.quote",
+  "pcr_measurement_log": "AXION_ROOT:/out/firmware/pcr_measurements.log",
+  "attestation_verifier_policy": "strict_chain_validation",
+  "attestation_manifest_path": "AXION_ROOT:/firmware/attestation_manifest.json"
+}

@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "apps": {
+    "clock": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "calendar": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "pad": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "capture": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "pulse_monitor": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "calculator": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "camera": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "photo_editing": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "photo_viewer": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "notepad": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "control_panel": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "users_tools": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "disk_cleanup": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "registry_editor": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "accessibilities": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "media_codecs": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "video_player": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "audio_recorder": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "video_recorder": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "command_prompt": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "powershell": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "run": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "windows_tools": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "task_manager": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "services": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "file_explorer": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "codex": {
+      "family": "native_system",
+      "profile": "system_default"
+    },
+    "write": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "sheets": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "slides": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "mail": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "database": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "publisher": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "pdf_studio": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "vector_studio": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "creative_studio": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "notepad_plus_plus": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    },
+    "brave_browser": {
+      "family": "native_axion",
+      "profile": "axion_default"
+    }
+  },
+  "external_program_policy": {
+    "allow_windows_programs": true,
+    "allow_linux_programs": true,
+    "run_in_sandbox_only": false,
+    "prepare_environment_before_launch": true
+  }
+}

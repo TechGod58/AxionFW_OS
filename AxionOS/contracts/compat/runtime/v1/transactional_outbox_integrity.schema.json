@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "transactional outbox integrity schema",
+  "type": "object",
+  "required": ["status","transactional_outbox","failures"],
+  "properties": {
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "transactional_outbox": {"type":"object"},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

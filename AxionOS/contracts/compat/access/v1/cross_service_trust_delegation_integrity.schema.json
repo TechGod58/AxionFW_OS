@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "cross service trust delegation integrity schema",
+  "type": "object",
+  "required": ["status", "cross_service_trust_delegation", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "cross_service_trust_delegation": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

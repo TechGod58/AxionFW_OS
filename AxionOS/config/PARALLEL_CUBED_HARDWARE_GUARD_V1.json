@@ -1,0 +1,10 @@
+﻿{
+  "version": 1,
+  "policyId": "AXION_PARALLEL_CUBED_HARDWARE_GUARD_V1",
+  "enabled": true,
+  "strictMode": true,
+  "inventoryRequiredBeforeSmartWrite": true,
+  "allowBusClasses": [1, 2, 6],
+  "denyBusClasses": [12, 13],
+  "note": "Hardware-level guard defaults: allow storage/network/bridge enumeration, deny serial-wireless and intelligent IO by default unless policy-elevated."
+}

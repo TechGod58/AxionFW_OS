@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "inter service mtls identity integrity schema",
+  "type": "object",
+  "required": ["status", "inter_service_mtls_identity", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "inter_service_mtls_identity": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

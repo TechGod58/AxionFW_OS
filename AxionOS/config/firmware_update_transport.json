@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "firmware_update_transport_integrity",
+  "fail_codes": [
+    "FW_UPDATE_CHANNEL_AUTH_BYPASS",
+    "FW_UPDATE_REPLAY_ACCEPTED"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

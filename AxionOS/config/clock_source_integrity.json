@@ -1,0 +1,10 @@
+{
+  "contract_id": "clock_source_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "CLOCK_SOURCE_POLICY_BYPASS_ACCEPTED",
+    "UNTRUSTED_CLOCK_SOURCE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3231
+}

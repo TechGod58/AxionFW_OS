@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "policyId": "AXION_SANDBOX_PROJECTION_POLICY_V1",
+  "roots": {
+    "projection_root": "data/rootfs/Sandbox Projections/Catalog",
+    "environment_root": "data/rootfs/Sandbox Projections/Environments"
+  },
+  "launch_projection_required": true,
+  "session": {
+    "session_root": "data/rootfs/Sandbox Projections/Sessions",
+    "reconnect_window_sec": 600,
+    "idle_timeout_sec": 3600,
+    "discard_unsaved_overlay_on_close": true,
+    "discard_unsaved_overlay_on_idle_expire": true,
+    "discard_on_close_paths": [
+      "upper",
+      "work"
+    ],
+    "cow": {
+      "mode": "copy_on_write",
+      "base_dir": "base",
+      "upper_dir": "upper",
+      "work_dir": "work",
+      "merged_dir": "merged"
+    }
+  },
+  "projection_state_file": "projection.json",
+  "notes": "Installer/module onboarding pins runtime compatibility into a stable projection profile consumed at launch with reconnectable copy-on-write projection sessions."
+}

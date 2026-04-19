@@ -1,0 +1,10 @@
+﻿{
+    "fixture_id":  "stale_cache_mismatch_v1",
+    "fixture_version":  "1.0",
+    "expected_markers":  [
+                             "M1"
+                         ],
+    "files":  [
+
+              ]
+}

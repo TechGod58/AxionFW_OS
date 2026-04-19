@@ -1,0 +1,13 @@
+﻿{
+    "fixture_id":  "hash_tamper_v1",
+    "fixture_version":  "1.0",
+    "expected_markers":  [
+                             "M1"
+                         ],
+    "files":  [
+                  {
+                      "path":  "sample.txt",
+                      "sha256":  "b8be1604d4f87fe1d948448fc75ebca4e81eaa37e5431a974e0f7b7ccfe97b4d"
+                  }
+              ]
+}

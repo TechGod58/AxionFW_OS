@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "cluster membership integrity schema",
+  "type": "object",
+  "required": ["status", "cluster_membership", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "cluster_membership": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

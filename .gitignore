@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tmp
+*.temp
+*.swp
+
+# Python caches / envs
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Workspace-generated and staging artifacts
+_imports/
+AxionOS/out/
+AxionOS/build/
+AxionOS/data/
+AxionOS/tools/runtime/python311/
+
+# Firmware build outputs
+AxionFW/out/
+AxionFW/Base/out/
+AxionFW/Base/bootstrap.log
+AxionFW/edk2/Build/
+AxionFW/edk2/**/Build/
+
+# Local tooling artifacts
+tools/runtime/

@@ -1,0 +1,12 @@
+{
+  "trusted_root_keys": [
+    "ROOT_A",
+    "ROOT_B"
+  ],
+  "manifest_signing_policy": "strict",
+  "revocation_propagation_rules": "must_include_all_revoked",
+  "monotonic_keyset_version": true,
+  "manifest_path": "AXION_ROOT:/firmware/key_manifest.json",
+  "revocation_list_path": "AXION_ROOT:/firmware/key_revocations.json",
+  "trust_anchor_store": "AXION_ROOT:/firmware/trust_anchors.json"
+}

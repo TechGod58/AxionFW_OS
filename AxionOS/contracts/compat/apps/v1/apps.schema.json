@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "apps schema",
+  "type": "object",
+  "required": ["status","apps","failures"],
+  "properties": {
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "apps": {"type":"array","items":{"type":"object"}},
+    "active_app_id": {"type":["string","null"]},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

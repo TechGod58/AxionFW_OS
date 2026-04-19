@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "policyId": "AXION_PROGRAM_MODULE_CATALOG_V1",
+  "roots": {
+    "program_files": "Program Files",
+    "program_files_x86": "Program Files (86)",
+    "program_modules": "Program Modules",
+    "sandbox_projections": "Sandbox Projections"
+  },
+  "onboarding": {
+    "sourceRoot": "Program Modules",
+    "intakeMode": "copy_in_place",
+    "activationMode": "one_click_add_to_os",
+    "defaultRuntimeMode": "capsule"
+  },
+  "available_modules": [
+    {
+      "app_id": "startmenu_click_demo",
+      "name": "StartMenu Click Demo",
+      "version": "0.1.0",
+      "root": "Program Modules",
+      "install_mode": "copy_in_place",
+      "activation_mode": "one_click_add_to_os",
+      "runtime_mode": "capsule",
+      "registered_utc": "2026-04-17T11:25:46.865094+00:00"
+    },
+    {
+      "app_id": "builder_demo",
+      "name": "Builder Demo",
+      "version": "0.1.0",
+      "root": "Program Modules",
+      "install_mode": "copy_in_place",
+      "activation_mode": "one_click_add_to_os",
+      "runtime_mode": "capsule",
+      "registered_utc": "2026-04-18T17:41:38.730085+00:00"
+    }
+  ],
+  "installed_modules": [
+    {
+      "app_id": "startmenu_click_demo",
+      "name": "StartMenu Click Demo",
+      "version": "0.1.0",
+      "root": "Program Modules",
+      "install_mode": "copy_in_place",
+      "activation_mode": "one_click_add_to_os",
+      "runtime_mode": "capsule",
+      "registered_utc": "2026-04-17T11:25:46.865094+00:00"
+    },
+    {
+      "app_id": "builder_demo",
+      "name": "Builder Demo",
+      "version": "0.1.0",
+      "root": "Program Modules",
+      "install_mode": "copy_in_place",
+      "activation_mode": "one_click_add_to_os",
+      "runtime_mode": "capsule",
+      "registered_utc": "2026-04-18T17:41:38.730085+00:00"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "platform_key_database_integrity",
+  "fail_codes": [
+    "DBX_REVOCATION_NOT_ENFORCED",
+    "KEY_DATABASE_SIGNATURE_MISMATCH_ACCEPTED"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

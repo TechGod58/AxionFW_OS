@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "bluetooth": {
+    "enabled": true,
+    "discoverable": true
+  },
+  "devices": [
+    {
+      "device_id": "usb:1234:5678",
+      "name": "Generic USB Storage",
+      "type": "usb",
+      "state": "connected",
+      "trust": "restricted",
+      "driver": "drv_usb_storage_generic",
+      "sandboxed": true
+    },
+    {
+      "device_id": "bt:aa:bb",
+      "name": "Test Headset",
+      "type": "bluetooth",
+      "state": "connected",
+      "trust": "trusted",
+      "driver": null,
+      "sandboxed": true
+    },
+    {
+      "device_id": "bt:cc:dd",
+      "name": "Travel Mouse",
+      "type": "bluetooth",
+      "state": "connected",
+      "trust": "restricted",
+      "driver": null,
+      "sandboxed": true
+    }
+  ],
+  "audio": {
+    "default_output": "Test Headset",
+    "default_input": "Integrated Microphone"
+  },
+  "printers": [
+    {
+      "device_id": "printer:pdf",
+      "name": "Axion PDF Printer",
+      "default": true
+    }
+  ],
+  "camera": {
+    "default_device": "Integrated Camera",
+    "privacy_shutter": false
+  },
+  "mouse": {
+    "primary_button": "left",
+    "pointer_speed": 10,
+    "scroll_lines": 3
+  },
+  "touchpad": {
+    "enabled": true,
+    "tap_to_click": true,
+    "scroll_direction": "down_motion_scrolls_down"
+  },
+  "readers": {
+    "nfc": false,
+    "prox_card": false,
+    "smart_card": false
+  }
+}

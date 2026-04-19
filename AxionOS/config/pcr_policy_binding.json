@@ -1,0 +1,10 @@
+{
+  "contract_id": "pcr_policy_binding_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PCR_POLICY_MISMATCH_ACCEPTED",
+    "PCR_POLICY_BINDING_BYPASS_ACCEPTED"
+  ],
+  "parked_gate_exit": 2711
+}

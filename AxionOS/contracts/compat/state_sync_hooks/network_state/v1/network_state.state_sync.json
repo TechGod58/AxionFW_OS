@@ -1,0 +1,8 @@
+﻿{
+  "contract_id": "state_sync_network_state",
+  "version": "1.0",
+  "kind": "state_sync_hook",
+  "scope": "network_mutation_precommit",
+  "reconciliation": {"engine": "state_sync", "pre_commit": true, "conflict_policy": "reject"},
+  "failure_code": "STATE_SYNC_NETWORK_MUTATION_REJECTED"
+}

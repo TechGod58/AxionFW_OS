@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "policyId": "AXION_APP_RUNTIME_BEHAVIOR_V1",
+  "close_behavior": {
+    "terminate_on_close": true,
+    "keep_running_in_background_after_close": false
+  },
+  "startup_behavior": {
+    "allow_startup_opt_in": true,
+    "default_startup_enabled": false
+  },
+  "tray_behavior": {
+    "show_running_apps_after_system_indicators": true
+  }
+}

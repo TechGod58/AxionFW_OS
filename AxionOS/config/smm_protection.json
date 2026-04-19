@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "smm_protection_integrity",
+  "fail_codes": [
+    "SMM_LOCKDOWN_BYPASS_DETECTED",
+    "SMRAM_ACCESS_VIOLATION_UNCHECKED"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "state_sync_service_state",
+  "version": "1.0",
+  "kind": "state_sync_hook",
+  "scope": "service_state_mutation_precommit",
+  "reconciliation": {
+    "engine": "state_sync",
+    "pre_commit": true,
+    "conflict_policy": "reject"
+  },
+  "failure_code": "STATE_SYNC_SERVICE_MUTATION_REJECTED"
+}

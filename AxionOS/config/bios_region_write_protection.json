@@ -1,0 +1,17 @@
+{
+  "expected_descriptor_hash": "sha256:descriptor_placeholder",
+  "protected_regions": [
+    {
+      "name": "BIOS",
+      "start": "0x000000",
+      "end": "0x7FFFFF"
+    },
+    {
+      "name": "ME",
+      "start": "0x800000",
+      "end": "0xBFFFFF"
+    }
+  ],
+  "allowed_write_contexts": [],
+  "policy_version": "1.0.0"
+}

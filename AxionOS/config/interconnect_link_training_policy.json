@@ -1,0 +1,10 @@
+{
+  "contract_id": "interconnect_link_training_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "LINK_TRAINING_POLICY_BYPASS_ACCEPTED",
+    "FABRIC_LINK_PROFILE_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3181
+}

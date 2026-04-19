@@ -1,0 +1,1 @@
+﻿{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"inbox outbox pairing integrity schema","type":"object","required":["status","inbox_outbox_pairing","failures"],"properties":{"status":{"type":"string","enum":["PASS","FAIL"]},"inbox_outbox_pairing":{"type":"object"},"failures":{"type":"array","items":{"type":"object"}}}}

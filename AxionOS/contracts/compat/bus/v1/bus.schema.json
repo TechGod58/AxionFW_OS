@@ -1,0 +1,10 @@
+﻿{
+    "category":  "schema",
+    "version":  "1.0",
+    "required_fields":  [
+                            "correlation_id",
+                            "timestamp_utc",
+                            "event_name"
+                        ],
+    "contract_id":  "bus"
+}

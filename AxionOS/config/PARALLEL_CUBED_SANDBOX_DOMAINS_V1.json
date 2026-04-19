@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "policyId": "AXION_PARALLEL_CUBED_SANDBOX_DOMAINS_V1",
+  "appVmPolicyId": "AXION_APP_VM_ENFORCEMENT_V1",
+  "defaultRailBindings": [
+    "install",
+    "execute",
+    "persist"
+  ],
+  "requiredAppVmRules": [
+    "app_close_terminates_capsule",
+    "no_direct_os_write",
+    "persist_via_promotion_only"
+  ],
+  "hostRequiredServices": [
+    "shell_ui",
+    "auth_service",
+    "network_broker",
+    "promotion_daemon",
+    "allocator",
+    "checkpoint_service"
+  ],
+  "rails": {
+    "install": {
+      "sandbox_required": true,
+      "capsule_image_required": true,
+      "host_mount_visibility": "denied",
+      "promotion_broker": "allocator",
+      "receipt_required": true
+    },
+    "execute": {
+      "sandbox_required": true,
+      "default_launch_mode": "capsule",
+      "host_process_spawn": "denied",
+      "network_broker": "network_broker",
+      "close_terminates_capsule": true
+    },
+    "persist": {
+      "sandbox_required": true,
+      "promotion_required": true,
+      "direct_os_write": "denied",
+      "target_scheme": "safe://",
+      "promotion_broker": "promotion_daemon"
+    }
+  },
+  "regions": {
+    "logic": {
+      "label": "Logic",
+      "sandbox_domain": "capsule.logic",
+      "rail_bindings": [
+        "install",
+        "execute",
+        "persist"
+      ],
+      "allowed_modes": [
+        "capsule",
+        "capsule_elevated_guarded",
+        "host_native_guarded"
+      ],
+      "apps": [
+        "access_center",
+        "accessibilities",
+        "browser_manager",
+        "brave_browser",
+        "calculator",
+        "codex",
+        "control_panel",
+        "disk_cleanup",
+        "file_explorer",
+        "prompt",
+        "registry_editor",
+        "services",
+        "shell",
+        "task_manager",
+        "users_tools",
+        "utilities",
+        "media_codecs",
+        "command_prompt",
+        "powershell",
+        "run",
+        "windows_tools"
+      ]
+    },
+    "memory": {
+      "label": "Memory",
+      "sandbox_domain": "capsule.memory",
+      "rail_bindings": [
+        "install",
+        "execute",
+        "persist"
+      ],
+      "allowed_modes": [
+        "capsule",
+        "host_native_guarded"
+      ],
+      "apps": [
+        "calendar",
+        "database",
+        "gallery",
+        "mail",
+        "notepad",
+        "notepad_plus_plus",
+        "notes",
+        "pad",
+        "pdf_studio",
+        "pdf_view",
+        "photo_viewer",
+        "publisher",
+        "sheets",
+        "slides",
+        "vector_studio",
+        "write",
+        "video_player"
+      ]
+    },
+    "emotion": {
+      "label": "Emotion",
+      "sandbox_domain": "capsule.emotion",
+      "rail_bindings": [
+        "install",
+        "execute",
+        "persist"
+      ],
+      "allowed_modes": [
+        "capsule",
+        "host_native_guarded"
+      ],
+      "apps": [
+        "arcade",
+        "camera",
+        "clock",
+        "creative_studio",
+        "photo_editing",
+        "video_studio",
+        "audio_recorder",
+        "video_recorder"
+      ]
+    }
+  },
+  "synapses": [
+    {
+      "src": "logic",
+      "dst": "memory",
+      "via": "persist",
+      "intent": "promotion_review"
+    },
+    {
+      "src": "memory",
+      "dst": "emotion",
+      "via": "execute",
+      "intent": "render_context"
+    },
+    {
+      "src": "emotion",
+      "dst": "logic",
+      "via": "execute",
+      "intent": "focus_feedback"
+    }
+  ],
+  "hardwareGuard": {
+    "policyId": "AXION_PARALLEL_CUBED_HARDWARE_GUARD_V1",
+    "enabled": true,
+    "strictMode": true,
+    "inventoryRequiredBeforeSmartWrite": true,
+    "allowBusClasses": [1, 2, 6],
+    "denyBusClasses": [12, 13]
+  },
+  "hostNonSandboxMode": "host_native_guarded",
+  "hostNonSandboxApps": [
+    "accessibilities",
+    "audio_recorder",
+    "calculator",
+    "codex",
+    "command_prompt",
+    "control_panel",
+    "disk_cleanup",
+    "file_explorer",
+    "media_codecs",
+    "notepad",
+    "powershell",
+    "registry_editor",
+    "run",
+    "services",
+    "task_manager",
+    "users_tools",
+    "video_player",
+    "video_recorder",
+    "windows_tools"
+  ]
+}

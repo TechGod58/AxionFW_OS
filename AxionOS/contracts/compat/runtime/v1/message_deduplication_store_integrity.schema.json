@@ -1,0 +1,1 @@
+﻿{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"message deduplication store integrity schema","type":"object","required":["status","message_deduplication_store","failures"],"properties":{"status":{"type":"string","enum":["PASS","FAIL"]},"message_deduplication_store":{"type":"object"},"failures":{"type":"array","items":{"type":"object"}}}}

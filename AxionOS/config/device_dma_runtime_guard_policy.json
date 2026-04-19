@@ -1,0 +1,10 @@
+{
+  "contract_id": "device_dma_runtime_guard_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEVICE_DMA_RUNTIME_GUARD_BYPASS_ACCEPTED",
+    "DMA_RUNTIME_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3021
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "microcode_patch_authenticity_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "MICROCODE_PATCH_SIGNATURE_BYPASS_ACCEPTED",
+    "MICROCODE_PATCH_VENDOR_ID_MISMATCH_ACCEPTED"
+  ],
+  "parked_gate_exit": 2731
+}

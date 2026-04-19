@@ -1,0 +1,10 @@
+{
+  "contract_id": "voltage_rail_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "VOLTAGE_RAIL_POLICY_BYPASS_ACCEPTED",
+    "UNAUTHORIZED_VOLTAGE_PROFILE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3271
+}

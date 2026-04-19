@@ -1,0 +1,79 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Axion Capsule Blueprint v1",
+  "type": "object",
+  "required": [
+    "blueprint_id",
+    "app_id",
+    "version",
+    "framework_layer",
+    "workload_class",
+    "resource_profile",
+    "storage_policy",
+    "security_policy"
+  ],
+  "properties": {
+    "blueprint_id": {"type": "string", "pattern": "^bp_[a-zA-Z0-9_\\-]+$"},
+    "app_id": {"type": "string"},
+    "version": {"type": "string"},
+    "framework_layer": {
+      "type": "object",
+      "required": ["layer_id", "version"],
+      "properties": {
+        "layer_id": {"type": "string"},
+        "version": {"type": "string"},
+        "integrity_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}
+      }
+    },
+    "workload_class": {
+      "type": "string",
+      "enum": ["latency_sensitive", "stability_critical", "throughput_heavy"]
+    },
+    "resource_profile": {
+      "type": "object",
+      "required": ["vm_class", "cpu", "mem_mb", "gpu_profile"],
+      "properties": {
+        "vm_class": {"type": "string", "enum": ["small", "medium", "large"]},
+        "cpu": {"type": "integer", "minimum": 1, "maximum": 32},
+        "mem_mb": {"type": "integer", "minimum": 1024, "maximum": 262144},
+        "gpu_profile": {"type": "string", "enum": ["none", "shared", "dedicated-lite", "dedicated-full"]}
+      }
+    },
+    "entrypoint": {
+      "type": "object",
+      "properties": {
+        "command": {"type": "string"},
+        "args": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "storage_policy": {
+      "type": "object",
+      "required": ["allowed_safe_zones"],
+      "properties": {
+        "allowed_safe_zones": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["projects", "userdocs", "artifacts", "imports"]},
+          "minItems": 1
+        },
+        "max_persist_bytes": {"type": "integer", "minimum": 1}
+      }
+    },
+    "network_policy": {
+      "type": "object",
+      "properties": {
+        "mode": {"type": "string", "enum": ["deny", "allowlist", "restricted"]},
+        "allowlist": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "security_policy": {
+      "type": "object",
+      "required": ["ig_required"],
+      "properties": {
+        "ig_required": {"type": "boolean"},
+        "scanner_required": {"type": "boolean", "default": true},
+        "allow_elevation": {"type": "boolean", "default": false}
+      }
+    },
+    "startup_slo_ms": {"type": "integer", "minimum": 100, "maximum": 30000}
+  }
+}

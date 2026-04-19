@@ -1,0 +1,10 @@
+{
+  "contract_id": "peripheral_firmware_trust_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PERIPHERAL_FIRMWARE_SIGNATURE_BYPASS_ACCEPTED",
+    "PERIPHERAL_FIRMWARE_CHAIN_MISMATCH_ACCEPTED"
+  ],
+  "parked_gate_exit": 3081
+}

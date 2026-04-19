@@ -1,0 +1,10 @@
+{
+  "policy": "strict",
+  "contract_id": "tpm_nv_index_policy_integrity",
+  "fail_codes": [
+    "TPM_NV_POLICY_WRITE_BYPASS",
+    "TPM_NV_INDEX_ATTR_MISMATCH_ACCEPTED"
+  ],
+  "trace_deterministic": true,
+  "rev": 1
+}

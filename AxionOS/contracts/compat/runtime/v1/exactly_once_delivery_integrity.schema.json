@@ -1,0 +1,1 @@
+﻿{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"exactly once delivery integrity schema","type":"object","required":["status","exactly_once_delivery","failures"],"properties":{"status":{"type":"string","enum":["PASS","FAIL"]},"exactly_once_delivery":{"type":"object"},"failures":{"type":"array","items":{"type":"object"}}}}

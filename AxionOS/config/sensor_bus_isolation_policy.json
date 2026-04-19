@@ -1,0 +1,10 @@
+{
+  "contract_id": "sensor_bus_isolation_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "SENSOR_BUS_ISOLATION_BYPASS_ACCEPTED",
+    "SENSOR_DEVICE_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3151
+}

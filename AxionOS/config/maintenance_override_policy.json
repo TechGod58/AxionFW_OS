@@ -1,0 +1,10 @@
+{
+  "contract_id": "maintenance_override_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "MAINTENANCE_OVERRIDE_BYPASS_ACCEPTED",
+    "SERVICE_MODE_ENTRY_UNAUTHORIZED_ACCEPTED"
+  ],
+  "parked_gate_exit": 2921
+}

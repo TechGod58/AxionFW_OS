@@ -1,0 +1,5 @@
+{
+  "name": "vm_time_sync_tamper_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "embedded_controller_trust_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "EC_FIRMWARE_TRUST_BYPASS_ACCEPTED",
+    "EC_COMMAND_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3141
+}

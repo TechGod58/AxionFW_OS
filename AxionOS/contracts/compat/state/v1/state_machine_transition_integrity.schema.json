@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "state machine transition integrity schema",
+  "type": "object",
+  "required": ["status", "state_machine", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "state_machine": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

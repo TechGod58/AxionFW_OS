@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "configuration rollout consistency integrity schema",
+  "type": "object",
+  "required": ["status", "configuration_rollout_consistency", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "configuration_rollout_consistency": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

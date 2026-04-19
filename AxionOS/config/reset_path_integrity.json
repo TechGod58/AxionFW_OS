@@ -1,0 +1,10 @@
+{
+  "contract_id": "reset_path_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "RESET_PATH_BYPASS_ACCEPTED",
+    "UNAUTHORIZED_RESET_VECTOR_ACCEPTED"
+  ],
+  "parked_gate_exit": 3291
+}

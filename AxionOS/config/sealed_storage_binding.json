@@ -1,0 +1,10 @@
+{
+  "contract_id": "sealed_storage_binding_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "SEALED_STORAGE_POLICY_BYPASS_ACCEPTED",
+    "SEALED_STORAGE_KEY_REBIND_ACCEPTED"
+  ],
+  "parked_gate_exit": 2891
+}

@@ -1,0 +1,121 @@
+{
+    "version":  1,
+    "policyId":  "AXION_WINDOWS_TOOLS_LAUNCH_MAP_V1",
+    "default":  {
+                    "launch_mode":  "app_runtime",
+                    "allow_prepare_only":  true
+                },
+    "tool_launch":  {
+                        "command_prompt":  {
+                                               "app_id":  "command_prompt",
+                                               "expected_flow_profile":  null
+                                           },
+                        "powershell":  {
+                                           "app_id":  "powershell",
+                                           "expected_flow_profile":  null
+                                       },
+                        "run":  {
+                                    "app_id":  "run",
+                                    "expected_flow_profile":  null
+                                },
+                        "task_manager":  {
+                                             "app_id":  "task_manager",
+                                             "expected_flow_profile":  null
+                                         },
+                        "services":  {
+                                         "app_id":  "services",
+                                         "expected_flow_profile":  null
+                                     },
+                        "file_explorer":  {
+                                              "app_id":  "file_explorer",
+                                              "expected_flow_profile":  null
+                                          },
+                        "codex":  {
+                                      "app_id":  "codex",
+                                      "expected_flow_profile":  null
+                                  },
+                        "registry_editor":  {
+                                                "app_id":  "registry_editor",
+                                                "expected_flow_profile":  null
+                                            },
+                        "disk_cleanup":  {
+                                             "app_id":  "disk_cleanup",
+                                             "expected_flow_profile":  null
+                                         },
+                        "audio_video_codecs":  {
+                                                   "app_id":  "media_codecs",
+                                                   "expected_flow_profile":  null
+                                               },
+                        "audio_recorder":  {
+                                               "app_id":  "audio_recorder",
+                                               "expected_flow_profile":  null
+                                           },
+                        "video_recorder":  {
+                                               "app_id":  "video_recorder",
+                                               "expected_flow_profile":  null
+                                           },
+                        "video_player":  {
+                                             "app_id":  "video_player",
+                                             "expected_flow_profile":  null
+                                         },
+                        "smart_driver_fabric":  {
+                                                    "app_id":  "",
+                                                    "launch_mode":  "host_action",
+                                                    "expected_flow_profile":  null
+                                                },
+                        "firmware_bios_settings":  {
+                                                       "app_id":  "",
+                                                       "launch_mode":  "host_action",
+                                                       "expected_flow_profile":  null
+                                                   },
+                        "smart_driver_builder":  {
+                                                     "app_id":  "",
+                                                     "launch_mode":  "host_action",
+                                                     "expected_flow_profile":  null
+                                                 },
+                        "write":  {
+                                      "app_id":  "write",
+                                      "expected_flow_profile":  null
+                                  },
+                        "sheets":  {
+                                       "app_id":  "sheets",
+                                       "expected_flow_profile":  null
+                                   },
+                        "slides":  {
+                                       "app_id":  "slides",
+                                       "expected_flow_profile":  null
+                                   },
+                        "mail":  {
+                                     "app_id":  "mail",
+                                     "expected_flow_profile":  null
+                                 },
+                        "database":  {
+                                         "app_id":  "database",
+                                         "expected_flow_profile":  null
+                                     },
+                        "publisher":  {
+                                          "app_id":  "publisher",
+                                          "expected_flow_profile":  null
+                                      },
+                        "pdf_studio":  {
+                                           "app_id":  "pdf_studio",
+                                           "expected_flow_profile":  null
+                                       },
+                        "vector_studio":  {
+                                              "app_id":  "vector_studio",
+                                              "expected_flow_profile":  null
+                                          },
+                        "creative_studio":  {
+                                                "app_id":  "creative_studio",
+                                                "expected_flow_profile":  null
+                                            },
+                        "notepad_plus_plus":  {
+                                                  "app_id":  "notepad_plus_plus",
+                                                  "expected_flow_profile":  null
+                                              },
+                        "calculator":  {
+                                           "app_id":  "calculator",
+                                           "expected_flow_profile":  null
+                                       }
+                    }
+}

@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "policyId": "AXION_FIREWALL_GUARD_POLICY_V1",
+  "enabled": true,
+  "default_action": "allow",
+  "packet_sniffing": {
+    "mode": "process_bound_enforced",
+    "quarantine_unmatched": true,
+    "source": "process_bound_live",
+    "max_sample": 32,
+    "require_correlated_stream_for_internet_required": true,
+    "kernel_syscall_bridge_enabled": true,
+    "process_correlation": {
+      "enabled": true,
+      "require_pid_match": true,
+      "require_process_name_match": true,
+      "require_session_tags": true,
+      "require_live_process_identity": true
+    },
+    "qm_ecc_bridge_enabled": true
+  },
+  "web_download_write_guard": {
+    "enabled": true,
+    "profile_id_default": "p1",
+    "require_target_path": true,
+    "require_profile_sandbox_target": true,
+    "deny_direct_c_root": true,
+    "allowed_profile_folders": [
+      "Documents",
+      "Downloads",
+      "Photos",
+      "Music",
+      "Videos",
+      "Workspace"
+    ],
+    "allowed_vault_domains": [
+      "profile.vault.archives",
+      "profile.vault.downloads",
+      "profile.vault.photos",
+      "profile.vault.music",
+      "profile.vault.videos",
+      "profile.vault.workspace"
+    ]
+  },
+  "default_internet_profile": {
+    "internet_required": false,
+    "allow_upload": false,
+    "allow_download": false,
+    "allowed_protocols": [
+      "tcp",
+      "udp",
+      "tls",
+      "http",
+      "https"
+    ],
+    "allowed_remote_ports": [
+      53,
+      80,
+      123,
+      443
+    ],
+    "allowed_remote_hosts": []
+  },
+  "apps": {
+    "external_installer": {
+      "internet_required": true,
+      "allow_upload": false,
+      "allow_download": true,
+      "expected_flow_profile": "installer_update",
+      "allowed_protocols": [
+        "tcp",
+        "tls",
+        "https"
+      ],
+      "allowed_remote_ports": [
+        80,
+        443
+      ],
+      "allowed_remote_hosts": [
+        "repo.axion.local",
+        "packages.axion.local",
+        "*.microsoft.com",
+        "*.ubuntu.com"
+      ]
+    },
+    "legacy_windows_installer": {
+      "inherit": "external_installer"
+    },
+    "legacy_linux_installer": {
+      "inherit": "external_installer"
+    }
+  },
+  "packet_rules": [
+    {
+      "id": "allow_quarantine_00001",
+      "enabled": true,
+      "source": "quarantine_adjudication",
+      "app_id": "external_installer",
+      "direction": "egress",
+      "effect": "allow",
+      "remote_host": "adjudication-test.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "protocol": "https",
+      "remote_port": 443,
+      "flow_profile": "installer_update"
+    },
+    {
+      "id": "allow_quarantine_00002",
+      "enabled": true,
+      "source": "quarantine_adjudication",
+      "app_id": "external_installer",
+      "direction": "egress",
+      "effect": "allow",
+      "remote_host": "privacy-host-quarantine.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "protocol": "https",
+      "remote_port": 443,
+      "flow_profile": "installer_update"
+    },
+    {
+      "id": "allow_quarantine_00003",
+      "enabled": true,
+      "source": "quarantine_adjudication",
+      "app_id": "external_installer",
+      "direction": "egress",
+      "effect": "allow",
+      "remote_host": "cp-quarantine.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "protocol": "https",
+      "remote_port": 443,
+      "flow_profile": "installer_update"
+    },
+    {
+      "id": "allow_quarantine_00004",
+      "enabled": true,
+      "source": "quarantine_adjudication",
+      "app_id": "external_installer",
+      "direction": "egress",
+      "effect": "allow",
+      "remote_host": "qa-firewall-quarantine.example.net",
+      "host_match": "exact",
+      "priority": 2500,
+      "protocol": "https",
+      "remote_port": 443,
+      "flow_profile": "installer_update"
+    }
+  ]
+}

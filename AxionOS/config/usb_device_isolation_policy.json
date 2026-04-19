@@ -1,0 +1,10 @@
+{
+  "contract_id": "usb_device_isolation_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "USB_DEVICE_ISOLATION_BYPASS_ACCEPTED",
+    "USB_DEVICE_CLASS_POLICY_BYPASS_ACCEPTED"
+  ],
+  "parked_gate_exit": 3051
+}

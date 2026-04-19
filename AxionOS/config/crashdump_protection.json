@@ -1,0 +1,10 @@
+{
+  "contract_id": "crashdump_protection_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "CRASHDUMP_SECRET_EXPOSURE_ACCEPTED",
+    "CRASHDUMP_ACCESS_POLICY_BYPASS_ACCEPTED"
+  ],
+  "parked_gate_exit": 2851
+}

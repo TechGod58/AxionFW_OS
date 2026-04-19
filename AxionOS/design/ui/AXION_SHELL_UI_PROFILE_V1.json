@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "taskbar": {
+    "style": "windows7",
+    "alignment": "left",
+    "allowLeftAlign": true,
+    "startButton": {
+      "style": "orb",
+      "label": "Start"
+    },
+    "superbar": {
+      "mergePinnedAndRunning": true,
+      "largeIcons": true,
+      "showLabels": false,
+      "combineMode": "combine_when_full",
+      "showRunningIndicators": true,
+      "hoverPreviews": true,
+      "showDesktopButton": true
+    },
+    "notificationArea": {
+      "style": "windows7",
+      "condenseInactiveIcons": true,
+      "showClock": true,
+      "showNetwork": true,
+      "showSound": true,
+      "showBattery": true
+    },
+    "backdrop": "glass",
+    "animations": "aero"
+  },
+  "startMenu": {
+    "style": "windows7",
+    "openOnWinKey": true,
+    "searchFirst": true,
+    "searchBoxPosition": "bottom",
+    "sections": [
+      "pinned",
+      "recent_programs",
+      "user_links",
+      "power"
+    ],
+    "rightColumnLinks": [
+      "Workspace",
+      "Archives",
+      "Photos",
+      "Downloads",
+      "Music",
+      "FavoritesBar",
+      "Searches",
+      "Connectios"
+    ],
+    "defaultPowerAction": "shutdown",
+    "keyboardNavigation": true
+  },
+  "accessibility": {
+    "reducedMotion": true,
+    "highContrast": true
+  },
+  "performance": {
+    "startOpenMsWarmTarget": 120,
+    "shellIdleCpuPctTarget": 1.5
+  }
+}

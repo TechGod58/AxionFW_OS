@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "catalogId": "AXION_BOARD_SUPPORT_PACKAGE_CATALOG_V1",
+  "packages": [
+    {
+      "bsp_id": "bsp_q35_ovmf_ref_v1",
+      "displayName": "Q35 OVMF Reference BSP",
+      "support_level": "active",
+      "board_family": "q35",
+      "firmware_profile": "axionfw_q35_split_ref",
+      "os_profile": "axionos_capsule_q35_ref",
+      "device_matrix": {
+        "chipset": [
+          "q35",
+          "ich9"
+        ],
+        "storage": [
+          "virtio-blk-modern"
+        ],
+        "network": [
+          "e1000"
+        ],
+        "security": [
+          "secure-boot-policy"
+        ]
+      },
+      "required_driver_classes": [
+        "firmware_handoff",
+        "motherboard_core",
+        "device_io",
+        "security_trust",
+        "sandbox_mediation"
+      ],
+      "installer_flow": [
+        "detect_board",
+        "verify_firmware_contract",
+        "install_firmware_payload",
+        "install_os_payload",
+        "install_driver_bundle",
+        "finalize_security_policy"
+      ]
+    },
+    {
+      "bsp_id": "bsp_generic_x64_uefi_v1",
+      "displayName": "Generic x64 UEFI BSP",
+      "support_level": "planned",
+      "board_family": "generic_x64_uefi",
+      "firmware_profile": "axionfw_generic_x64_uefi",
+      "os_profile": "axionos_capsule_generic_x64",
+      "device_matrix": {
+        "chipset": [
+          "uefi-x64"
+        ],
+        "storage": [
+          "nvme",
+          "ahci",
+          "virtio-blk-modern"
+        ],
+        "network": [
+          "e1000",
+          "virtio-net"
+        ],
+        "security": [
+          "secure-boot-policy"
+        ]
+      },
+      "required_driver_classes": [
+        "firmware_handoff",
+        "motherboard_core",
+        "device_io",
+        "security_trust",
+        "sandbox_mediation"
+      ],
+      "installer_flow": [
+        "detect_board",
+        "select_compatible_firmware",
+        "install_firmware_payload",
+        "install_os_payload",
+        "install_driver_bundle",
+        "run_post_install_attestation"
+      ]
+    },
+    {
+      "bsp_id": "bsp_hp_9470m_9480m_bridge_v1",
+      "displayName": "HP 9470m/9480m Bring-Up BSP",
+      "support_level": "experimental",
+      "board_family": "intel_x64_business_laptop",
+      "firmware_profile": "axionfw_generic_x64_uefi",
+      "os_profile": "axionos_capsule_generic_x64",
+      "device_matrix": {
+        "chipset": [
+          "intel-mobile-x64-uefi",
+          "acpi-laptop"
+        ],
+        "storage": [
+          "ahci",
+          "usb-boot",
+          "virtio-blk-modern"
+        ],
+        "network": [
+          "intel-gbe",
+          "uefi-snp"
+        ],
+        "security": [
+          "secure-boot-policy"
+        ]
+      },
+      "required_driver_classes": [
+        "firmware_handoff",
+        "motherboard_core",
+        "device_io",
+        "security_trust",
+        "sandbox_mediation"
+      ],
+      "installer_flow": [
+        "collect_hardware_inventory",
+        "detect_board",
+        "verify_generic_x64_uefi_contract",
+        "stage_recovery_media",
+        "install_firmware_payload",
+        "install_driver_bundle",
+        "install_os_payload",
+        "run_post_install_hardware_diagnostics"
+      ],
+      "bringup_scope": {
+        "goal": "Prove the generic x64 UEFI laptop path on real hardware before broadening to more laptops and towers.",
+        "exit_criteria": [
+          "uefi_boot_path_ok",
+          "ahci_storage_ok",
+          "keyboard_and_trackpad_ok",
+          "display_console_ok",
+          "security_policy_path_ok",
+          "repair_portal_boot_ok"
+        ],
+        "non_goals": [
+          "vendor_lock_in",
+          "model_specific_shell_forks",
+          "claiming universal x64 support before validation"
+        ]
+      }
+    }
+  ]
+}

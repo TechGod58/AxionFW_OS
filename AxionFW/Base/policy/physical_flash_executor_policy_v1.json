@@ -1,0 +1,64 @@
+﻿{
+  "version": 1,
+  "policy_id": "AXION_CONTROLLED_PHYSICAL_FLASH_POLICY_V1",
+  "lane_enabled": true,
+  "mode": "controlled_fail_closed",
+  "max_inventory_age_hours": 24,
+  "allow": {
+    "adapter_ids": [
+      "intel_pch_generic_v1",
+      "amd_promontory_generic_v1",
+      "generic_uefi_fallback_v1"
+    ],
+    "platform_lanes": [
+      "intel_x64",
+      "amd_x64",
+      "generic_x64_uefi"
+    ],
+    "vendor_tokens": [
+      "intel",
+      "amd",
+      "dell",
+      "hp",
+      "lenovo",
+      "asus",
+      "msi",
+      "gigabyte",
+      "asrock",
+      "qemu",
+      "bochs",
+      "innotek"
+    ]
+  },
+  "rollback_enforcement": {
+    "require_backup_created": true,
+    "require_ab_slots": true,
+    "require_rollback_slot": true
+  },
+  "operator_ack": {
+    "required": true,
+    "env": "AXION_PHYSICAL_FLASH_ACK",
+    "value": "AXION_PHYSICAL_FLASH_UNDERSTAND_RISK",
+    "session_env": "AXION_PHYSICAL_FLASH_SESSION_ID",
+    "require_matching_plan_id": true
+  },
+  "executor": {
+    "allow_real_flash_command": false,
+    "real_flash_opt_in_env": "AXION_ENABLE_REAL_FLASH_COMMAND",
+    "command_timeout_sec": 180
+  },
+  "command_profiles": {
+    "intel_pch_generic_v1": {
+      "execution_kind": "receipt_only",
+      "description": "Intel adapter lane emits signed authorization receipt until explicit command execution is enabled."
+    },
+    "amd_promontory_generic_v1": {
+      "execution_kind": "receipt_only",
+      "description": "AMD adapter lane emits signed authorization receipt until explicit command execution is enabled."
+    },
+    "generic_uefi_fallback_v1": {
+      "execution_kind": "receipt_only",
+      "description": "Fallback lane emits signed authorization receipt; command flashing remains fail-closed by policy."
+    }
+  }
+}

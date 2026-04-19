@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "policyId": "AXION_PROFILE_SHELL_FOLDERS_V1",
+  "profileRootBase": "data\\profiles",
+  "savePolicy": {
+    "mode": "persistent_profile_sandboxes",
+    "description": "Profile folders are permanent sandbox surfaces. Apps may only save outside their capsule through these user-owned profile targets.",
+    "promotionRequired": true,
+    "allowedTargets": [
+      "Archives",
+      "Photos",
+      "Downloads",
+      "Music",
+      "Videos",
+      "Workspace",
+      "FavoritesBar",
+      "Searches",
+      "Connections"
+    ],
+    "neverDestroyOnClose": true,
+    "cleanSecureOutsideSandboxSave": true
+  },
+  "workspaceSurface": {
+    "displayName": "Workspace",
+    "legacyAlias": "Desktop",
+    "windowsBehavior": "desktop",
+    "reactsLike": "ms_windows_known_folder",
+    "sandboxKind": "persistent_profile_sandbox",
+    "neverDestroyOnClose": true,
+    "supportsProperties": true,
+    "supportsLeftClick": true,
+    "supportsRightClick": true,
+    "defaultLinks": [
+      {
+        "id": "google_chrome_download",
+        "label": "Download Google Chrome",
+        "placement": "Workspace",
+        "linkType": "web_download",
+        "target": "https://www.google.com/chrome/",
+        "installerArtifact": "chrome_installer.exe",
+        "preferredFamily": "windows",
+        "preferredProfile": "win11",
+        "launchPolicy": "open_in_default_browser_capsule"
+      },
+      {
+        "id": "microsoft_edge_download",
+        "label": "Download Microsoft Edge",
+        "placement": "Workspace",
+        "linkType": "web_download",
+        "target": "https://www.microsoft.com/edge/download",
+        "installerArtifact": "microsoft_edge_installer.exe",
+        "preferredFamily": "windows",
+        "preferredProfile": "win11",
+        "launchPolicy": "open_in_default_browser_capsule"
+      },
+      {
+        "id": "mozilla_firefox_download",
+        "label": "Download Mozilla Firefox",
+        "placement": "Workspace",
+        "linkType": "web_download",
+        "target": "https://www.mozilla.org/firefox/new/",
+        "installerArtifact": "firefox_installer.exe",
+        "preferredFamily": "windows",
+        "preferredProfile": "win11",
+        "launchPolicy": "open_in_default_browser_capsule"
+      }
+    ]
+  },
+  "folderOrder": [
+    "archives",
+    "photos",
+    "downloads",
+    "music",
+    "videos",
+    "workspace",
+    "favorites_bar",
+    "searches",
+    "connections"
+  ],
+  "folders": {
+    "archives": {
+      "displayName": "Archives",
+      "legacyAlias": "Documents",
+      "pathSegment": "Archives",
+      "windowsBehavior": "documents",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "photos": {
+      "displayName": "Photos",
+      "legacyAlias": "Pictures",
+      "pathSegment": "Photos",
+      "windowsBehavior": "pictures",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "downloads": {
+      "displayName": "Downloads",
+      "legacyAlias": "Downloads",
+      "pathSegment": "Downloads",
+      "windowsBehavior": "downloads",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "music": {
+      "displayName": "Music",
+      "legacyAlias": "Music",
+      "pathSegment": "Music",
+      "windowsBehavior": "music",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "videos": {
+      "displayName": "Videos",
+      "legacyAlias": "Videos",
+      "pathSegment": "Videos",
+      "windowsBehavior": "videos",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "workspace": {
+      "displayName": "Workspace",
+      "legacyAlias": "Desktop",
+      "pathSegment": "Workspace",
+      "windowsBehavior": "desktop",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "favorites_bar": {
+      "displayName": "FavoritesBar",
+      "legacyAlias": "Favorites",
+      "pathSegment": "FavoritesBar",
+      "windowsBehavior": "favorites",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "searches": {
+      "displayName": "Searches",
+      "legacyAlias": "Searches",
+      "pathSegment": "Searches",
+      "windowsBehavior": "searches",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    },
+    "connections": {
+      "displayName": "Connections",
+      "legacyAlias": "Links",
+      "pathSegment": "Connections",
+      "displayAliases": [
+        "Connectios"
+      ],
+      "pathSegmentAliases": [
+        "Connectios"
+      ],
+      "aliases": [
+        "connectios"
+      ],
+      "windowsBehavior": "links",
+      "reactsLike": "ms_windows_known_folder",
+      "sandboxKind": "persistent_profile_sandbox",
+      "neverDestroyOnClose": true,
+      "supportsProperties": true,
+      "supportsLeftClick": true,
+      "supportsRightClick": true
+    }
+  }
+}

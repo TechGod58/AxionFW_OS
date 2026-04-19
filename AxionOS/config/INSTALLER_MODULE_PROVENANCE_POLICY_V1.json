@@ -1,0 +1,93 @@
+﻿{
+  "version": 2,
+  "policyId": "AXION_INSTALLER_MODULE_PROVENANCE_POLICY_V1",
+  "defaults": {
+    "signature_algorithm": "sha256-keyed-v1",
+    "default_signing_key_id": "axion-release-key-01"
+  },
+  "allowed_signature_algorithms": [
+    "sha256-keyed-v1"
+  ],
+  "enforcement": {
+    "installers": {
+      "enabled": true,
+      "fail_closed": true,
+      "max_provenance_age_hours": 168,
+      "allowed_pipeline_prefixes": [
+        "axion-",
+        "release-"
+      ]
+    },
+    "modules": {
+      "enabled": true,
+      "fail_closed": true,
+      "max_provenance_age_hours": 168,
+      "allowed_pipeline_prefixes": [
+        "axion-",
+        "release-"
+      ]
+    }
+  },
+  "key_source_policy": {
+    "require_external_sources": true,
+    "allow_inline_material": false,
+    "allowed_source_types": [
+      "kms_env",
+      "hsm_env"
+    ],
+    "test_mode_fallback": {
+      "enabled": false,
+      "env_flag": "AXION_PROVENANCE_ALLOW_TEST_KEY_FALLBACK",
+      "allow_pytest_context": false
+    }
+  },
+  "rotation_policy": {
+    "enforced": true,
+    "require_rotation_group": true,
+    "require_monotonic_versions": true,
+    "require_single_active_per_group": true,
+    "require_staged_successor_for_active": true,
+    "allowed_signing_statuses": [
+      "active"
+    ],
+    "verification_allowed_statuses": [
+      "active",
+      "retired"
+    ]
+  },
+  "trusted_keys": {
+    "axion-release-key-01": {
+      "status": "active",
+      "algorithm": "sha256-keyed-v1",
+      "source": {
+        "type": "kms_env",
+        "ref": "AXION_KMS_RELEASE_SIGNING_KEY_01"
+      },
+      "allowed_subjects": [
+        "installer",
+        "module"
+      ],
+      "rotation_group": "axion-release-provenance",
+      "version": 1,
+      "activated_utc": "2026-04-01T00:00:00Z",
+      "retire_after_utc": "2026-10-01T00:00:00Z",
+      "next_key_id": "axion-release-key-02"
+    },
+    "axion-release-key-02": {
+      "status": "staged",
+      "algorithm": "sha256-keyed-v1",
+      "source": {
+        "type": "hsm_env",
+        "ref": "AXION_HSM_RELEASE_SIGNING_KEY_02"
+      },
+      "allowed_subjects": [
+        "installer",
+        "module"
+      ],
+      "rotation_group": "axion-release-provenance",
+      "version": 2,
+      "activated_utc": "2026-09-15T00:00:00Z",
+      "retire_after_utc": "2027-03-15T00:00:00Z"
+    }
+  }
+}

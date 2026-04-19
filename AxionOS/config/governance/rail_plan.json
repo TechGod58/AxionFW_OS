@@ -1,0 +1,201 @@
+{
+  "run_id": "STREAM_PROCESSING_PARALLEL_RAILS_A5_B5_C5",
+  "railA": {
+    "script": "tools\\governance\\rails\\run_rail_A.ps1"
+  },
+  "railB": {
+    "workersDir": "tools\\governance\\workers\\stream_processing",
+    "phases": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ]
+  },
+  "railC": {
+    "script": "tools\\governance\\rails\\run_rail_C.ps1"
+  },
+  "rails": [
+    {
+      "rail_id": "A",
+      "phases": [
+        {
+          "phase_id": "01",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_A_slice_01.py",
+              "name": "slice_event_time_windowing",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "02",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_A_slice_02.py",
+              "name": "slice_consumer_lag_reporting",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "03",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_A_slice_03.py",
+              "name": "slice_replay_protection",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "04",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_A_slice_04.py",
+              "name": "slice_message_ordering_consistency",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "05",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_A_slice_05.py",
+              "name": "slice_producer_idempotence_window",
+              "kind": "python"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rail_id": "B",
+      "phases": [
+        {
+          "phase_id": "01",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_B_promote_01.py",
+              "name": "promote_event_schema_integrity",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "02",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_B_promote_02.py",
+              "name": "promote_producer_sequence_integrity",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "03",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_B_promote_03.py",
+              "name": "promote_consumer_group_balance_integrity",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "04",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_B_promote_04.py",
+              "name": "promote_hotkey_layout_integrity",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "05",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_B_promote_05.py",
+              "name": "promote_hotkey_action_registry_integrity",
+              "kind": "python"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rail_id": "C",
+      "phases": [
+        {
+          "phase_id": "01",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_C_emit_01.py",
+              "name": "emit_governance_inventory",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "02",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_C_emit_02.py",
+              "name": "emit_release_gate_inventory",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "03",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_C_emit_03.py",
+              "name": "emit_integrity_coverage_map",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "04",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_C_emit_04.py",
+              "name": "emit_governance_drift_check",
+              "kind": "python"
+            }
+          ]
+        },
+        {
+          "phase_id": "05",
+          "steps": [
+            {
+              "args": [],
+              "path": "tools\\governance\\workers\\stream_processing\\rail_C_emit_05.py",
+              "name": "emit_final_integrity_checkpoint",
+              "kind": "python"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

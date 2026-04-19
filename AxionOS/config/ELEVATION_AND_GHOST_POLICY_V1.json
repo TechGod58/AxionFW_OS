@@ -1,0 +1,20 @@
+﻿{
+  "version": 1,
+  "elevation": {
+    "runAsAdminAvailableForAllApps": true,
+    "propertiesAlwaysRunToggle": true,
+    "requirePrompt": true,
+    "showElevatedBadge": true
+  },
+  "ghostRollback": {
+    "enabled": true,
+    "defaultRetention": 6,
+    "retentionByClass": {
+      "office": 6,
+      "design": 8,
+      "video": 10
+    },
+    "minRetention": 3,
+    "maxRetention": 20
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "platform_safe_mode_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "SAFE_MODE_POLICY_BYPASS_ACCEPTED",
+    "SAFE_MODE_ENTRY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3341
+}

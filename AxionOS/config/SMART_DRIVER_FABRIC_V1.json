@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "fabric_id": "AXION_SMART_DRIVER_FABRIC_V1",
+  "enabled": true,
+  "one_time_bootstrap": true,
+  "fail_closed_on_error": false,
+  "target_bsp_id": "bsp_q35_ovmf_ref_v1",
+  "materialize_missing_required_classes": true,
+  "compile_signed_loadable_artifacts": true,
+  "inventory_sources": [
+    "out/hardware_inventory/windows_hardware_inventory.json",
+    "data/hardware/device_inventory_active.json"
+  ],
+  "state_path": "data/drivers/smart_driver_fabric_state.json",
+  "plan_path": "out/runtime/smart_driver_fabric_plan.json",
+  "bundle_root": "data/driverkit/smart_driver_fabric",
+  "artifact_root": "data/drivers/loadable_artifacts",
+  "artifact_registry_path": "data/drivers/smart_driver_fabric_artifact_registry.json",
+  "artifact_build_pipeline_id": "axion-smart-driver-fabric",
+  "artifact_source_commit_sha": "0000000000000000000000000000000000000000",
+  "required_driver_classes_fallback": [
+    "firmware_handoff",
+    "motherboard_core",
+    "device_io",
+    "security_trust",
+    "sandbox_mediation"
+  ]
+}

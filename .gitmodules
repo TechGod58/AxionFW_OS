@@ -1,0 +1,4 @@
+[submodule "AxionFW/edk2"]
+	path = AxionFW/edk2
+	url = https://github.com/tianocore/edk2
+	ignore = dirty

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "firmware_attestation_policy_integrity schema",
+  "type": "object",
+  "required": [
+    "status",
+    "audit_path",
+    "smoke_path",
+    "failures"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "audit_path": {
+      "type": "string"
+    },
+    "smoke_path": {
+      "type": "string"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "PASS_ATTESTATION_POLICY_PRESENT": {
+      "type": "boolean"
+    },
+    "PASS_ATTESTATION_POLICY_SIGNATURE_VALID": {
+      "type": "boolean"
+    },
+    "PASS_POLICY_RULES_APPLIED": {
+      "type": "boolean"
+    },
+    "PASS_POLICY_HASH_MATCH": {
+      "type": "boolean"
+    },
+    "PASS_TRACE_DETERMINISTIC": {
+      "type": "boolean"
+    },
+    "PASS_REPORT_FAILURES_COUNT": {
+      "type": "integer"
+    }
+  }
+}

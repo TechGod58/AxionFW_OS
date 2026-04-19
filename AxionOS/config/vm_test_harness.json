@@ -1,0 +1,16 @@
+{
+  "hypervisor": "virtualbox",
+  "vm_name": "AxionOS-VM-TestHarness",
+  "cpu": 2,
+  "ram_mb": 4096,
+  "disk_gb": 64,
+  "boot_artifact_path": "AXION_ROOT:/artifacts/axionos_test.iso",
+  "network_mode": "hostonly",
+  "allow_bridged": false,
+  "snapshot_name_seed": "AXIONOS_BASELINE_SNAP",
+  "expected_boot_marker": "AXIONOS_VM_BOOT_OK",
+  "snapshot_chain": [
+    "AXIONOS_BASELINE_SNAP",
+    "AXIONOS_POST_PATCH_SNAP"
+  ]
+}

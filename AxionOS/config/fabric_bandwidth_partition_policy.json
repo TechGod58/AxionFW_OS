@@ -1,0 +1,10 @@
+{
+  "contract_id": "fabric_bandwidth_partition_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "FABRIC_PARTITION_POLICY_BYPASS_ACCEPTED",
+    "BANDWIDTH_ALLOCATION_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3211
+}

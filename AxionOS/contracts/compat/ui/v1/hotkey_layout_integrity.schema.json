@@ -1,0 +1,11 @@
+﻿{
+  "": "https://json-schema.org/draft/2020-12/schema",
+  "title": "hotkey layout integrity schema",
+  "type": "object",
+  "required": ["status","hotkey_layout","failures"],
+  "properties": {
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "hotkey_layout": {"type":"object"},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

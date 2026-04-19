@@ -1,0 +1,10 @@
+{
+  "contract_id": "platform_event_forwarding_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "EVENT_FORWARDING_BYPASS_ACCEPTED",
+    "EVENT_STREAM_TAMPER_ACCEPTED"
+  ],
+  "parked_gate_exit": 2901
+}

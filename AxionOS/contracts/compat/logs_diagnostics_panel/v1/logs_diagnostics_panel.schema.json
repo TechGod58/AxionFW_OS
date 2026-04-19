@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "logs diagnostics panel schema",
+  "type": "object",
+  "required": ["status", "channels", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "channels": {"type": "array", "items": {"type": "object"}},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

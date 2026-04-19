@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "observability unified gate schema",
+  "type": "object",
+  "required": ["status", "gate", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "gate": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

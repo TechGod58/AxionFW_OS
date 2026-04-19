@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "sharing": {
+    "network_discovery": false,
+    "file_and_printer_sharing": false,
+    "public_folder_sharing": false,
+    "password_protected_sharing": true,
+    "remote_assistance": false
+  },
+  "security_and_sharing": {
+    "firewall_profile": "private",
+    "smb_signing_required": true,
+    "guest_access_allowed": false,
+    "last_reviewed_utc": "2026-04-18T16:45:39.642787+00:00"
+  }
+}

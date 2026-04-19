@@ -1,0 +1,14 @@
+{
+  "policy_manifest": "AXION_ROOT:/firmware/attestation_policy.json",
+  "policy_hash": "sha256:placeholder",
+  "signature": "AXION_ROOT:/firmware/attestation_policy.sig",
+  "policy_rules": [
+    "must_verify_signature",
+    "must_enforce_rule_set",
+    "must_match_policy_hash"
+  ],
+  "trusted_roots": [
+    "ROOT_CA_A",
+    "ROOT_CA_B"
+  ]
+}

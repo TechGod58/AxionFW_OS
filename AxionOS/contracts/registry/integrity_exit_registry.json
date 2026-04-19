@@ -1,0 +1,843 @@
+{
+  "slice_failures": {
+    "observability_unified_gate": [
+      491,
+      492,
+      493
+    ],
+    "configuration_immutable_field_policy": [
+      521,
+      522
+    ],
+    "secrets_handling_integrity": [
+      541,
+      542
+    ],
+    "artifact_provenance_integrity": [
+      561,
+      562
+    ],
+    "runtime_isolation_integrity": [
+      581,
+      582
+    ],
+    "dependency_version_lock_integrity": [
+      601,
+      602
+    ],
+    "build_reproducibility_integrity": [
+      621,
+      622
+    ],
+    "backup_restore_integrity": [
+      641,
+      642
+    ],
+    "time_sync_integrity": [
+      661,
+      662
+    ],
+    "identity_access_integrity": [
+      681,
+      682
+    ],
+    "network_trust_boundary_integrity": [
+      701,
+      702
+    ],
+    "audit_log_immutability_integrity": [
+      741,
+      742
+    ],
+    "state_machine_transition_integrity": [
+      761,
+      762
+    ],
+    "privilege_boundary_integrity": [
+      781,
+      782
+    ],
+    "cluster_membership_integrity": [
+      901,
+      902
+    ],
+    "service_discovery_integrity": [
+      921,
+      922
+    ],
+    "scheduler_decision_determinism_integrity": [
+      941,
+      942
+    ],
+    "storage_snapshot_integrity": [
+      961,
+      962
+    ],
+    "leader_election_integrity": [
+      981,
+      982
+    ],
+    "inter_service_mtls_identity_integrity": [
+      1001,
+      1002
+    ],
+    "consensus_log_integrity": [
+      1021,
+      1022
+    ],
+    "admission_control_integrity": [
+      1041,
+      1042
+    ],
+    "configuration_rollout_consistency_integrity": [
+      1061,
+      1062
+    ],
+    "workload_identity_attestation_integrity": [
+      1081,
+      1082
+    ],
+    "runtime_api_contract_integrity": [
+      1101,
+      1102
+    ],
+    "event_bus_delivery_integrity": [
+      1121,
+      1122
+    ],
+    "state_checkpoint_consistency_integrity": [
+      1141,
+      1142
+    ],
+    "distributed_rate_limit_integrity": [
+      1161,
+      1162
+    ],
+    "secrets_rotation_consistency_integrity": [
+      1171,
+      1172
+    ],
+    "control_plane_reconciliation_integrity": [
+      1181,
+      1182
+    ],
+    "artifact_supply_chain_integrity": [
+      1191,
+      1192
+    ],
+    "boss_button_integrity": [
+      400,
+      401
+    ],
+    "consumer_group_balance_integrity": [
+      1601,
+      1602
+    ],
+    "hotkey_action_registry_integrity": [
+      1571,
+      1572
+    ],
+    "event_schema_integrity": [
+      1581,
+      1582
+    ],
+    "producer_sequence_integrity": [
+      1591,
+      1592
+    ],
+    "dispatch_fairness_integrity": [
+      1671,
+      1672
+    ],
+    "priority_inversion_integrity": [
+      1681,
+      1682
+    ],
+    "consumer_lag_reporting_integrity": [
+      1691,
+      1692
+    ],
+    "event_time_ordering_integrity": [
+      1721,
+      1722
+    ],
+    "watermark_progress_integrity": [
+      1731,
+      1732
+    ],
+    "late_event_handling_integrity": [
+      1741,
+      1742
+    ],
+    "window_aggregation_consistency_integrity": [
+      1751,
+      1752
+    ],
+    "state_store_checkpoint_integrity": [
+      1801,
+      1802
+    ],
+    "stream_partition_affinity_integrity": [
+      1761,
+      1762
+    ],
+    "stream_retention_window_integrity": [
+      1771,
+      1772
+    ],
+    "event_time_watermark_alignment_integrity": [
+      1781,
+      1782
+    ],
+    "time_window_boundary_integrity": [
+      1791,
+      1792
+    ],
+    "state_store_compaction_integrity": [
+      1811,
+      1812
+    ],
+    "state_store_ttl_integrity": [
+      1821,
+      1822
+    ],
+    "state_schema_evolution_integrity": [
+      1831,
+      1832
+    ],
+    "state_store_corruption_detection_integrity": [
+      1841,
+      1842
+    ],
+    "checkpoint_lineage_integrity": [
+      1851,
+      1852
+    ],
+    "restore_replay_determinism_integrity": [
+      1861,
+      1862
+    ],
+    "exactly_once_state_update_integrity": [
+      1871,
+      1872
+    ],
+    "offset_to_state_atomicity_integrity": [
+      1881,
+      1882
+    ],
+    "producer_epoch_fencing_integrity": [
+      1891,
+      1892
+    ],
+    "consumer_rebalance_state_safety_integrity": [
+      1901,
+      1902
+    ],
+    "backpressure_enforcement_integrity": [
+      1911,
+      1912
+    ],
+    "dead_letter_routing_consistency_integrity": [
+      1921,
+      1922
+    ],
+    "retry_policy_coupling_integrity": [
+      1931,
+      1932
+    ],
+    "poison_event_quarantine_integrity": [
+      1941,
+      1942
+    ],
+    "dedup_window_alignment_integrity": [
+      1951,
+      1952
+    ],
+    "stream_correctness_telemetry_integrity": [
+      1961,
+      1962
+    ],
+    "vm_test_harness_integrity": [
+      1971,
+      1972
+    ],
+    "vm_image_build_provenance_integrity": [
+      1981,
+      1982
+    ],
+    "hypervisor_interface_integrity": [
+      1991,
+      1992
+    ],
+    "secure_boot_chain_integrity": [
+      1995,
+      1996
+    ],
+    "virtual_network_policy_integrity": [
+      1903,
+      1904
+    ],
+    "vm_snapshot_restore_isolation_integrity": [
+      1905,
+      1906
+    ],
+    "vm_disk_encryption_integrity": [
+      1907,
+      1908
+    ],
+    "vm_memory_scrub_integrity": [
+      1909,
+      1910
+    ],
+    "vm_device_passthrough_integrity": [
+      1913,
+      1914
+    ],
+    "vm_kernel_cmdline_lock_integrity": [
+      1915,
+      1916
+    ],
+    "vm_guest_tools_channel_integrity": [
+      1917,
+      1918
+    ],
+    "vm_time_sync_tamper_integrity": [
+      1919,
+      1920
+    ],
+    "vm_entropy_source_integrity": [
+      1923,
+      1924
+    ],
+    "vm_image_registry_integrity": [
+      1925,
+      1926
+    ],
+    "vm_attestation_quote_integrity": [
+      1927,
+      1928
+    ],
+    "vm_console_channel_integrity": [
+      1929,
+      1930
+    ],
+    "firmware_rollback_protection_integrity": [
+      1933,
+      1934
+    ],
+    "firmware_attestation_chain_integrity": [
+      1937,
+      1938
+    ],
+    "trusted_boot_measurement_chain_integrity": [
+      1945,
+      1946
+    ],
+    "platform_measured_boot_policy_integrity": [
+      1947,
+      1948
+    ],
+    "bootloader_key_rotation_integrity": [
+      1949,
+      1950
+    ],
+    "firmware_key_manifest_consistency_integrity": [
+      1935,
+      1936
+    ],
+    "uefi_variable_policy_integrity": [
+      1939,
+      1940
+    ],
+    "firmware_capsule_update_integrity": [
+      1943,
+      1944
+    ],
+    "uefi_driver_load_policy_integrity": [
+      1953,
+      1954
+    ],
+    "tpm_nv_index_policy_integrity": [
+      1955,
+      1956
+    ],
+    "firmware_update_transport_integrity": [
+      1957,
+      1958
+    ],
+    "acpi_table_integrity": [
+      1959,
+      1960
+    ],
+    "smm_protection_integrity": [
+      1963,
+      1964
+    ],
+    "boot_services_lockdown_integrity": [
+      1965,
+      1966
+    ],
+    "platform_key_database_integrity": [
+      1967,
+      1968
+    ],
+    "firmware_attestation_policy_integrity": [
+      1969,
+      1970
+    ],
+    "bios_region_write_protection_integrity": [
+      1973,
+      1974
+    ],
+    "spi_flash_descriptor_lock_integrity": [
+      1975,
+      1976
+    ],
+    "boot_guard_policy_fuse_integrity": [
+      1977,
+      1978
+    ],
+    "boot_guard_acm_verification_integrity": [
+      1979,
+      1980
+    ],
+    "tpm_event_log_integrity": [
+      1983,
+      1984
+    ],
+    "pcr_policy_binding_integrity": [
+      1985,
+      1986
+    ],
+    "firmware_image_layout_integrity": [
+      1987,
+      1988
+    ],
+    "microcode_patch_authenticity_integrity": [
+      1989,
+      1990
+    ],
+    "platform_fuse_configuration_integrity": [
+      1993,
+      1994
+    ],
+    "smm_handler_integrity": [
+      3001,
+      3002
+    ],
+    "dma_remapping_policy_integrity": [
+      3011,
+      3012
+    ],
+    "iommu_enforcement_integrity": [
+      3021,
+      3022
+    ],
+    "runtime_services_table_integrity": [
+      3031,
+      3032
+    ],
+    "option_rom_execution_policy_integrity": [
+      3041,
+      3042
+    ],
+    "chipset_lock_register_integrity": [
+      3051,
+      3052
+    ],
+    "secure_time_source_integrity": [
+      3061,
+      3062
+    ],
+    "runtime_measurement_anchor_integrity": [
+      3071,
+      3072
+    ],
+    "platform_identity_binding_integrity": [
+      3081,
+      3082
+    ],
+    "trusted_resume_path_integrity": [
+      3091,
+      3092
+    ],
+    "crashdump_protection_integrity": [
+      3101,
+      3102
+    ],
+    "debug_unlock_policy_integrity": [
+      3111,
+      3112
+    ],
+    "resume_memory_integrity": [
+      3121,
+      3122
+    ],
+    "post_boot_attestation_refresh_integrity": [
+      3131,
+      3132
+    ],
+    "sealed_storage_binding_integrity": [
+      3141,
+      3142
+    ],
+    "platform_event_forwarding_integrity": [
+      3151,
+      3152
+    ],
+    "recovery_mode_policy_integrity": [
+      3161,
+      3162
+    ],
+    "maintenance_override_integrity": [
+      3171,
+      3172
+    ],
+    "device_identity_attestation_integrity": [
+      3181,
+      3182
+    ],
+    "platform_certificate_rotation_integrity": [
+      3191,
+      3192
+    ],
+    "device_binding_anchor_integrity": [
+      3201,
+      3202
+    ],
+    "peripheral_trust_policy_integrity": [
+      3211,
+      3212
+    ],
+    "external_device_measurement_integrity": [
+      3221,
+      3222
+    ],
+    "device_trust_revocation_integrity": [
+      3231,
+      3232
+    ],
+    "device_runtime_access_policy_integrity": [
+      3241,
+      3242
+    ],
+    "hotplug_device_trust_integrity": [
+      3251,
+      3252
+    ],
+    "device_driver_runtime_policy_integrity": [
+      3261,
+      3262
+    ],
+    "device_dma_runtime_guard_integrity": [
+      3271,
+      3272
+    ],
+    "device_session_trust_integrity": [
+      3281,
+      3282
+    ],
+    "device_runtime_revocation_integrity": [
+      3291,
+      3292
+    ],
+    "usb_device_isolation_integrity": [
+      3301,
+      3302
+    ],
+    "thunderbolt_dma_policy_integrity": [
+      3311,
+      3312
+    ],
+    "pcie_hotplug_isolation_integrity": [
+      3321,
+      3322
+    ],
+    "peripheral_firmware_trust_integrity": [
+      3331,
+      3332
+    ],
+    "external_storage_execution_policy_integrity": [
+      3341,
+      3342
+    ],
+    "peripheral_interrupt_isolation_integrity": [
+      3351,
+      3352
+    ],
+    "spi_peripheral_access_policy_integrity": [
+      3361,
+      3362
+    ],
+    "i2c_bus_trust_policy_integrity": [
+      3371,
+      3372
+    ],
+    "uart_console_exposure_integrity": [
+      3381,
+      3382
+    ],
+    "embedded_controller_trust_integrity": [
+      3391,
+      3392
+    ],
+    "sensor_bus_isolation_integrity": [
+      3401,
+      3402
+    ],
+    "mmio_window_policy_integrity": [
+      3411,
+      3412
+    ],
+    "pcie_fabric_policy_integrity": [
+      3421,
+      3422
+    ],
+    "interconnect_link_training_integrity": [
+      3431,
+      3432
+    ],
+    "fabric_error_containment_integrity": [
+      3441,
+      3442
+    ],
+    "cross_socket_trust_integrity": [
+      3451,
+      3452
+    ],
+    "fabric_bandwidth_partition_integrity": [
+      3461,
+      3462
+    ],
+    "interconnect_firmware_consistency_integrity": [
+      3471,
+      3472
+    ],
+    "clock_source_integrity": [
+      3481,
+      3482
+    ],
+    "pll_configuration_integrity": [
+      3491,
+      3492
+    ],
+    "power_state_transition_integrity": [
+      3501,
+      3502
+    ],
+    "frequency_scaling_policy_integrity": [
+      3511,
+      3512
+    ],
+    "voltage_rail_policy_integrity": [
+      3521,
+      3522
+    ],
+    "watchdog_timer_policy_integrity": [
+      3531,
+      3532
+    ],
+    "reset_path_integrity": [
+      3541,
+      3542
+    ],
+    "failsafe_boot_path_integrity": [
+      3551,
+      3552
+    ],
+    "recovery_chain_integrity": [
+      3561,
+      3562
+    ],
+    "rollback_failsafe_integrity": [
+      3571,
+      3572
+    ],
+    "panic_response_policy_integrity": [
+      3581,
+      3582
+    ],
+    "platform_safe_mode_integrity": [
+      3591,
+      3592
+    ],
+    "firewall_guard_integrity": [
+      3601,
+      3602,
+      3603,
+      3604,
+      3605
+    ],
+    "parallel_cubed_sandbox_domain_integrity": [
+      411,
+      412
+    ],
+    "qm_ecc_integrity": [
+      3611,
+      3612
+    ]
+  },
+  "release_gates": {
+    "observability_unified_gate": 501,
+    "configuration_immutable_field_policy": 531,
+    "secrets_handling_integrity": 551,
+    "artifact_provenance_integrity": 571,
+    "runtime_isolation_integrity": 591,
+    "dependency_version_lock_integrity": 611,
+    "build_reproducibility_integrity": 631,
+    "backup_restore_integrity": 651,
+    "time_sync_integrity": 671,
+    "identity_access_integrity": 691,
+    "network_trust_boundary_integrity": 711,
+    "audit_log_immutability_integrity": 751,
+    "state_machine_transition_integrity": 771,
+    "privilege_boundary_integrity": 791,
+    "cluster_membership_integrity": 911,
+    "service_discovery_integrity": 931,
+    "scheduler_decision_determinism_integrity": 951,
+    "storage_snapshot_integrity": 971,
+    "leader_election_integrity": 991,
+    "inter_service_mtls_identity_integrity": 1011,
+    "consensus_log_integrity": 1031,
+    "admission_control_integrity": 1051,
+    "configuration_rollout_consistency_integrity": 1071,
+    "workload_identity_attestation_integrity": 1091,
+    "runtime_api_contract_integrity": 1111,
+    "event_bus_delivery_integrity": 1131,
+    "state_checkpoint_consistency_integrity": 1151,
+    "distributed_rate_limit_integrity": 1211,
+    "secrets_rotation_consistency_integrity": 1221,
+    "control_plane_reconciliation_integrity": 1231,
+    "artifact_supply_chain_integrity": 1241,
+    "retry_backoff_integrity": 1441,
+    "poison_message_quarantine_integrity": 1451,
+    "consumer_offset_commit_integrity": 1461,
+    "exactly_once_delivery_integrity": 1481,
+    "saga_compensation_integrity": 1531,
+    "inbox_outbox_pairing_integrity": 1541,
+    "event_schema_compatibility_integrity": 1611,
+    "boss_button_integrity": 1663,
+    "parallel_cubed_sandbox_domain_integrity": 1664,
+    "event_schema_integrity": 2001,
+    "producer_sequence_integrity": 2011,
+    "consumer_group_balance_integrity": 2021,
+    "hotkey_layout_integrity": 2031,
+    "hotkey_action_registry_integrity": 2041,
+    "message_deduplication_store_integrity": 2051,
+    "vm_test_harness_integrity": 2061,
+    "vm_image_build_provenance_integrity": 2071,
+    "usb_device_isolation_integrity": 2081,
+    "thunderbolt_dma_policy_integrity": 2091,
+    "pcie_hotplug_isolation_integrity": 2101,
+    "backpressure_enforcement_integrity": 2102,
+    "peripheral_firmware_trust_integrity": 2111,
+    "checkpoint_lineage_integrity": 2112,
+    "external_storage_execution_policy_integrity": 2121,
+    "consumer_rebalance_state_safety_integrity": 2122,
+    "peripheral_interrupt_isolation_integrity": 2131,
+    "dead_letter_routing_consistency_integrity": 2132,
+    "spi_peripheral_access_policy_integrity": 2141,
+    "dedup_window_alignment_integrity": 2142,
+    "i2c_bus_trust_policy_integrity": 2151,
+    "event_time_ordering_integrity": 2152,
+    "uart_console_exposure_integrity": 2161,
+    "event_time_watermark_alignment_integrity": 2162,
+    "embedded_controller_trust_integrity": 2171,
+    "exactly_once_state_update_integrity": 2172,
+    "sensor_bus_isolation_integrity": 2181,
+    "late_event_handling_integrity": 2182,
+    "mmio_window_policy_integrity": 2191,
+    "offset_to_state_atomicity_integrity": 2192,
+    "interconnect_link_training_integrity": 2201,
+    "poison_event_quarantine_integrity": 2202,
+    "fabric_error_containment_integrity": 2211,
+    "producer_epoch_fencing_integrity": 2212,
+    "cross_socket_trust_integrity": 2221,
+    "restore_replay_determinism_integrity": 2222,
+    "fabric_bandwidth_partition_integrity": 2231,
+    "retry_policy_coupling_integrity": 2232,
+    "interconnect_firmware_consistency_integrity": 2241,
+    "state_schema_evolution_integrity": 2242,
+    "pcie_fabric_policy_integrity": 2251,
+    "state_store_checkpoint_integrity": 2252,
+    "clock_source_integrity": 2261,
+    "state_store_compaction_integrity": 2262,
+    "pll_configuration_integrity": 2271,
+    "state_store_corruption_detection_integrity": 2272,
+    "power_state_transition_integrity": 2281,
+    "state_store_ttl_integrity": 2282,
+    "frequency_scaling_policy_integrity": 2291,
+    "stream_correctness_telemetry_integrity": 2292,
+    "virtual_network_policy_integrity": 2301,
+    "stream_partition_affinity_integrity": 2302,
+    "vm_snapshot_restore_isolation_integrity": 2311,
+    "stream_retention_window_integrity": 2312,
+    "vm_disk_encryption_integrity": 2321,
+    "time_window_boundary_integrity": 2322,
+    "vm_memory_scrub_integrity": 2331,
+    "watermark_progress_integrity": 2332,
+    "vm_device_passthrough_integrity": 2341,
+    "window_aggregation_consistency_integrity": 2342,
+    "vm_kernel_cmdline_lock_integrity": 2351,
+    "vm_guest_tools_channel_integrity": 2361,
+    "vm_time_sync_tamper_integrity": 2371,
+    "vm_entropy_source_integrity": 2381,
+    "vm_image_registry_integrity": 2391,
+    "vm_attestation_quote_integrity": 2401,
+    "vm_console_channel_integrity": 2411,
+    "voltage_rail_policy_integrity": 2421,
+    "watchdog_timer_policy_integrity": 2431,
+    "firmware_rollback_protection_integrity": 2501,
+    "trusted_boot_measurement_chain_integrity": 2521,
+    "platform_measured_boot_policy_integrity": 2531,
+    "firmware_attestation_chain_integrity": 2541,
+    "bootloader_key_rotation_integrity": 2551,
+    "uefi_variable_policy_integrity": 2561,
+    "spi_flash_descriptor_lock_integrity": 2671,
+    "boot_guard_policy_fuse_integrity": 2681,
+    "boot_guard_acm_verification_integrity": 2691,
+    "tpm_event_log_integrity": 2701,
+    "pcr_policy_binding_integrity": 2711,
+    "firmware_image_layout_integrity": 2721,
+    "microcode_patch_authenticity_integrity": 2731,
+    "platform_fuse_configuration_integrity": 2741,
+    "smm_handler_integrity": 2751,
+    "dma_remapping_policy_integrity": 2761,
+    "iommu_enforcement_integrity": 2771,
+    "runtime_services_table_integrity": 2781,
+    "option_rom_execution_policy_integrity": 2791,
+    "chipset_lock_register_integrity": 2801,
+    "secure_time_source_integrity": 2811,
+    "runtime_measurement_anchor_integrity": 2821,
+    "platform_identity_binding_integrity": 2831,
+    "trusted_resume_path_integrity": 2841,
+    "crashdump_protection_integrity": 2851,
+    "debug_unlock_policy_integrity": 2861,
+    "resume_memory_integrity": 2871,
+    "post_boot_attestation_refresh_integrity": 2881,
+    "sealed_storage_binding_integrity": 2891,
+    "platform_event_forwarding_integrity": 2901,
+    "recovery_mode_policy_integrity": 2911,
+    "maintenance_override_integrity": 2921,
+    "device_identity_attestation_integrity": 2931,
+    "platform_certificate_rotation_integrity": 2941,
+    "device_binding_anchor_integrity": 2951,
+    "peripheral_trust_policy_integrity": 2961,
+    "external_device_measurement_integrity": 2971,
+    "device_trust_revocation_integrity": 2981,
+    "device_runtime_access_policy_integrity": 2991,
+    "hotplug_device_trust_integrity": 2992,
+    "device_driver_runtime_policy_integrity": 2993,
+    "device_dma_runtime_guard_integrity": 2994,
+    "device_session_trust_integrity": 2995,
+    "device_runtime_revocation_integrity": 2996,
+    "reset_path_integrity": 2441,
+    "failsafe_boot_path_integrity": 2442,
+    "recovery_chain_integrity": 2443,
+    "rollback_failsafe_integrity": 2444,
+    "panic_response_policy_integrity": 2445,
+    "platform_safe_mode_integrity": 2446,
+    "firewall_guard_integrity": 2447,
+    "qm_ecc_integrity": 2448
+  }
+}

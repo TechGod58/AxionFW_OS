@@ -1,0 +1,10 @@
+{
+  "contract_id": "runtime_services_table_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "RUNTIME_SERVICES_POINTER_TAMPER_ACCEPTED",
+    "UEFI_RUNTIME_TABLE_HASH_MISMATCH_ACCEPTED"
+  ],
+  "parked_gate_exit": 2781
+}

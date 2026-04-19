@@ -1,0 +1,5 @@
+{
+  "name": "vm_device_passthrough_integrity",
+  "policy": "strict",
+  "deterministic": true
+}

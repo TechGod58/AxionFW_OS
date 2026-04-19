@@ -1,0 +1,8 @@
+﻿{
+  "version": 1,
+  "layouts": ["en-US"],
+  "primary": "en-US",
+  "active": "en-US",
+  "per_app_memory": false,
+  "cycle_shortcut": "Alt+Shift"
+}

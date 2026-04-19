@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "policyId": "AXION_THIRD_PARTY_APP_BUNDLE_POLICY_V1",
+  "bundleTargets": [
+    {
+      "component_id": "notepad_plus_plus",
+      "display_name": "Notepad++",
+      "license_family": "GPL-3.0-or-later",
+      "distribution_mode": "preinstalled_binary_with_source_offer",
+      "required_notices": [
+        "copyright",
+        "license_text",
+        "no_warranty"
+      ],
+      "source_code_offer_required": true
+    },
+    {
+      "component_id": "libreoffice_suite",
+      "display_name": "LibreOffice",
+      "license_family": "MPL-2.0_and_LGPL-3.0",
+      "distribution_mode": "preinstalled_binary_with_notice_bundle",
+      "required_notices": [
+        "copyright",
+        "license_text"
+      ],
+      "source_code_offer_required": true
+    },
+    {
+      "component_id": "gimp_engine",
+      "display_name": "GIMP",
+      "license_family": "GPL-3.0-or-later",
+      "distribution_mode": "optional_preinstall",
+      "required_notices": [
+        "copyright",
+        "license_text",
+        "no_warranty"
+      ],
+      "source_code_offer_required": true
+    },
+    {
+      "component_id": "inkscape_engine",
+      "display_name": "Inkscape",
+      "license_family": "GPL-3.0-or-later",
+      "distribution_mode": "optional_preinstall",
+      "required_notices": [
+        "copyright",
+        "license_text",
+        "no_warranty"
+      ],
+      "source_code_offer_required": true
+    },
+    {
+      "component_id": "scribus_engine",
+      "display_name": "Scribus",
+      "license_family": "GPL-2.0-or-later",
+      "distribution_mode": "optional_preinstall",
+      "required_notices": [
+        "copyright",
+        "license_text",
+        "no_warranty"
+      ],
+      "source_code_offer_required": true
+    }
+  ],
+  "complianceGates": {
+    "fail_closed_when_notice_bundle_missing": true,
+    "fail_closed_when_source_offer_missing": true,
+    "forbid_proprietary_brand_claims": true
+  }
+}

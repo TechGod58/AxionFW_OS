@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "policyId": "AXION_FIREWALL_QUARANTINE_REVIEW_V1",
+  "reviews": {
+    "C:\\AxionFW_OS\\AxionOS\\data\\quarantine\\network_packets\\external_installer\\external_installer-9830de4cbb44\\20260417T170842721599Z_firewall_remote_host_mismatch.json": {
+      "decision": "allow_rule",
+      "reviewed_utc": "2026-04-17T17:08:42.762659+00:00",
+      "reviewer": "security_host",
+      "note": "unit test allow",
+      "allow_rule_id": "allow_quarantine_00001"
+    },
+    "C:\\AxionFW_OS\\AxionOS\\data\\quarantine\\network_packets\\external_installer\\privacy-host-test\\20260417T000000000000Z_test.json": {
+      "decision": "allow_rule",
+      "reviewed_utc": "2026-04-18T16:45:39.814307+00:00",
+      "reviewer": "privacy_security_host",
+      "note": "approved in host test",
+      "allow_rule_id": "allow_quarantine_00002",
+      "kernel_allow_rule_id": "kernel_allow_quarantine_00002"
+    },
+    "C:\\AxionFW_OS\\AxionOS\\data\\quarantine\\network_packets\\external_installer\\cp-test\\20260417T000000000001Z_test.json": {
+      "decision": "allow_rule",
+      "reviewed_utc": "2026-04-18T18:37:20.796933+00:00",
+      "reviewer": "privacy_security_host",
+      "note": "allow from control panel test",
+      "allow_rule_id": "allow_quarantine_00003",
+      "kernel_allow_rule_id": "kernel_allow_quarantine_00003"
+    },
+    "C:\\AxionFW_OS\\AxionOS\\data\\quarantine\\network_packets\\external_installer\\qa-firewall-quarantine\\20260417T000000000100Z_smoke.json": {
+      "decision": "allow_rule",
+      "reviewed_utc": "2026-04-18T18:39:15.810530+00:00",
+      "reviewer": "privacy_security_host",
+      "note": "qa smoke allowlist",
+      "allow_rule_id": "allow_quarantine_00004",
+      "kernel_allow_rule_id": "kernel_allow_quarantine_00004"
+    },
+    "C:\\AxionFW_OS\\AxionOS\\data\\quarantine\\network_packets\\external_installer\\external_installer-f5752a5d2e9f\\20260417T171438197071Z_firewall_kernel_syscall_deny.json": {
+      "decision": "allow_rule",
+      "reviewed_utc": "2026-04-17T17:14:38.240984+00:00",
+      "reviewer": "security_host",
+      "note": "unit test allow",
+      "allow_rule_id": "allow_quarantine_00001",
+      "kernel_allow_rule_id": "kernel_allow_quarantine_00001"
+    },
+    "C:\\AxionFW_OS\\AxionOS\\data\\quarantine\\network_packets\\external_installer\\adjudication-unit\\20260417T000000000200Z_test.json": {
+      "decision": "allow_rule",
+      "reviewed_utc": "2026-04-18T12:55:21.031532+00:00",
+      "reviewer": "security_host",
+      "note": "unit test allow",
+      "allow_rule_id": "allow_quarantine_00001",
+      "kernel_allow_rule_id": "kernel_allow_quarantine_00001"
+    }
+  },
+  "last_updated_utc": "2026-04-18T18:39:15.810530+00:00"
+}

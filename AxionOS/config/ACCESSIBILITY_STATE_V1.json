@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "vision": {
+    "high_contrast": true,
+    "text_scale": 100,
+    "magnifier": false,
+    "color_filter": "none"
+  },
+  "hearing": {
+    "live_captions": false,
+    "visual_alerts": true
+  },
+  "input": {
+    "on_screen_keyboard": false,
+    "sticky_keys": false,
+    "filter_keys": false,
+    "toggle_keys": false
+  },
+  "motion": {
+    "reduced_motion": false,
+    "simplified_ui": false
+  },
+  "narrator": {
+    "enabled": false,
+    "voice": "default"
+  },
+  "captions": {
+    "enabled": false,
+    "size": "medium"
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "services schema",
+  "type": "object",
+  "required": ["services"],
+  "properties": {
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["service_id","display_name","state","startup_type"],
+        "properties": {
+          "service_id": {"type":"string","minLength":1},
+          "display_name": {"type":"string","minLength":1},
+          "state": {"type":"string","enum":["running","stopped","failed","disabled"]},
+          "startup_type": {"type":"string","enum":["auto","manual","disabled"]},
+          "health": {"type":"string"},
+          "last_error": {"type":["string","null"]}
+        }
+      }
+    }
+  }
+}

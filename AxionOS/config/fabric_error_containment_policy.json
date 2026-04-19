@@ -1,0 +1,10 @@
+{
+  "contract_id": "fabric_error_containment_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "FABRIC_ERROR_CONTAINMENT_BYPASS_ACCEPTED",
+    "ERROR_DOMAIN_ESCAPE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3191
+}

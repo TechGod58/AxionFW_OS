@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "bios_region_write_protection_integrity schema",
+  "type": "object",
+  "required": [
+    "contract_id",
+    "status",
+    "audit_path",
+    "smoke_path",
+    "failures"
+  ],
+  "properties": {
+    "contract_id": {
+      "const": "bios_region_write_protection_integrity"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "audit_path": {
+      "type": "string"
+    },
+    "smoke_path": {
+      "type": "string"
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

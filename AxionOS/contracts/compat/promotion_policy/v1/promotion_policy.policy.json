@@ -1,0 +1,14 @@
+﻿{
+    "category":  "policy",
+    "failure_codes":  [
+                          "ALLOWLIST_DENY",
+                          "MISSING_METADATA",
+                          "HASH_MISMATCH",
+                          "INTENT_REQUIRED",
+                          "TYPE_DENY",
+                          "URI_SCHEME_DENY",
+                          "QUARANTINED"
+                      ],
+    "version":  "1.0",
+    "contract_id":  "promotion_policy"
+}

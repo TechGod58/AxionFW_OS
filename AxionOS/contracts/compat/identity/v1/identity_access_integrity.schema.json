@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "identity access integrity schema",
+  "type": "object",
+  "required": ["status", "identity_access", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "identity_access": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

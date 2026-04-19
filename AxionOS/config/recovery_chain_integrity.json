@@ -1,0 +1,10 @@
+{
+  "contract_id": "recovery_chain_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "RECOVERY_CHAIN_BYPASS_ACCEPTED",
+    "RECOVERY_STAGE_TAMPER_ACCEPTED"
+  ],
+  "parked_gate_exit": 3311
+}

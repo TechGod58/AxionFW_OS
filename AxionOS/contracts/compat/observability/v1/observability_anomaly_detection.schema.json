@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "observability anomaly detection schema",
+  "type": "object",
+  "required": ["status", "anomaly_check", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "anomaly_check": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

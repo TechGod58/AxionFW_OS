@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "type": "route.request",
+  "id": "msg_bad_0003",
+  "ts": "2026-03-01T13:45:50Z",
+  "source": "axionos",
+  "target": "axionbus",
+  "corr": "corr_bad_0003",
+  "payload": {
+    "job_id": "job_bad_2",
+    "workload_class": "ultra_realtime",
+    "requirements": ["compute.cpu"]
+  }
+}

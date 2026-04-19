@@ -1,0 +1,14 @@
+{
+  "hypervisor_type": "virtualbox",
+  "api_endpoint": "local://hypervisor/interface/v1",
+  "vm_launch_definition_path": "AXION_ROOT:/config/vm_launch_definition.json",
+  "network_isolation_policy": "hostonly",
+  "snapshot_control_enabled": true,
+  "hypercall_whitelist": [
+    "vm.start",
+    "vm.stop",
+    "vm.snapshot.create",
+    "vm.snapshot.restore"
+  ],
+  "interface_trace_output_path": "AXION_ROOT:/out/runtime/hypervisor_interface_trace.json"
+}

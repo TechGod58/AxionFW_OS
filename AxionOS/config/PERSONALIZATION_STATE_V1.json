@@ -1,0 +1,33 @@
+{
+    "version":  2,
+    "theme":  "light",
+    "accent_mode":  "manual",
+    "accent":  "aero_blue",
+    "wallpaper_pack":  "Axion Classic",
+    "desktop_icons":  {
+                          "profileFolder":  true,
+                          "mainDrive":  true,
+                          "recycleBin":  true
+                      },
+    "taskbar_alignment":  "left",
+    "start_layout":  "windows7",
+    "lock_screen":  {
+                        "background":  "Axion Industries AI",
+                        "show_status_widgets":  true,
+                        "timeout_seconds":  60
+                    },
+    "colors":  {
+                   "transparency_effects":  true,
+                   "show_accent_on_start_taskbar":  true,
+                   "show_accent_on_title_bars":  true
+               },
+    "fonts":  {
+                  "ui_font":  "Segoe UI",
+                  "size_scale_pct":  100
+              },
+    "taskbar":  {
+                    "small_icons":  false,
+                    "combine_mode":  "combine_when_full",
+                    "show_badges":  true
+                }
+}

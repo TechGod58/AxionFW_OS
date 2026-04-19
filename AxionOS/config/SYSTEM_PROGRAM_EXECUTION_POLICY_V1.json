@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "policyId": "AXION_SYSTEM_PROGRAM_EXECUTION_POLICY_V1",
+  "default": {
+    "internet_required": false,
+    "family": "native_system",
+    "profile": "system_default",
+    "execution_model": "host_native_guarded"
+  },
+  "apps": {
+    "command_prompt": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "powershell": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "run": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "calculator": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "notepad": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "disk_cleanup": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "registry_editor": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "control_panel": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "users_tools": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "media_codecs": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "video_player": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "audio_recorder": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "video_recorder": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "windows_tools": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "task_manager": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "services": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "file_explorer": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "codex": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    },
+    "accessibilities": {
+      "internet_required": false,
+      "family": "native_system",
+      "profile": "system_default",
+      "execution_model": "host_native_guarded"
+    }
+  }
+}

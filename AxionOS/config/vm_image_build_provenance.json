@@ -1,0 +1,8 @@
+{
+  "image_name": "axionos-vm-image",
+  "build_recipe_path": "AXION_ROOT:/build/vm_image_recipe.json",
+  "source_manifest_path": "AXION_ROOT:/build/source_manifest.json",
+  "output_image_path": "AXION_ROOT:/out/images/axionos_vm_test.img",
+  "provenance_attestation_path": "AXION_ROOT:/out/images/axionos_vm_test.attestation.json",
+  "signature_public_key_path": "AXION_ROOT:/keys/vm_image_pubkey.pem"
+}

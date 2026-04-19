@@ -1,0 +1,10 @@
+{
+  "contract_id": "dma_remapping_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DMA_POLICY_BYPASS_ACCEPTED",
+    "DMA_PROTECTED_REGION_ACCESS_ACCEPTED"
+  ],
+  "parked_gate_exit": 2761
+}

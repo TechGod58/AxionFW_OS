@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "themeId": "axion_shell_fluent_classic_v1",
+  "displayName": "Axion Fluent Classic",
+  "designLanguage": "classic_shell_with_modern_color",
+  "defaultIcon": "assets\\icons\\shell\\control_panel.svg",
+  "icons": {
+    "control_panel": "assets\\icons\\shell\\control_panel.svg",
+    "system": "assets\\icons\\shell\\system.svg",
+    "network": "assets\\icons\\shell\\network.svg",
+    "devices": "assets\\icons\\shell\\devices.svg",
+    "personalization": "assets\\icons\\shell\\personalization.svg",
+    "accounts": "assets\\icons\\shell\\accounts.svg",
+    "programs": "assets\\icons\\shell\\programs.svg",
+    "security": "assets\\icons\\shell\\security.svg",
+    "tools": "assets\\icons\\shell\\tools.svg",
+    "properties": "assets\\icons\\shell\\properties.svg",
+    "folder": "assets\\icons\\shell\\folder.svg",
+    "audio": "assets\\icons\\shell\\audio.svg",
+    "video": "assets\\icons\\shell\\video.svg",
+    "recorder": "assets\\icons\\shell\\recorder.svg"
+  },
+  "folderIcons": {
+    "Archives": "assets\\icons\\shell\\folder.svg",
+    "Photos": "assets\\icons\\shell\\folder.svg",
+    "Downloads": "assets\\icons\\shell\\folder.svg",
+    "Music": "assets\\icons\\shell\\audio.svg",
+    "Videos": "assets\\icons\\shell\\video.svg",
+    "Workspace": "assets\\icons\\shell\\folder.svg",
+    "FavoritesBar": "assets\\icons\\shell\\folder.svg",
+    "Searches": "assets\\icons\\shell\\folder.svg",
+    "Connections": "assets\\icons\\shell\\folder.svg",
+    "Connectios": "assets\\icons\\shell\\folder.svg"
+  }
+}

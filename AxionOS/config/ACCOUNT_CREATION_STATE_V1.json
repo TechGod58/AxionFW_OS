@@ -1,0 +1,36 @@
+﻿{
+  "version": 1,
+  "title": "User Account Creation",
+  "defaults": {
+    "admin_first_run": true,
+    "default_new_account_role": "User",
+    "profile_template": "Windows-like shell defaults",
+    "password_optional": true,
+    "pin_policy": {
+      "min_length": 4,
+      "max_length": 8,
+      "digits_only": true
+    },
+    "supported_signin_methods": [
+      "password",
+      "pin",
+      "fingerprint",
+      "face_unlock"
+    ]
+  },
+  "allowed_roles": ["Administrator", "User"],
+  "required_fields": ["display_name", "handle"],
+  "optional_fields": [
+    "password",
+    "pin",
+    "fingerprint",
+    "face_unlock",
+    "recovery_email"
+  ],
+  "actions": [
+    "create_local_account",
+    "create_admin_account",
+    "create_standard_account",
+    "run_setup_wizard"
+  ]
+}

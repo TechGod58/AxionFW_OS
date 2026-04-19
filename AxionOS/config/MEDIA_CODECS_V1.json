@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "policyId": "AXION_MEDIA_CODECS_V1",
+  "defaultProfile": "axion_balanced_media",
+  "profiles": {
+    "axion_balanced_media": {
+      "preferredVideoCodecs": [
+        "h264",
+        "av1",
+        "vp9"
+      ],
+      "preferredAudioCodecs": [
+        "aac",
+        "opus",
+        "pcm_s16le"
+      ],
+      "preferredContainers": [
+        "mp4",
+        "mkv",
+        "webm"
+      ]
+    },
+    "legacy_windows_compat": {
+      "preferredVideoCodecs": [
+        "mpeg4",
+        "h264",
+        "wmv9"
+      ],
+      "preferredAudioCodecs": [
+        "mp3",
+        "pcm_s16le",
+        "wma2"
+      ],
+      "preferredContainers": [
+        "avi",
+        "wmv",
+        "mp4"
+      ]
+    },
+    "linux_open_media": {
+      "preferredVideoCodecs": [
+        "vp9",
+        "av1",
+        "theora"
+      ],
+      "preferredAudioCodecs": [
+        "opus",
+        "vorbis",
+        "flac"
+      ],
+      "preferredContainers": [
+        "webm",
+        "mkv",
+        "ogg"
+      ]
+    }
+  },
+  "containers": {
+    "mp4": {
+      "video": [
+        "h264",
+        "h265",
+        "av1",
+        "mpeg4"
+      ],
+      "audio": [
+        "aac",
+        "opus",
+        "mp3"
+      ]
+    },
+    "mkv": {
+      "video": [
+        "h264",
+        "h265",
+        "av1",
+        "vp9"
+      ],
+      "audio": [
+        "aac",
+        "opus",
+        "flac",
+        "pcm_s16le"
+      ]
+    },
+    "webm": {
+      "video": [
+        "vp9",
+        "av1"
+      ],
+      "audio": [
+        "opus",
+        "vorbis"
+      ]
+    },
+    "avi": {
+      "video": [
+        "mpeg4",
+        "h264"
+      ],
+      "audio": [
+        "mp3",
+        "pcm_s16le"
+      ]
+    },
+    "wav": {
+      "audio": [
+        "pcm_s16le",
+        "pcm_s24le"
+      ]
+    },
+    "mp3": {
+      "audio": [
+        "mp3"
+      ]
+    },
+    "flac": {
+      "audio": [
+        "flac"
+      ]
+    }
+  },
+  "captureDefaults": {
+    "cameraTargetFolder": "Photos",
+    "audioRecorderTargetFolder": "Music",
+    "videoRecorderTargetFolder": "Videos",
+    "webcamSessionsSavedToVideos": true
+  }
+}

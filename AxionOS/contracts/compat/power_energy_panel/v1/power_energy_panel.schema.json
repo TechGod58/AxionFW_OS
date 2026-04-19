@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "power energy panel schema",
+  "type": "object",
+  "required": ["status", "profiles", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "profiles": {"type": "array", "items": {"type": "object"}},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

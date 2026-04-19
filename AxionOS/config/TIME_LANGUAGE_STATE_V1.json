@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "time": {
+    "timezone": "America/New_York",
+    "auto_time_sync": true
+  },
+  "language": {
+    "display": "en-US",
+    "preferred": [
+      "en-US"
+    ],
+    "speech": "en-US"
+  },
+  "input": {
+    "keyboard_layouts": [
+      "en-US"
+    ],
+    "primary_layout": "en-US"
+  },
+  "locale": {
+    "region": "US",
+    "date_format": "MM/dd/yyyy",
+    "time_format": "12h",
+    "number_format": "1,234.56",
+    "currency": "USD",
+    "first_day_of_week": "Sunday"
+  }
+}

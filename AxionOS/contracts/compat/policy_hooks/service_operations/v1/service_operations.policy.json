@@ -1,0 +1,12 @@
+﻿{
+  "contract_id": "policy_hook_service_operations",
+  "version": "1.0",
+  "kind": "policy_hook",
+  "scope": "service_operations",
+  "enforcement": {
+    "engine": "policy_enforcement",
+    "default": "allow",
+    "deny_rules": ["deny_protected_service_stop", "deny_unsigned_service_start"]
+  },
+  "failure_code": "POLICY_SERVICE_OPERATION_BLOCKED"
+}

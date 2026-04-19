@@ -1,0 +1,10 @@
+{
+  "contract_id": "peripheral_interrupt_isolation_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PERIPHERAL_INTERRUPT_ROUTING_BYPASS_ACCEPTED",
+    "INTERRUPT_ISOLATION_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3101
+}

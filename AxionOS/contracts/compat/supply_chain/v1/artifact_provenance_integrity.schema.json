@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "artifact provenance integrity schema",
+  "type": "object",
+  "required": ["status", "provenance", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "provenance": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "contract_id": "debug_unlock_policy_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "DEBUG_UNLOCK_PATH_ACCEPTED",
+    "DEBUG_POLICY_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 2861
+}

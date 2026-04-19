@@ -1,0 +1,10 @@
+{
+  "contract_id": "pll_configuration_integrity",
+  "schema_version": "v1",
+  "policy": "strict",
+  "fail_codes": [
+    "PLL_CONFIGURATION_BYPASS_ACCEPTED",
+    "PLL_PROFILE_OVERRIDE_ACCEPTED"
+  ],
+  "parked_gate_exit": 3241
+}

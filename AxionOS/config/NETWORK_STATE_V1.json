@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "ethernet": {
+    "connected": true,
+    "profile": "domain"
+  },
+  "wifi": {
+    "enabled": true,
+    "connected": false,
+    "ssid": null
+  },
+  "vpn": {
+    "enabled": true,
+    "connected": true,
+    "profile": "CorpNet"
+  },
+  "airplane_mode": false,
+  "metered": false,
+  "dns_mode": "auto"
+}

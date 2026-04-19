@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "installed": [
+    {
+      "app_id": "clock",
+      "name": "Axion Clock",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "calendar",
+      "name": "Axion Calendar",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "pad",
+      "name": "Axion Pad",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "capture",
+      "name": "Axion Capture",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "pulse_monitor",
+      "name": "Pulse Monitor",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "calculator",
+      "name": "Calculator",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "camera",
+      "name": "Camera",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "photo_editing",
+      "name": "Photo Editing",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "photo_viewer",
+      "name": "Photo Viewer",
+      "version": "0.1.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "notepad",
+      "name": "Notepad",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "control_panel",
+      "name": "ControlPanel",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "users_tools",
+      "name": "User's Tools",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "disk_cleanup",
+      "name": "Disk Cleanup",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "registry_editor",
+      "name": "Registry Editor",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "accessibilities",
+      "name": "Accessibilities",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "media_codecs",
+      "name": "Audio and Video Codecs",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "video_player",
+      "name": "Video Player",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "audio_recorder",
+      "name": "Audio Recorder",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "video_recorder",
+      "name": "Video Recorder",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "brave_browser",
+      "name": "Brave Browser",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "startmenu_click_demo",
+      "name": "StartMenu Click Demo",
+      "version": "0.1.0",
+      "mode": "capsule",
+      "install_root": "Program Modules",
+      "install_mode": "copy_in_place",
+      "activation_mode": "one_click_add_to_os"
+    },
+    {
+      "app_id": "command_prompt",
+      "name": "Command Prompt",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "powershell",
+      "name": "PowerShell",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "run",
+      "name": "Run Dialog",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "windows_tools",
+      "name": "Windows Tools",
+      "version": "0.1.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "task_manager",
+      "name": "Task Manager",
+      "version": "1.0.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "services",
+      "name": "Services",
+      "version": "1.0.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "file_explorer",
+      "name": "File Explorer",
+      "version": "1.0.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "codex",
+      "name": "Codex",
+      "version": "1.0.0",
+      "mode": "host_native_guarded"
+    },
+    {
+      "app_id": "write",
+      "name": "Write",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "sheets",
+      "name": "Sheets",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "slides",
+      "name": "Slides",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "mail",
+      "name": "Mail",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "database",
+      "name": "Database",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "publisher",
+      "name": "Publisher",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "pdf_studio",
+      "name": "PDF Studio",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "vector_studio",
+      "name": "Vector Studio",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "creative_studio",
+      "name": "Creative Studio",
+      "version": "1.0.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "notepad_plus_plus",
+      "name": "Notepad++",
+      "version": "8.8.0",
+      "mode": "capsule"
+    },
+    {
+      "app_id": "builder_demo",
+      "name": "Builder Demo",
+      "version": "0.1.0",
+      "mode": "capsule",
+      "install_root": "Program Modules",
+      "install_mode": "copy_in_place",
+      "activation_mode": "one_click_add_to_os"
+    }
+  ],
+  "defaults": {
+    "txt": "pad",
+    "png": "photo_viewer",
+    "jpg": "photo_viewer",
+    "pdf": "pdf_studio",
+    "jpeg": "photo_viewer",
+    "bmp": "photo_viewer",
+    "mp4": "video_player",
+    "mkv": "video_player",
+    "avi": "video_player",
+    "webm": "video_player",
+    "wav": "video_player",
+    "mp3": "video_player",
+    "flac": "video_player",
+    "doc": "write",
+    "docx": "write",
+    "docm": "write",
+    "dot": "write",
+    "dotx": "write",
+    "dotm": "write",
+    "rtf": "write",
+    "odt": "write",
+    "xls": "sheets",
+    "xlsx": "sheets",
+    "xlsm": "sheets",
+    "xlsb": "sheets",
+    "xltx": "sheets",
+    "xltm": "sheets",
+    "csv": "sheets",
+    "ods": "sheets",
+    "ppt": "slides",
+    "pptx": "slides",
+    "pptm": "slides",
+    "pps": "slides",
+    "ppsx": "slides",
+    "ppsm": "slides",
+    "potx": "slides",
+    "potm": "slides",
+    "odp": "slides",
+    "eml": "mail",
+    "msg": "mail",
+    "mdb": "database",
+    "accdb": "database",
+    "db": "database",
+    "sqlite": "database",
+    "pub": "publisher",
+    "svg": "vector_studio",
+    "ai": "vector_studio",
+    "psd": "creative_studio",
+    "html": "brave_browser",
+    "htm": "brave_browser",
+    "url": "brave_browser"
+  },
+  "permissions": {
+    "startup": {
+      "clock": false,
+      "calendar": false,
+      "pad": true,
+      "capture": false,
+      "pulse_monitor": true,
+      "calculator": false,
+      "camera": false,
+      "photo_editing": false,
+      "photo_viewer": false,
+      "notepad": false,
+      "control_panel": false,
+      "users_tools": false,
+      "disk_cleanup": false,
+      "registry_editor": false,
+      "accessibilities": false,
+      "media_codecs": false,
+      "video_player": false,
+      "audio_recorder": false,
+      "video_recorder": false,
+      "brave_browser": false,
+      "startmenu_click_demo": false,
+      "command_prompt": false,
+      "powershell": false,
+      "run": false,
+      "windows_tools": false,
+      "task_manager": false,
+      "services": false,
+      "file_explorer": false,
+      "codex": false,
+      "write": false,
+      "sheets": false,
+      "slides": false,
+      "mail": false,
+      "database": false,
+      "publisher": false,
+      "pdf_studio": false,
+      "vector_studio": false,
+      "creative_studio": false,
+      "notepad_plus_plus": false,
+      "builder_demo": false
+    },
+    "background": {
+      "clock": false,
+      "calendar": false,
+      "pad": false,
+      "capture": false,
+      "pulse_monitor": true,
+      "calculator": false,
+      "camera": false,
+      "photo_editing": false,
+      "photo_viewer": false,
+      "notepad": false,
+      "control_panel": false,
+      "users_tools": false,
+      "disk_cleanup": false,
+      "registry_editor": false,
+      "accessibilities": false,
+      "media_codecs": false,
+      "video_player": false,
+      "audio_recorder": false,
+      "video_recorder": false,
+      "brave_browser": false,
+      "startmenu_click_demo": false,
+      "command_prompt": false,
+      "powershell": false,
+      "run": false,
+      "windows_tools": false,
+      "task_manager": false,
+      "services": false,
+      "file_explorer": false,
+      "codex": false,
+      "write": false,
+      "sheets": false,
+      "slides": false,
+      "mail": false,
+      "database": false,
+      "publisher": false,
+      "pdf_studio": false,
+      "vector_studio": false,
+      "creative_studio": false,
+      "notepad_plus_plus": false,
+      "builder_demo": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "version": 1,
+  "title": "Repair Portal",
+  "entryPoints": ["preboot_sign_in_screen", "advanced_startup", "control_panel"],
+  "surfaces": [
+    {
+      "id": "firmware_repair",
+      "label": "Firmware Repair",
+      "actions": ["verify_firmware_contract", "restore_known_good_fw", "rebuild_vars_store"]
+    },
+    {
+      "id": "os_repair",
+      "label": "OS Repair",
+      "actions": ["repair_bootloader", "repair_system_files", "reset_runtime_policies"]
+    },
+    {
+      "id": "driver_bundle_repair",
+      "label": "Driver Bundle Repair",
+      "actions": ["verify_signed_driver_bundle", "reinstall_reference_bsp", "rebuild_sandbox_brokers"]
+    },
+    {
+      "id": "hardware_diagnostics",
+      "label": "Hardware Diagnostics",
+      "actions": ["run_memory_test", "run_disk_test", "emit_board_health_report"]
+    }
+  ],
+  "requires_auth_for_destructive_actions": true,
+  "allows_read_only_diagnostics_without_auth": true
+}

@@ -1,0 +1,10 @@
+﻿{
+  "version": 1,
+  "channel": "dev",
+  "ring": "pilot",
+  "status": "up_to_date",
+  "last_check": null,
+  "last_install": null,
+  "available": [],
+  "defer_days": 0
+}

@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "profileId": "AXION_HAL_PROFILE_V1",
+  "displayName": "AxionHAL Platform Driver Fabric",
+  "goals": [
+    "Bind AxionFW firmware handoff to AxionOS runtime expectations",
+    "Separate motherboard support drivers from sandbox mediation drivers",
+    "Keep QEMU q35 as the first supported reference platform",
+    "Allow future board support packages without changing the core installer flow",
+    "Use one real-world laptop family as a proving ground while preserving the generic x64 UEFI destination"
+  ],
+  "driverClasses": [
+    {
+      "class_id": "firmware_handoff",
+      "description": "Drivers and services that consume the firmware boot contract, ACPI, UEFI variables, and boot policy state.",
+      "load_order": 10,
+      "required": true,
+      "examples": [
+        "drv_fw_handoff_uefi_bootinfo",
+        "drv_fw_handoff_secure_boot_state"
+      ]
+    },
+    {
+      "class_id": "motherboard_core",
+      "description": "Chipset, ACPI, PCIe, storage, timers, and interrupt plumbing needed by the OS core on supported boards.",
+      "load_order": 20,
+      "required": true,
+      "examples": [
+        "drv_mb_q35_acpi",
+        "drv_mb_generic_x64_pcie"
+      ]
+    },
+    {
+      "class_id": "device_io",
+      "description": "Functional device drivers for storage, network, audio, video, USB, and input once the board core is online.",
+      "load_order": 30,
+      "required": true,
+      "examples": [
+        "drv_storage_virtio_blk_modern",
+        "drv_net_e1000"
+      ]
+    },
+    {
+      "class_id": "security_trust",
+      "description": "Secure Boot policy, attestation refresh, rollback policy, and promotion-safe trust anchors.",
+      "load_order": 40,
+      "required": true,
+      "examples": [
+        "drv_sec_secure_boot_state",
+        "drv_sec_platform_policy"
+      ]
+    },
+    {
+      "class_id": "sandbox_mediation",
+      "description": "Drivers and brokers that project host devices into capsules and permanent profile sandboxes.",
+      "load_order": 50,
+      "required": true,
+      "examples": [
+        "drv_sbx_profile_persist_bridge",
+        "drv_sbx_audio_capture_broker",
+        "drv_sbx_video_capture_broker"
+      ]
+    }
+  ],
+  "referencePlatforms": [
+    {
+      "platform_id": "q35_ovmf_reference",
+      "board_support_package": "bsp_q35_ovmf_ref_v1",
+      "firmware_profile": "axionfw_q35_split_ref",
+      "os_profile": "axionos_capsule_q35_ref",
+      "supported": true
+    },
+    {
+      "platform_id": "generic_x64_uefi_reference",
+      "board_support_package": "bsp_generic_x64_uefi_v1",
+      "firmware_profile": "axionfw_generic_x64_uefi",
+      "os_profile": "axionos_capsule_generic_x64",
+      "supported": "planned"
+    },
+    {
+      "platform_id": "hp_9470m_9480m_bridge",
+      "board_support_package": "bsp_hp_9470m_9480m_bridge_v1",
+      "firmware_profile": "axionfw_generic_x64_uefi",
+      "os_profile": "axionos_capsule_generic_x64",
+      "supported": "experimental"
+    }
+  ],
+  "persistenceRules": {
+    "driverInstallTarget": "safe://system/drivers",
+    "sandboxDriverInstallTarget": "safe://system/drivers/sandbox",
+    "boardSupportTarget": "safe://system/boards",
+    "driverCreatorOutputTarget": "safe://workspace/driverkit"
+  }
+}

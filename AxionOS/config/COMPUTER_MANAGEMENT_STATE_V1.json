@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "title": "Computer Management",
+  "style": "windows_management_console",
+  "leftNav": [
+    {
+      "group": "System Tools",
+      "items": [
+        {
+          "id": "task_scheduler",
+          "label": "Task Scheduler",
+          "target": "Statistics"
+        },
+        {
+          "id": "event_viewer",
+          "label": "Event Viewer",
+          "target": "Statistics"
+        },
+        {
+          "id": "shared_folders",
+          "label": "Shared Folders",
+          "target": "Network"
+        },
+        {
+          "id": "local_users_groups",
+          "label": "Local Users and Groups",
+          "target": "Accounts"
+        },
+        {
+          "id": "device_manager",
+          "label": "Device Manager",
+          "target": "Bluetooth & Devices"
+        },
+        {
+          "id": "performance",
+          "label": "Performance",
+          "target": "Statistics"
+        }
+      ]
+    },
+    {
+      "group": "Storage",
+      "items": [
+        {
+          "id": "disk_management",
+          "label": "Disk Management",
+          "target": "System"
+        },
+        {
+          "id": "defrag_optimize",
+          "label": "Defragment and Optimize Drives",
+          "target": "System"
+        },
+        {
+          "id": "storage_spaces",
+          "label": "Storage Spaces",
+          "target": "System"
+        },
+        {
+          "id": "disk_cleanup",
+          "label": "Disk Cleanup",
+          "target": "Disk Cleanup"
+        }
+      ]
+    },
+    {
+      "group": "Services and Applications",
+      "items": [
+        {
+          "id": "services",
+          "label": "Services",
+          "target": "Services"
+        },
+        {
+          "id": "component_services",
+          "label": "Component Services",
+          "target": "Services"
+        },
+        {
+          "id": "wmi_control",
+          "label": "WMI Control",
+          "target": "System"
+        }
+      ]
+    }
+  ],
+  "commonActions": [
+    "open",
+    "manage",
+    "refresh",
+    "properties"
+  ]
+}

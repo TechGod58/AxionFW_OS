@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "Smart Driver Builder",
+  "style": "windows11_fabric_builder",
+  "implementationVersion": "axion-smart-driver-builder-1.0.0",
+  "description": "Capture user-reported driver issues, then rebuild Smart Driver Fabric with guided context and kernel handoff.",
+  "issueSchema": {
+    "required_fields": [
+      "summary"
+    ],
+    "optional_fields": [
+      "symptom",
+      "frequency",
+      "affected_hardware",
+      "notes"
+    ]
+  },
+  "actions": [
+    "smart_driver_builder_snapshot",
+    "smart_driver_builder_submit_issues",
+    "smart_driver_builder_rebuild"
+  ]
+}

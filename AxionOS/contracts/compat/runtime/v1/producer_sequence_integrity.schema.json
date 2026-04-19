@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "producer sequence integrity schema",
+  "type": "object",
+  "required": ["status","producer_sequence_integrity","failures"],
+  "properties": {
+    "status": {"type":"string","enum":["PASS","FAIL"]},
+    "producer_sequence_integrity": {"type":"object"},
+    "failures": {"type":"array","items":{"type":"object"}}
+  }
+}

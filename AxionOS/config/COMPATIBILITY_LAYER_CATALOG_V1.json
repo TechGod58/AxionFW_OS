@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "policyId": "AXION_COMPATIBILITY_LAYER_CATALOG_V1",
+  "families": {
+    "native_axion": {
+      "profiles": [
+        "axion_default"
+      ],
+      "execution_model": "capsule_native"
+    },
+    "windows": {
+      "profiles": [
+        "win95",
+        "win98",
+        "winme",
+        "win2000",
+        "winxp",
+        "vista",
+        "win7",
+        "win8",
+        "win81",
+        "win10",
+        "win11"
+      ],
+      "execution_model": "sandbox_windows_compat"
+    },
+    "linux": {
+      "profiles": [
+        "linux_2_0",
+        "linux_2_2",
+        "linux_2_4",
+        "linux_2_6",
+        "linux_3_x",
+        "linux_4_x",
+        "linux_5_x",
+        "linux_current"
+      ],
+      "execution_model": "sandbox_linux_compat"
+    },
+    "native_system": {
+      "profiles": [
+        "system_default"
+      ],
+      "execution_model": "host_native_guarded"
+    }
+  },
+  "defaults": {
+    "native_axion": "axion_default",
+    "windows": "win11",
+    "linux": "linux_current",
+    "native_system": "system_default"
+  }
+}

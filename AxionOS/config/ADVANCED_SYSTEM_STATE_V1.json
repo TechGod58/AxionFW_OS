@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "title": "Advanced System",
+  "style": "windows_advanced_tabs",
+  "tabs": [
+    {
+      "id": "performance",
+      "label": "Performance",
+      "sections": [
+        "Visual Effects",
+        "Processor Scheduling",
+        "Memory Usage",
+        "Virtual Memory"
+      ]
+    },
+    {
+      "id": "user_profiles",
+      "label": "User Profiles",
+      "sections": [
+        "Profile Sandboxes",
+        "Workspace Defaults",
+        "Permanent Folder Retention"
+      ]
+    },
+    {
+      "id": "startup_recovery",
+      "label": "Startup and Recovery",
+      "sections": [
+        "Default Boot Target",
+        "Kernel Diagnostics",
+        "Recovery Actions"
+      ]
+    },
+    {
+      "id": "environment",
+      "label": "Environment Variables",
+      "sections": [
+        "User Variables",
+        "System Variables",
+        "Sandbox Launch Overrides"
+      ]
+    },
+    {
+      "id": "remote",
+      "label": "Remote",
+      "sections": [
+        "Remote Desktop",
+        "Remote Assistance",
+        "Authentication Policy"
+      ]
+    },
+    {
+      "id": "protection",
+      "label": "System Protection",
+      "sections": [
+        "Restore Points",
+        "Snapshot Policy",
+        "Promotion Safeguards"
+      ]
+    }
+  ],
+  "commonActions": [
+    "apply",
+    "ok",
+    "cancel",
+    "properties"
+  ]
+}

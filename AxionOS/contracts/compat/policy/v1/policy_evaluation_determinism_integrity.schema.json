@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "policy evaluation determinism integrity schema",
+  "type": "object",
+  "required": ["status", "policy_determinism", "failures"],
+  "properties": {
+    "status": {"type": "string", "enum": ["PASS", "FAIL"]},
+    "policy_determinism": {"type": "object"},
+    "failures": {"type": "array", "items": {"type": "object"}}
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "registry_schema_version",
+    "registry_build_id",
+    "generated_at_utc",
+    "entries"
+  ],
+  "properties": {
+    "registry_schema_version": {
+      "type": "string"
+    },
+    "registry_build_id": {
+      "type": "string"
+    },
+    "generated_at_utc": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "contract_id",
+          "category",
+          "version",
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "contract_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "schema",
+              "marker",
+              "policy",
+              "compat",
+              "fixture"
+            ]
+          },
+          "version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+(\\.\\d+)?$"
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

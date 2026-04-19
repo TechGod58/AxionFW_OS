@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "policyId": "AXION_ACCESS_LEVELS_V1",
+  "levels": {
+    "Administrator": {
+      "can_install_programs": true,
+      "can_enable_remote_desktop": true,
+      "can_change_security_and_sharing": true,
+      "can_manage_startup_apps": true,
+      "requires_elevation_prompt": true
+    },
+    "User": {
+      "can_install_programs": false,
+      "can_enable_remote_desktop": false,
+      "can_change_security_and_sharing": false,
+      "can_manage_startup_apps": false,
+      "requires_elevation_prompt": false
+    }
+  }
+}
