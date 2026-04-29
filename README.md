@@ -1,5 +1,11 @@
 # AxionFW_OS
 
+## Repository purpose
+
+AxionFW_OS is a combined Axion firmware and operating-system workspace published for visibility, archival reference, and project traceability. It contains the AxionFW and AxionOS layout plus build and workspace helper scripts.
+
+This repository is not open source. The legal notice below is the controlling usage boundary.
+
 ## Legal Notice (Read First)
 
 This repository is published publicly for visibility and archival purposes only.
